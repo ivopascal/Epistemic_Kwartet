@@ -1,10 +1,6 @@
+import announcer
 import deck
 import player
-
-
-def main():
-    print("Hello World!")
-
 
 if __name__ == "__main__":
     d = deck.Deck(ncards=52)
@@ -12,20 +8,21 @@ if __name__ == "__main__":
     cuts = d.cut(4)
     players = list()
     for i in range(4):
-        players.append(player.Player(cuts[i], ntypes=d.ntypes(), id=i))
+        players.append(player.Player(cuts[i], nkinds=d.nkinds, id=i))
+    a = announcer.Announcer(players)
     for i in range(4):
         players[i].intro_opponents(players[:i] + players[i+1:])
+        players[i].set_announcer(a)
 
     turn = 0
     while turn >= 0:
-        players[turn].play()
+        players[turn % len(players)].play()
         turn += 1
-        if turn == 4:
-            turn = 0
 
         total_score = 0
+        print("Turn: " + str(turn))
         for p in players:
             total_score += p.score
-        if total_score == d.ntypes():
+        if total_score == d.nkinds:
             turn = -1
         total_score = 0
