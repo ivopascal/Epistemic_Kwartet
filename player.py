@@ -48,6 +48,7 @@ class Player:
         opponent = self.opponents[random.randrange(len(self.opponents))]
         r = opponent.draw(hcard)
         if not r:
+            self.announcer.failed_request(hcard, opponent.id, self.id)
             return False
         else:
             self.cards.append(r)
