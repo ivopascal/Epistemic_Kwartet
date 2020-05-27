@@ -60,7 +60,6 @@ class Brain:
     # will also occur inside the brain.
     def __init__(self, id, cards, nkinds):
         self.known_players = list()
-        self.known_players.append(Known_player(id, cards))
         self.removed_kinds = list()
         self.nkinds = nkinds
         self.cards = cards
@@ -137,9 +136,28 @@ class Brain:
                 if known_player.id == opponent_id:
                     known_player.exclude_card(card)
 
+    # Find who I already know has a certain card
     def find_holder(self, card):
         if card in self.cards:
-            return self.id
+            return [self.id]
         for known_player in self.known_players:
             if card in known_player.certainCards:
-                return known_player.id
+                return [known_player.id]
+        return [known_player for known_player in self.known_players
+                if card not in known_player.certainNotCards]
+
+    def get_owned_kinds(self):
+        owned_kinds = list()
+        for card in self.cards:
+            if card.kind not in owned_kinds:
+                owned_kinds.append(card.kind)
+        return owned_kinds
+
+    def get_requestable_cards(self):
+        owned_kinds = self.get_owned_kinds()
+        requestable_cards = list()
+        for known_player in self.known_players:
+            for card in known_player.certainCards:
+                if card.kind in owned_kinds:
+                    requestable_cards.append((card, known_player.id))
+        return requestable_cards

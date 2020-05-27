@@ -32,8 +32,11 @@ class Player:
     # Call this function to hand the turn to this player
     # The player will keep taking turns until it fails.
     def play(self):
-        if self.random_request():
+        if self.certain_request():
+            # Clear all full sets
             self.removeKinds(self.brain.checkAllKinds())
+
+            # TODO: Inference based on counting cards
 
             # Don't allow another turn if the game is over
             if self.brain.get_valid_kinds() != []:
@@ -41,9 +44,26 @@ class Player:
         else:
             return False
 
+    # This is the greedy strategy
+    def certain_request(self):
+        requestable_cards = self.brain.get_requestable_cards()
+        if requestable_cards == []:
+            return self.random_request()
+        for opponent in self.opponents:
+            if opponent.id == requestable_cards[0][1]:
+                r = opponent.draw(requestable_cards[0][0])
+                assert(r)
+                self.cards.append(r)
+                self.announcer.card_taken(r, opponent.id, self.id)
+                return True
+        return False
+
     # Request a random card of a valid kind from a random opponent
     def random_request(self):
-        kind = random.choice(self.brain.get_valid_kinds())
+        requestable_kinds = self.brain.get_owned_kinds()
+        if requestable_kinds == []:
+            return False
+        kind = random.choice(requestable_kinds)
         hcard = deck.Card(kind, random.randrange(4))
         opponent = self.opponents[random.randrange(len(self.opponents))]
         r = opponent.draw(hcard)
