@@ -10,11 +10,11 @@ Kwartet can be played with any number of players, but the current implementation
 ## The turns
 
 In their turn a player has to ask one of their opponents for a specific card of a specific kind. If the opponent has that card they give it to the player and the player gets another turn. This means that a turn can look like the following:
-'''
+```
 while Card(s, m) in opponent.cards:
     opponent.cards.remove(Card(s,m))
     player.cards.add(Card(s,m))
-'''
+```
 Where s and v are the set and value of the card, uniquely identifying a card. The card and the opponent are re-chosen for every iteration by the player. 
 
 ### Details
