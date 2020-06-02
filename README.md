@@ -57,4 +57,4 @@ The above example includes all the announcements that would be made during the g
 
 # The logic
 
-To ease the communication in epistemic logic it is helpful to define an operator $$H_i p$$.
+To ease the communication in epistemic logic it is helpful to define an operator $H_i p$.
