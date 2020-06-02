@@ -63,9 +63,11 @@ To ease the communication in epistemic logic it is helpful to define an operator
 ## The axioms
 
 For a first trivial axiom we define is that any player knows the cards that they hold. $H_i <t,v> \iff K_i H_i <t,v>$.
-We also say that it is known that each card can only exist once. $H_i <t,v> \to \neg H_j <t,v> for all j \neq i$. By KD ofcourse any player that knows the antecedent also knows the consequence here. Note here that the inverse is not necessarily true, as a type may also be removed from the game, so that no-one has any card of that type. 
+
+We also say that it is known that each card can only exist once. $H_i <t,v> \to \neg H_j <t,v>$ for all $j \neq i$. By KD ofcourse any player that knows the antecedent also knows the consequence here. Note here that the inverse is not necessarily true, as a type may also be removed from the game, so that no-one has any card of that type. 
 
 To support this concept we define another axiom:
-$ (H_x <t, v1> \land H_x <t, v2> \land H_x <t, v3> \land H_x <t, v4>) \lor (\neg H_i <t,v1> \land \neg H_i <t,v2> \land \neg H_i <t,v3> \land \neg H_i <t,v4> \land)$ where each instance of $x$ can be any player while $i$ applies to ALL players. With this axiom the intuitive concept that either all cards of a type are held distributed across players (first part of disjunction), or no-one has any card of the type.
+$ (H_x <t, v1> \land H_x <t, v2> \land H_x <t, v3> \land H_x <t, v4>) 
+\lor (\neg H_i <t,v1> \land \neg H_i <t,v2> \land \neg H_i <t,v3> \land \neg H_i <t,v4> )$ where each instance of $x$ can be any player while $i$ applies to ALL players. With this axiom the intuitive concept that either all cards of a type are held distributed across players (first part of disjunction), or no-one has any card of the type.
 
 
