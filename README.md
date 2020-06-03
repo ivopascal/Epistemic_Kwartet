@@ -58,9 +58,13 @@ The above example includes all the announcements that would be made during the g
 
 # The logic
 
-To ease the communication in epistemic logic it is helpful to define an operator $H_i \langle t,v\rangle $ as "Player $i$ holds the card with type $t$ and value $v$". Of course $t$ can be any of the 13 types in the game while $v$ can be any of the 4 values a type has. The new operator keeps the logic more understandable, though it can be considered as any simple atom. With this operator we can grasp with lower order logic rather than defining everything on atoms that hold these concepts in themselves. For this logic some supplemental axioms that should work alongside the axioms for epistemic logic are given below.
+To ease the communication in epistemic logic it is helpful to define an operator $H_i \langle t,v\rangle $ as "Player $i$ holds the card with type $t$ and value $v$". Of course $t$ can be any of the 13 types in the game while $v$ can be any of the 4 values a type has. The new operator keeps the logic more understandable, though it can be considered as any simple atom. With this operator we can grasp with lower order logic rather than defining everything on atoms that hold these concepts in themselves. 
 
-## The axioms
+## Defining the game logic
+In order to give a proper formalization of the logic some axioms are needed that hold necessarily. We also need to define the actions that players can make and what influence they have on knowledge that players have. Lastly, some additional knowledge that a player has is introduced.
+
+
+### The axioms
 
 For a first trivial axiom we define is that any player knows the cards that they hold. We call this the axiom of self-awareness.
 
@@ -72,7 +76,14 @@ To support this concept we define another axiom, the axiom of (in)existence:
 $ (H_x \langle t, v_1\rangle \land H_x \langle t, v_2 \rangle \land H_x \langle t, v_3\rangle \land H_x \langle t, v_4\rangle) 
 \lor (\neg H_i \langle t,v_1\rangle \land \neg H_i \langle t,v_2\rangle \land \neg H_i \langle t,v_3\rangle \land \neg H_i \langle t,v_4\rangle )$ where each instance of $x$ can be any player while $i$ applies to ALL players. With this axiom the intuitive concept that either all cards of a type are held distributed across players (first part of disjunction), or no-one has any card of the type.
 
-## The moves
+Lastly, in order to complete the understanding that all cards exist until they are removed we need to add the start-state axiom. This axiom says as long as it is not common knowledge that no-one has any cards of a kind, then it must be the case that these cards are distributed over players. This means that:
+
+$ (H_x \langle t, v_1\rangle \land H_x \langle t, v_2 \rangle \land H_x \langle t, v_3\rangle \land H_x \langle t, v_4\rangle) 
+\lor C(\neg H_i \langle t,v_1\rangle \land \neg H_i \langle t,v_2\rangle \land \neg H_i \langle t,v_3\rangle \land \neg H_i \langle t,v_4\rangle)$
+
+With this axiom we know that all cards exist at the start, and cards will only stop existing once someone has announced that they removed a set. 
+
+### The moves
 
 As discussed in the description of the game, players perform certain actions in their turns, but these actions release information to all players. 
 
@@ -87,4 +98,31 @@ The alternative move here is ofcourse a failed request a player can make. This g
 $C (\neg H_q \langle t, v\rangle \land H_p \langle t, u\rangle)$
 
 Unlike the formalization of the succesfull move, here $u$ can be equal to $v$. This is because players are allowed to request a card that they already have (knowing it will unsuccesful).
+
+The last move that a player can make is to remove a set of cards from the game. Ofcourse they can only do this when they hold the complete set. This introduces the common knowledge that no-one has that card anymore. This can be expressed as:
+
+$C( \neg H_x \langle t,v_1\rangle \land \neg H_x \langle t, v_2\rangle \land \neg H_x \langle t, v_2\rangle \land \neg H_x \langle t, v_3 \rangle \land \neg H_x t, v_4\rangle)$ where each instance of $x$ applies to all players.
+
+### Counting cards
+
+To define the logic of counting cards in the formalization that we have developped so far will lead to an explosion of the length of an expression. Therefore, to keep the notation feasible we need to define that concept of "unkown cards" in order to formalize the knowledge that an opponent has or doesn't have a certain number of cards that are sitll unknown. This concept is necessary and becomes very apparent at the end of the game, when a player has 3 cards of the last set, and one opponent has the last remaining card. For this it becomes clear that the logic must be able to incorporate the concept of an unknown card. 
+
+We may define card $\langle x,x\rangle$ as the "unkown card", and we can define a number of unkown cards as $\langle x,x\rangle_n$. When an opponent has an unknown card that card can be considered as the disjunction of all possible cards, where the player does not know which card it actually is. This is intuitive to reason with, but it becomes problematic in notation, as $H_2 \langle x,x\rangle_10$ would be an expression of 1040 atoms. 
+
+With the concept of an unknown card we can also reason about the lack of an unknown card. What this allows is to infer that if an opponent has 4 cards, and the player knows 4 specific cards that the opponent has, then it knows that there are no other cards.
+
+This means that $K_p H_o \langle x,x\rangle_0 \to (\neg K_p H_o \langle t, v\rangle \to \neg H_o \langle t,v\rangle)$ for any $t, v$.
+
+That is, if the opponent doesn't have an unknown card, then if the player doesn't know that the opponent has a card, then it must be true that he doesn't have that card.
+
+## Some examples
+
+Below we define some examples of inferences that can be made by the players using the axioms and knowledge that they may have from moves players made previously.
+
+### Last of the kind
+
+In this example the logic of finding the last card of a given kind is demonstrated with the defined concepts above. 
+
+
+
 
