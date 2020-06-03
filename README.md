@@ -107,11 +107,11 @@ $C( \neg H_x \langle t,v_1\rangle \land \neg H_x \langle t, v_2\rangle \land \ne
 
 To define the logic of counting cards in the formalization that we have developped so far will lead to an explosion of the length of an expression. Therefore, to keep the notation feasible we need to define that concept of "unkown cards" in order to formalize the knowledge that an opponent has or doesn't have a certain number of cards that are sitll unknown. This concept is necessary and becomes very apparent at the end of the game, when a player has 3 cards of the last set, and one opponent has the last remaining card. For this it becomes clear that the logic must be able to incorporate the concept of an unknown card. 
 
-We cannot define an unknown card as a special type of card, as the "unknown-ness" is not an intrinsic property of that card. Instead, we define an operator that refers from the player, to an opponent, to a number of cards. We let $U^p_{o=n}$ define that player $p$ does not know $n$ cards from opponent $o$. When an opponent has an unknown card that card can be considered as the disjunction of all possible cards, where the player does not know which card it actually is. This is intuitive to reason with, but it becomes problematic in notation, as $U^p_o=10$ would be an expression of 1040 atoms. We can loosely formalize this new operator with $U^p_o=n \iff (K_p(H_o \langle t_i,v_i \rangle \lor H_0 \langle t_j, v_j \lor ...) \land \neg K_pH_o \langle t_i, v_i\rangle \land \neg K_p\neg H_o \langle t_i, v_i\rangle \land \neg K_pH_o \langle t_j, v_j \rangle \land \neg K_p \neg H_o  \langle t_j, v_j\rangle) \land (K_p(H_o ...)) \land ...
+We cannot define an unknown card as a special type of card, as the "unknown-ness" is not an intrinsic property of that card. Instead, we define an operator that refers from the player, to an opponent, to a number of cards. We let $U^p_{o=n}$ define that player $p$ does not know $n$ cards from opponent $o$. When an opponent has an unknown card that card can be considered as the disjunction of all possible cards, where the player does not know which card it actually is. This is intuitive to reason with, but it becomes problematic in notation, as $U^p_{o=10}$ would be an expression of 1040 atoms. We can loosely formalize this new operator with $U^p_{o=n} \iff (K_p(H_o \langle t_i,v_i \rangle \lor H_0 \langle t_j, v_j \lor ...) \land \neg K_pH_o \langle t_i, v_i\rangle \land \neg K_p\neg H_o \langle t_i, v_i\rangle \land \neg K_pH_o \langle t_j, v_j \rangle \land \neg K_p \neg H_o  \langle t_j, v_j\rangle) \land (K_p(H_o ...)) \land ...$
 
 With the concept of an unknown card we can also reason about the lack of an unknown card. What this allows is to infer that if an opponent has 4 cards, and the player knows 4 specific cards that the opponent has, then it knows that there are no other cards.
 
-This means that $U^p_o=0 \to (\neg K_p H_o \langle t, v\rangle \to \neg H_o \langle t,v\rangle)$ for any $t, v$.
+This means that $U^p_{o=0} \to (\neg K_p H_o \langle t, v\rangle \to \neg H_o \langle t,v\rangle)$ for any $t, v$.
 
 That is, if the opponent doesn't have an unknown card, then if the player doesn't know that the opponent has a card, then it must be true that he doesn't have that card.
 
@@ -128,8 +128,8 @@ $C (H_2 \langle 8,1\rangle \land H_2 \langle 8,2\rangle \land \neg H_2\langle 8,
 
 Moreover, it is the case that:
 $H_1 \langle 8,3 \rangle \land \neg H_1 \langle 8,4\rangle$ and
-$U^1_3=0$ and
-$U^1_4=1$
+$U^1_{3=0}$ and
+$U^1_{4=1}$
 
 Combining $H_1 \langle 8,3 \rangle$ with the axiom of (in)existence is but be true that:
 $H_x \langle 8, 4\rangle$ for some player $x$.
