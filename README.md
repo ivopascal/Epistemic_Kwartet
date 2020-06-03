@@ -129,7 +129,6 @@ $C (H_2 \langle 8,1\rangle \land H_2 \langle 8,2\rangle \land \neg H_2\langle 8,
 Moreover, it is the case that:
 
 $H_1 \langle 8,3 \rangle \land \neg H_1 \langle 8,4\rangle \land
-
 U^1_{3=0} \land U^1_{4=1}$
 
 Combining $H_1 \langle 8,3 \rangle$ with the axiom of (in)existence is but be true that:
