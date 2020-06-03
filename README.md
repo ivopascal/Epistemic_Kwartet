@@ -1,5 +1,3 @@
-
-
 Kwartet is a Dutch card game that centers around exchanging cards between players, provided that you know who that card has. This means that in order to win each player wants to maximize their knowledge of who has which cards, while minimizing the knowledge that their opponents have. This allows the player to collect more sets than their opponents and therefore win the game/
 
 With a game as kwartet Epistemic logic is a good tool for formalizing player strategies. Each player knows their own state, and might now some things about an opponents state. Every move is a public announcement which allows the other players to learn something about the state of the game. As the possible worlds collapse the players become increasingly aware of how the cards are distributed.
@@ -115,27 +113,78 @@ This means that $U^p_{o=0} \to (\neg K_p H_o \langle t, v\rangle \to \neg H_o \l
 
 That is, if the opponent doesn't have an unknown card, then if the player doesn't know that the opponent has a card, then it must be true that he doesn't have that card.
 
-## Some examples
+## An example
 
-Below we define some examples of inferences that can be made by the players using the axioms and knowledge that they may have from moves players made previously.
-
-### Last of the kind
 
 In this example the logic of finding the last card of a given kind is demonstrated with the defined concepts above. 
 
 We consider the situation where player 1 tries to find card $\langle 8,4\rangle$. We say that by previous actions it was learned that:
-$C (H_2 \langle 8,1\rangle \land H_2 \langle 8,2\rangle \land \neg H_2\langle 8, 4\rangle)$
+$C (H_2 \langle 8,1\rangle \land H_2 \langle 8,2\rangle \land$
+
+$K_1 \neg H_2\langle 8, 4\rangle) \land$ 
+
+$\neg K_1 H_3 \langle 8, 4\rangle$
 
 Moreover, it is the case that:
 
-$H_1 \langle 8,3 \rangle \land \neg H_1 \langle 8,4\rangle \land
-U^1_{3=0} \land U^1_{4=1}$
+$ H_1 \langle 8,3 \rangle \land \neg H_1 \langle 8,4 \rangle \land U^1_{3=0} \land U^1_{4=1} $
 
 Combining $H_1 \langle 8,3 \rangle$ with the axiom of (in)existence is but be true that:
 $H_x \langle 8, 4\rangle$ for some player $x$.
 
 This means that:
 $H_1 \langle 8, 4\rangle \lor H_2 \langle 8, 4\rangle  \lor H_3 \langle 8, 4\rangle  \lor H_4 \langle 8, 4\rangle$
+
+From $U^1_{3=0}$ and $\neg K_1 H_3 \langle 8, 4\rangle$, by the definition of $U$ it must be the case that:
+
+$\neg H_3 \langle 8, 4\rangle$
+
+Using A3 and $K_1 \neg H_2\langle 8, 4\rangle)$ it must be the case that $\neg H_2\langle 8, 4\rangle)$.
+
+Lastly with $\neg H_1 \langle 8,4 \rangle$ we have found negations for 3 of the 4 components of the disjunction. From this follows that the remaining component must be true. Therefore:
+
+$H_4 \langle 8, 4\rangle$
+
+Since all the premises are known by player 1 (definition of $C$, A4, A5 & self-awareness) and since all the inferences are technically $\to$ relations from the premises, using KD and HS it is shown that $K_1 H_4 \langle 8, 4\rangle$
+
+# Implementing the logic
+
+To get this functioning in a programmed sense it is important to add additional structure to the knowledge. This helps keep algorithms for inferences sensible and keeps propositions at an acceptable complexity. The most important simplification that is made is that no logic is implemented for theory of mind. That is, players do not know, or care specifically about what other players know. While there is a simdgen of optimization that can be achieved here in strategy, it adds a tremendous amount of complexity. Instead, each player only knows their own cards and what they know.
+
+To keep track of which cards other players have ($K_i H_o \langle t,v\rangle$) each player holds a list of the cards of each opponent that they know. The other relevant type of information is the knowledge of which cards opponents don't have ($K_i \neg H_o \langle t,v \rangle$), this is held in a similar but distinct list. What remains are the cards that a player may or may not have. This does need to be tracked as it is simply all valid cards that have no known location, which can be inferred on the fly. For this inference the player does need to keep a list of which cards are removed, so they can use the axiom of (in)existence and the axiom of start-state together with this list to determine which cards are valid. 
+
+A player should also be aware of how many cards the other players hae, so they are able to determine the $U$ operator and make inferences based on the number of remaining cards. In order to avoid storing any complicated disjunctions that last list that players can keep is the list of known kinds, which is the disjunction of a player holding at least one card of a given type as discussed before. 
+
+Using these encodings of the current knowledge further inferences can be made about which card is where.
+
+## Implementing the inferences
+
+//TODO!
+
+# Strategies
+
+With the knowledge the players can now obtain they are able to maximize their understanding of which card is where. However, this does not yet determine which requests they should be making. Below we show some strategies, so that we may compare their performance when they are pitted against one another.
+
+## Random requests
+
+The first strategy is somewhat of a "dummy" strategy. It will simply ask any random opponent for any random card from a type that they are allowed to request. Ofcourse this is a very ineffective strategy as there is only a 1/4 chance of making a succesfull request, and an even smaller chance to complete a set on any given turn.
+
+## Greedy requests
+
+The greedy strategy takes more advantage of the knowledge and logic that is defined for them. Rather than ask for any random card they only ask for the cards that they know a certain player has. This has the advantage of actually being able to complete sets when they know the location of each card in that set. The disadvantage to this however is that players may give additional information to other players about which card is where, and since the other players are perfect logicians with perfect memory they can take back all these cards.
+
+## Silent requests
+
+//TODO!
+
+# Results
+
+//TODO!
+
+# Analysis of results
+
+//TODO!
+
 
 
 
