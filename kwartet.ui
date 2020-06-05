@@ -1,0 +1,742 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>NextTurnButton</class>
+ <widget class="QWidget" name="NextTurnButton">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1117</width>
+    <height>879</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <widget class="QPushButton" name="StartButton">
+     <property name="text">
+      <string>Start</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="1">
+    <widget class="QPushButton" name="pushButton_3">
+     <property name="text">
+      <string>Next Turn</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="4">
+    <widget class="QLabel" name="Player2Label">
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; color:#005500;&quot;&gt;Player 2&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="5">
+    <widget class="QCheckBox" name="Player2ViewCheckbox">
+     <property name="text">
+      <string>Player View</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="0">
+    <widget class="QPushButton" name="ResetButton">
+     <property name="text">
+      <string>Reset</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="1">
+    <widget class="QPushButton" name="FinishButton">
+     <property name="text">
+      <string>Finish</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="2">
+    <widget class="QLabel" name="Player2Card">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="rsrc.qrc">:/Cards/CardPngs/SQ.png</pixmap>
+     </property>
+     <property name="scaledContents">
+      <bool>false</bool>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="3">
+    <widget class="QLabel" name="Player2Card_2">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="rsrc.qrc">:/Cards/CardPngs/DK.png</pixmap>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="4">
+    <widget class="QLabel" name="Player2Card_4">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="rsrc.qrc">:/Cards/CardPngs/C5.png</pixmap>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="5">
+    <widget class="QLabel" name="Player2Card_6">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="rsrc.qrc">:/Cards/CardPngs/C3.png</pixmap>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="6">
+    <widget class="QLabel" name="Player2Card_8">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="rsrc.qrc">:/Cards/CardPngs/C10.png</pixmap>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="7">
+    <widget class="QLabel" name="Player2Card_10">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="rsrc.qrc">:/Cards/CardPngs/C2.png</pixmap>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="8">
+    <widget class="QLabel" name="Player2Card_12">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="rsrc.qrc">:/Cards/CardPngs/H7.png</pixmap>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="3">
+    <widget class="QLabel" name="Player2Card_3">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="rsrc.qrc">:/Cards/CardPngs/KK.png</pixmap>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="4">
+    <widget class="QLabel" name="Player2Card_5">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="rsrc.qrc">:/Cards/CardPngs/C8.png</pixmap>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="5">
+    <widget class="QLabel" name="Player2Card_7">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="rsrc.qrc">:/Cards/CardPngs/C7.png</pixmap>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="6">
+    <widget class="QLabel" name="Player2Card_9">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="rsrc.qrc">:/Cards/CardPngs/C5.png</pixmap>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="7">
+    <widget class="QLabel" name="Player2Card_11">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="rsrc.qrc">:/Cards/CardPngs/C5.png</pixmap>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="8">
+    <widget class="QLabel" name="Player2Card_13">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="rsrc.qrc">:/Cards/CardPngs/C1.png</pixmap>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="3">
+    <spacer name="verticalSpacer_6">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>20</width>
+       <height>40</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="5" column="3">
+    <spacer name="verticalSpacer_2">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>20</width>
+       <height>40</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="5" column="7">
+    <spacer name="verticalSpacer_3">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>20</width>
+       <height>40</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="6" column="1">
+    <widget class="QLabel" name="Player3Card">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="rsrc.qrc">:/Cards/CardPngs/C1.png</pixmap>
+     </property>
+     <property name="scaledContents">
+      <bool>false</bool>
+     </property>
+    </widget>
+   </item>
+   <item row="6" column="2">
+    <widget class="QLabel" name="Player3Card_2">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="rsrc.qrc">:/Cards/CardPngs/D9.png</pixmap>
+     </property>
+    </widget>
+   </item>
+   <item row="6" column="3">
+    <widget class="QLabel" name="Player3Card_3">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="rsrc.qrc">:/Cards/CardPngs/C2.png</pixmap>
+     </property>
+    </widget>
+   </item>
+   <item row="6" column="7">
+    <widget class="QLabel" name="Player1Card">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="rsrc.qrc">:/Cards/CardPngs/S6.png</pixmap>
+     </property>
+    </widget>
+   </item>
+   <item row="6" column="8">
+    <widget class="QLabel" name="Player1Card_3">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="rsrc.qrc">:/Cards/CardPngs/C6.png</pixmap>
+     </property>
+    </widget>
+   </item>
+   <item row="6" column="9">
+    <widget class="QLabel" name="Player1Card_2">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="rsrc.qrc">:/Cards/CardPngs/C8.png</pixmap>
+     </property>
+    </widget>
+   </item>
+   <item row="7" column="0">
+    <widget class="QLabel" name="Player3Label">
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; color:#0000ff;&quot;&gt;Player 3&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+   </item>
+   <item row="7" column="1">
+    <widget class="QLabel" name="Player3Card_6">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="rsrc.qrc">:/Cards/CardPngs/C10.png</pixmap>
+     </property>
+    </widget>
+   </item>
+   <item row="7" column="2">
+    <widget class="QLabel" name="Player3Card_5">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="rsrc.qrc">:/Cards/CardPngs/D7.png</pixmap>
+     </property>
+    </widget>
+   </item>
+   <item row="7" column="3">
+    <widget class="QLabel" name="Player3Card_4">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="rsrc.qrc">:/Cards/CardPngs/DK.png</pixmap>
+     </property>
+    </widget>
+   </item>
+   <item row="7" column="7">
+    <widget class="QLabel" name="Player1Card_4">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="rsrc.qrc">:/Cards/CardPngs/H5.png</pixmap>
+     </property>
+    </widget>
+   </item>
+   <item row="7" column="8">
+    <widget class="QLabel" name="Player1Card_5">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="rsrc.qrc">:/Cards/CardPngs/C8.png</pixmap>
+     </property>
+    </widget>
+   </item>
+   <item row="7" column="9">
+    <widget class="QLabel" name="Player1Card_6">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="rsrc.qrc">:/Cards/CardPngs/SJ.png</pixmap>
+     </property>
+    </widget>
+   </item>
+   <item row="7" column="10">
+    <widget class="QLabel" name="Player1Label">
+     <property name="maximumSize">
+      <size>
+       <width>16777215</width>
+       <height>71</height>
+      </size>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; color:#ff0000;&quot;&gt;Player 1&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+   </item>
+   <item row="8" column="0">
+    <widget class="QCheckBox" name="Player3ViewCheckbox">
+     <property name="text">
+      <string>Player View</string>
+     </property>
+    </widget>
+   </item>
+   <item row="8" column="1">
+    <widget class="QLabel" name="Player3Card_9">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="rsrc.qrc">:/Cards/CardPngs/C2.png</pixmap>
+     </property>
+    </widget>
+   </item>
+   <item row="8" column="2">
+    <widget class="QLabel" name="Player3Card_8">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="rsrc.qrc">:/Cards/CardPngs/SJ.png</pixmap>
+     </property>
+    </widget>
+   </item>
+   <item row="8" column="3">
+    <widget class="QLabel" name="Player3Card_7">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="rsrc.qrc">:/Cards/CardPngs/H5.png</pixmap>
+     </property>
+    </widget>
+   </item>
+   <item row="8" column="7">
+    <widget class="QLabel" name="Player1Card_7">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="rsrc.qrc">:/Cards/CardPngs/H5.png</pixmap>
+     </property>
+    </widget>
+   </item>
+   <item row="8" column="8">
+    <widget class="QLabel" name="Player1Card_8">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="rsrc.qrc">:/Cards/CardPngs/C6.png</pixmap>
+     </property>
+    </widget>
+   </item>
+   <item row="8" column="9">
+    <widget class="QLabel" name="Player1Card_9">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="rsrc.qrc">:/Cards/CardPngs/HQ.png</pixmap>
+     </property>
+    </widget>
+   </item>
+   <item row="8" column="10">
+    <widget class="QCheckBox" name="Player1ViewCheckbox">
+     <property name="text">
+      <string>Player View</string>
+     </property>
+    </widget>
+   </item>
+   <item row="9" column="1">
+    <widget class="QLabel" name="Player3Card_12">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="rsrc.qrc">:/Cards/CardPngs/S6.png</pixmap>
+     </property>
+    </widget>
+   </item>
+   <item row="9" column="2">
+    <widget class="QLabel" name="Player3Card_11">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="rsrc.qrc">:/Cards/CardPngs/SJ.png</pixmap>
+     </property>
+    </widget>
+   </item>
+   <item row="9" column="3">
+    <widget class="QLabel" name="Player3Card_10">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="rsrc.qrc">:/Cards/CardPngs/C5.png</pixmap>
+     </property>
+    </widget>
+   </item>
+   <item row="9" column="7">
+    <widget class="QLabel" name="Player1Card_10">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="rsrc.qrc">:/Cards/CardPngs/DQ.png</pixmap>
+     </property>
+    </widget>
+   </item>
+   <item row="9" column="8">
+    <widget class="QLabel" name="Player1Card8">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="rsrc.qrc">:/Cards/CardPngs/C8.png</pixmap>
+     </property>
+    </widget>
+   </item>
+   <item row="9" column="9">
+    <widget class="QLabel" name="Player1Card_11">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="rsrc.qrc">:/Cards/CardPngs/D9.png</pixmap>
+     </property>
+    </widget>
+   </item>
+   <item row="10" column="1">
+    <widget class="QLabel" name="Player3Card_13">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="rsrc.qrc">:/Cards/CardPngs/H4.png</pixmap>
+     </property>
+    </widget>
+   </item>
+   <item row="10" column="7">
+    <widget class="QLabel" name="Player1Card_12">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="rsrc.qrc">:/Cards/CardPngs/D9.png</pixmap>
+     </property>
+    </widget>
+   </item>
+   <item row="10" column="8">
+    <widget class="QLabel" name="Player1Card_13">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="rsrc.qrc">:/Cards/CardPngs/S4.png</pixmap>
+     </property>
+    </widget>
+   </item>
+   <item row="11" column="3">
+    <spacer name="verticalSpacer">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>20</width>
+       <height>40</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="11" column="7">
+    <spacer name="verticalSpacer_4">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>20</width>
+       <height>40</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="11" column="8">
+    <spacer name="verticalSpacer_5">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>20</width>
+       <height>40</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="12" column="2">
+    <widget class="QLabel" name="Player4Card">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="rsrc.qrc">:/Cards/CardPngs/H5.png</pixmap>
+     </property>
+    </widget>
+   </item>
+   <item row="12" column="3">
+    <widget class="QLabel" name="Player4Card_2">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="rsrc.qrc">:/Cards/CardPngs/C1.png</pixmap>
+     </property>
+    </widget>
+   </item>
+   <item row="12" column="4">
+    <widget class="QLabel" name="Player4Card_3">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="rsrc.qrc">:/Cards/CardPngs/C1.png</pixmap>
+     </property>
+    </widget>
+   </item>
+   <item row="12" column="5">
+    <widget class="QLabel" name="Player4Card_4">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="rsrc.qrc">:/Cards/CardPngs/H3.png</pixmap>
+     </property>
+    </widget>
+   </item>
+   <item row="12" column="6">
+    <widget class="QLabel" name="Player4Card_5">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="rsrc.qrc">:/Cards/CardPngs/C5.png</pixmap>
+     </property>
+    </widget>
+   </item>
+   <item row="12" column="7">
+    <widget class="QLabel" name="Player4Card_6">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="rsrc.qrc">:/Cards/CardPngs/H8.png</pixmap>
+     </property>
+    </widget>
+   </item>
+   <item row="12" column="8">
+    <widget class="QLabel" name="Player4Card_7">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="rsrc.qrc">:/Cards/CardPngs/H7.png</pixmap>
+     </property>
+    </widget>
+   </item>
+   <item row="13" column="2">
+    <widget class="QLabel" name="Player4Card_8">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="rsrc.qrc">:/Cards/CardPngs/H8.png</pixmap>
+     </property>
+    </widget>
+   </item>
+   <item row="13" column="3">
+    <widget class="QLabel" name="Player4Card_9">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="rsrc.qrc">:/Cards/CardPngs/SJ.png</pixmap>
+     </property>
+    </widget>
+   </item>
+   <item row="13" column="4">
+    <widget class="QLabel" name="Player4Card_10">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="rsrc.qrc">:/Cards/CardPngs/S3.png</pixmap>
+     </property>
+    </widget>
+   </item>
+   <item row="13" column="5">
+    <widget class="QLabel" name="Player4Card_11">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="rsrc.qrc">:/Cards/CardPngs/D3.png</pixmap>
+     </property>
+    </widget>
+   </item>
+   <item row="13" column="6">
+    <widget class="QLabel" name="Player4Card_12">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="rsrc.qrc">:/Cards/CardPngs/C1.png</pixmap>
+     </property>
+    </widget>
+   </item>
+   <item row="13" column="7">
+    <widget class="QLabel" name="Player4Card_13">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="rsrc.qrc">:/Cards/CardPngs/H5.png</pixmap>
+     </property>
+    </widget>
+   </item>
+   <item row="14" column="0">
+    <widget class="QLCDNumber" name="Turncounter">
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+    </widget>
+   </item>
+   <item row="14" column="3">
+    <widget class="QLabel" name="Player4Label">
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; color:#ff5500;&quot;&gt;Player 4&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+   </item>
+   <item row="14" column="4">
+    <widget class="QCheckBox" name="Player4ViewCheckbox">
+     <property name="text">
+      <string>Player View</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+  <action name="actionssn">
+   <property name="text">
+    <string>ssn</string>
+   </property>
+   <property name="toolTip">
+    <string>bg</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="rsrc.qrc"/>
+ </resources>
+ <connections/>
+</ui>
