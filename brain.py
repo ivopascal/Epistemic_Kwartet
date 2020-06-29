@@ -60,6 +60,11 @@ class Brain:
     # will also occur inside the brain.
     def __init__(self, id, cards, nkinds):
         self.known_players = list()
+        self.known_cards_number = list()
+        self.known_cards_number.append(13)
+        self.known_cards_number.append(13)
+        self.known_cards_number.append(13)
+        self.known_cards_number.append(13)
         self.removed_kinds = list()
         self.nkinds = nkinds
         self.cards = cards

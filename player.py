@@ -14,13 +14,14 @@ class Player:
         who will tell each player the new info.
     '''
 
-    def __init__(self, cards, nkinds, id=0):
+    def __init__(self, cards, nkinds, id=0, strategy =0):
         self.cards = cards.tolist()
         self.opponents = list()
         self.nkinds = int(nkinds)
         self.id = id
         self.score = 0
         self.brain = brain.Brain(id, self.cards[:], self.nkinds)
+        self.strategy = strategy
 
     # In order for a player to interact with opponents
     #   it needs access to their instance
@@ -32,17 +33,31 @@ class Player:
     # Call this function to hand the turn to this player
     # The player will keep taking turns until it fails.
     def play(self):
-        if self.certain_request():
-            # Clear all full sets
-            self.removeKinds(self.brain.checkAllKinds())
+        if self.strategy == 0 or 1:
+            if self.certain_request():
+			    # Clear all full sets
+                self.removeKinds(self.brain.checkAllKinds())
 
-            # TODO: Inference based on counting cards
+			    # TODO: Inference based on counting cards
 
-            # Don't allow another turn if the game is over
-            if self.brain.get_valid_kinds() != []:
-                self.play()
-        else:
-            return False
+			    # Don't allow another turn if the game is over
+                if self.brain.get_valid_kinds() != []:
+                    self.play()
+            else:
+                return False
+        if self.strategy == 2 or 3:
+            if self.random_request():
+			    # Clear all full sets
+                self.removeKinds(self.brain.checkAllKinds())
+
+			    # TODO: Inference based on counting cards
+
+			    # Don't allow another turn if the game is over
+                if self.brain.get_valid_kinds() != []:
+                    self.play()
+            else:
+                return False
+			
 
     # This is the greedy strategy
     def certain_request(self):
