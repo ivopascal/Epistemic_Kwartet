@@ -4,7 +4,7 @@ import player
 
 import colorama
 from colorama import Fore, Style
-
+import os
 	
 if __name__ == "__main__":
     d = deck.Deck(ncards=52)
@@ -39,6 +39,7 @@ if __name__ == "__main__":
                 print(Fore.CYAN)
                 print(p.cards)
                 print(Style.RESET_ALL)
+                print(p.brain.get_owned_kinds())
                 num+=1
             if total_score == d.nkinds:
                 turn = -1

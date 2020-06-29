@@ -16,6 +16,8 @@ class Known_player:
         self.id = id
         self.certainCards = list()
         self.certainNotCards = list()
+        self.knownKinds = list()
+        self.number_of_cards = 13
 
         if certainCards is not None:
             self.certainCards.extend(certainCards)
@@ -30,15 +32,20 @@ class Known_player:
         for card in self.certainCards:
             if card in kindSet:
                 self.certainCards.remove(card)
+                self.number_of_cards -=1
 
     def card_taken(self, card):
         self.exclude_card(card)
+        self.number_of_cards -=1
 
     def card_given(self, card):
         if card not in self.certainCards:
             self.certainCards.append(card)
+            self.number_of_cards +=1
         if card in self.certainNotCards:
             self.certainNotCards.remove(card)
+        if card.kind not in self.knownKinds:
+            self.knownKinds.append(card.kind)
 
     # Player cannot have card because it is somewhere else
     def exclude_card(self, card):
@@ -46,7 +53,11 @@ class Known_player:
             self.certainCards.remove(card)
         if card not in self.certainNotCards:
             self.certainNotCards.append(card)
-
+        if card.kind in self.knownKinds:
+            self.knownKinds.remove(card.kind)
+	
+    def owns_card_of_type(self, card):
+        self.knownKinds.append(card.kind)
 
 class Brain:
     '''
@@ -121,6 +132,7 @@ class Brain:
                 else:
                     known_player.exclude_card(card)
 
+
     # Learn that a card was given to a player
     # Determine the player who received the card and add the card to the mental
     # model of them.
@@ -132,6 +144,7 @@ class Brain:
                 if known_player.id == receiver:
                     known_player.card_given(card)
 
+
     # Tells the player that an opponent does not own a given card
     def exclude_card(self, card, opponent_id):
         if opponent_id == self.id:
@@ -140,7 +153,15 @@ class Brain:
             for known_player in self.known_players:
                 if known_player.id == opponent_id:
                     known_player.exclude_card(card)
-
+	
+    def owns_card_of_type(self, card, receiver):
+        if receiver == self.id:
+            return
+        else:
+            for known_player in self.known_players:
+                if known_player.id == receiver:
+                    known_player.owns_card_of_type(card)
+		
     # Find who I already know has a certain card
     def find_holder(self, card):
         if card in self.cards:
@@ -166,3 +187,33 @@ class Brain:
                 if card.kind in owned_kinds:
                     requestable_cards.append((card, known_player.id))
         return requestable_cards
+
+    def get_number_of_requestable_cards(self, opponent):
+        requestable_cards = list()
+        for known_player in self.known_players:
+            if known_player is opponent:
+                for card in known_player.certainCards:
+                    if card.kind in owned_kinds:
+                        requestable_cards.append((card, known_player.id))
+        return len(requestable_cards)
+        
+    def certain_cards(self, opponent, card):
+        for known_player in self.known_players:
+            if known_player.id is opponent:
+                if card in known_player.certainCards:
+                    return 1
+                else:
+                    return 0
+
+    def certain_not_cards(self, opponent, card):
+        for known_player in self.known_players:
+            if known_player.id is opponent:
+                if card in known_player.certainNotCards:
+                    return 1
+                else:
+                    return 0
+    
+    def add_card_to_knowledge(self, opponent, card):
+        for known_player in self.known_players:
+            if known_player.id == opponent:
+                known_player.card_given(card)

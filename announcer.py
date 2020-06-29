@@ -26,6 +26,7 @@ class Announcer:
         for player in self.players:
             player.brain.card_taken(card, giver)
             player.brain.card_given(card, receiver)
+            player.brain.owns_card_of_type(card, receiver)
             player.brain.known_cards_number[giver] -= 1
             player.brain.known_cards_number[receiver] +=1
         #print(card.kind)
@@ -37,3 +38,4 @@ class Announcer:
     def failed_request(self, card, giver, receiver):
         for player in self.players:
             player.brain.exclude_card(card, giver)
+            player.brain.owns_card_of_type(card, receiver)

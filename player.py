@@ -39,6 +39,8 @@ class Player:
                 self.removeKinds(self.brain.checkAllKinds())
 
 			    # TODO: Inference based on counting cards
+                self.perform_inference()
+
 
 			    # Don't allow another turn if the game is over
                 if self.brain.get_valid_kinds() != []:
@@ -51,13 +53,38 @@ class Player:
                 self.removeKinds(self.brain.checkAllKinds())
 
 			    # TODO: Inference based on counting cards
-
+                self.perform_inference()
 			    # Don't allow another turn if the game is over
                 if self.brain.get_valid_kinds() != []:
                     self.play()
             else:
                 return False
 			
+    def perform_inference(self):
+        for kinds in self.brain.get_owned_kinds():
+            kindSet = [deck.Card(kinds, value) for value in range(4)]
+            ownSet = []
+            for card in kindSet:
+                if card in self.cards:
+                    kindSet.remove(card)
+                    
+            for card in kindSet:
+                total_sum = 0
+                for player in self.opponents:
+                    total_sum += self.brain.certain_cards(player.id, card)
+                    #self.brain.certain_cards(player.id, card)
+                            
+                possible_card_owners = []
+                if total_sum is 0:
+                    for player in self.opponents:
+                        if self.brain.certain_not_cards(player.id, card) is 0:
+                            unknown_cards = self.brain.known_cards_number[player.id] - self.brain.get_number_of_requestable_cards(player.id)
+                            if unknown_cards > 0:
+                                possible_card_owners.append(player.id)
+                    if len(possible_card_owners) is 1:
+                        self.brain.add_card_to_knowledge(possible_card_owners, card)
+                        print("I think player " + str(possible_card_owners) +  " has card number")
+                        print(card)
 
     # This is the greedy strategy
     def certain_request(self):

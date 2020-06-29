@@ -1,0 +1,3162 @@
+[<0,0>, <6,2>, <7,3>, <12,2>, <12,3>, <8,0>, <7,0>, <9,3>, <12,0>, <12,1>, <6,0>, <7,2>, <6,1>]
+[<1,0>, <0,3>, <9,2>, <5,2>, <2,3>, <10,1>, <5,1>, <8,1>, <10,3>, <9,0>, <10,0>, <4,1>, <10,2>]
+[<3,3>, <2,1>, <5,0>, <2,2>, <11,2>, <2,0>, <3,0>, <8,3>, <7,1>, <11,1>, <8,2>, <11,3>, <6,3>]
+[<9,1>, <11,0>, <1,1>, <4,0>, <0,1>, <4,3>, <4,2>, <3,2>, <3,1>, <5,3>, <1,3>, <1,2>, <0,2>]
+
+[35mTurn: 1
+[0m
+player 0 has
+[36m
+[<0,0>, <6,2>, <7,3>, <12,2>, <12,3>, <8,0>, <7,0>, <9,3>, <12,0>, <12,1>, <6,0>, <7,2>, <6,1>]
+[0m
+[0, 6, 7, 12, 8, 9]
+player 1 has
+[36m
+[<1,0>, <0,3>, <9,2>, <5,2>, <2,3>, <10,1>, <5,1>, <8,1>, <10,3>, <9,0>, <10,0>, <4,1>, <10,2>]
+[0m
+[1, 0, 9, 5, 2, 10, 8, 4]
+player 2 has
+[36m
+[<3,3>, <2,1>, <5,0>, <2,2>, <11,2>, <2,0>, <3,0>, <8,3>, <7,1>, <11,1>, <8,2>, <11,3>, <6,3>]
+[0m
+[3, 2, 5, 11, 8, 7, 6]
+player 3 has
+[36m
+[<9,1>, <11,0>, <1,1>, <4,0>, <0,1>, <4,3>, <4,2>, <3,2>, <3,1>, <5,3>, <1,3>, <1,2>, <0,2>]
+[0m
+[9, 11, 1, 4, 0, 3, 5]
+
+[35mTurn: 2
+[0m
+player 0 has
+[36m
+[<0,0>, <6,2>, <7,3>, <12,2>, <12,3>, <8,0>, <7,0>, <9,3>, <12,0>, <12,1>, <6,0>, <7,2>, <6,1>]
+[0m
+[0, 6, 7, 12, 8, 9]
+player 1 has
+[36m
+[<1,0>, <0,3>, <9,2>, <5,2>, <2,3>, <10,1>, <5,1>, <8,1>, <10,3>, <9,0>, <10,0>, <4,1>, <10,2>]
+[0m
+[1, 0, 9, 5, 2, 10, 8, 4]
+player 2 has
+[36m
+[<3,3>, <2,1>, <5,0>, <2,2>, <11,2>, <2,0>, <3,0>, <8,3>, <7,1>, <11,1>, <8,2>, <11,3>, <6,3>]
+[0m
+[3, 2, 5, 11, 8, 7, 6]
+player 3 has
+[36m
+[<9,1>, <11,0>, <1,1>, <4,0>, <0,1>, <4,3>, <4,2>, <3,2>, <3,1>, <5,3>, <1,3>, <1,2>, <0,2>]
+[0m
+[9, 11, 1, 4, 0, 3, 5]
+
+[35mTurn: 3
+[0m
+player 0 has
+[36m
+[<0,0>, <6,2>, <7,3>, <12,2>, <12,3>, <8,0>, <7,0>, <9,3>, <12,0>, <12,1>, <6,0>, <7,2>, <6,1>]
+[0m
+[0, 6, 7, 12, 8, 9]
+player 1 has
+[36m
+[<1,0>, <0,3>, <9,2>, <5,2>, <2,3>, <10,1>, <5,1>, <8,1>, <10,3>, <9,0>, <10,0>, <4,1>, <10,2>]
+[0m
+[1, 0, 9, 5, 2, 10, 8, 4]
+player 2 has
+[36m
+[<3,3>, <2,1>, <5,0>, <2,2>, <11,2>, <2,0>, <3,0>, <8,3>, <7,1>, <11,1>, <8,2>, <11,3>, <6,3>]
+[0m
+[3, 2, 5, 11, 8, 7, 6]
+player 3 has
+[36m
+[<9,1>, <11,0>, <1,1>, <4,0>, <0,1>, <4,3>, <4,2>, <3,2>, <3,1>, <5,3>, <1,3>, <1,2>, <0,2>]
+[0m
+[9, 11, 1, 4, 0, 3, 5]
+
+[35mTurn: 4
+[0m
+player 0 has
+[36m
+[<0,0>, <6,2>, <7,3>, <12,2>, <12,3>, <8,0>, <7,0>, <9,3>, <12,0>, <12,1>, <6,0>, <7,2>, <6,1>]
+[0m
+[0, 6, 7, 12, 8, 9]
+player 1 has
+[36m
+[<1,0>, <0,3>, <9,2>, <5,2>, <2,3>, <10,1>, <5,1>, <8,1>, <10,3>, <9,0>, <10,0>, <4,1>, <10,2>]
+[0m
+[1, 0, 9, 5, 2, 10, 8, 4]
+player 2 has
+[36m
+[<3,3>, <2,1>, <5,0>, <2,2>, <11,2>, <2,0>, <3,0>, <8,3>, <7,1>, <11,1>, <8,2>, <11,3>, <6,3>]
+[0m
+[3, 2, 5, 11, 8, 7, 6]
+player 3 has
+[36m
+[<9,1>, <11,0>, <1,1>, <4,0>, <0,1>, <4,3>, <4,2>, <3,2>, <3,1>, <5,3>, <1,3>, <1,2>, <0,2>]
+[0m
+[9, 11, 1, 4, 0, 3, 5]
+
+[35mTurn: 5
+[0m
+player 0 has
+[36m
+[<0,0>, <6,2>, <7,3>, <12,2>, <12,3>, <8,0>, <7,0>, <9,3>, <12,0>, <12,1>, <6,0>, <7,2>, <6,1>]
+[0m
+[0, 6, 7, 12, 8, 9]
+player 1 has
+[36m
+[<1,0>, <0,3>, <9,2>, <5,2>, <2,3>, <10,1>, <5,1>, <8,1>, <10,3>, <9,0>, <10,0>, <4,1>, <10,2>]
+[0m
+[1, 0, 9, 5, 2, 10, 8, 4]
+player 2 has
+[36m
+[<3,3>, <2,1>, <5,0>, <2,2>, <11,2>, <2,0>, <3,0>, <8,3>, <7,1>, <11,1>, <8,2>, <11,3>, <6,3>]
+[0m
+[3, 2, 5, 11, 8, 7, 6]
+player 3 has
+[36m
+[<9,1>, <11,0>, <1,1>, <4,0>, <0,1>, <4,3>, <4,2>, <3,2>, <3,1>, <5,3>, <1,3>, <1,2>, <0,2>]
+[0m
+[9, 11, 1, 4, 0, 3, 5]
+
+[35mTurn: 6
+[0m
+player 0 has
+[36m
+[<0,0>, <6,2>, <7,3>, <12,2>, <12,3>, <8,0>, <7,0>, <9,3>, <12,0>, <12,1>, <6,0>, <7,2>, <6,1>]
+[0m
+[0, 6, 7, 12, 8, 9]
+player 1 has
+[36m
+[<1,0>, <0,3>, <9,2>, <5,2>, <2,3>, <10,1>, <5,1>, <8,1>, <10,3>, <9,0>, <10,0>, <4,1>, <10,2>]
+[0m
+[1, 0, 9, 5, 2, 10, 8, 4]
+player 2 has
+[36m
+[<3,3>, <2,1>, <5,0>, <2,2>, <11,2>, <2,0>, <3,0>, <8,3>, <7,1>, <11,1>, <8,2>, <11,3>, <6,3>]
+[0m
+[3, 2, 5, 11, 8, 7, 6]
+player 3 has
+[36m
+[<9,1>, <11,0>, <1,1>, <4,0>, <0,1>, <4,3>, <4,2>, <3,2>, <3,1>, <5,3>, <1,3>, <1,2>, <0,2>]
+[0m
+[9, 11, 1, 4, 0, 3, 5]
+
+[35mTurn: 7
+[0m
+player 0 has
+[36m
+[<0,0>, <6,2>, <7,3>, <12,2>, <12,3>, <8,0>, <7,0>, <9,3>, <12,0>, <12,1>, <6,0>, <7,2>, <6,1>]
+[0m
+[0, 6, 7, 12, 8, 9]
+player 1 has
+[36m
+[<1,0>, <0,3>, <9,2>, <5,2>, <2,3>, <10,1>, <5,1>, <8,1>, <10,3>, <9,0>, <10,0>, <4,1>, <10,2>]
+[0m
+[1, 0, 9, 5, 2, 10, 8, 4]
+player 2 has
+[36m
+[<3,3>, <2,1>, <5,0>, <2,2>, <11,2>, <2,0>, <3,0>, <8,3>, <7,1>, <11,1>, <8,2>, <11,3>, <6,3>]
+[0m
+[3, 2, 5, 11, 8, 7, 6]
+player 3 has
+[36m
+[<9,1>, <11,0>, <1,1>, <4,0>, <0,1>, <4,3>, <4,2>, <3,2>, <3,1>, <5,3>, <1,3>, <1,2>, <0,2>]
+[0m
+[9, 11, 1, 4, 0, 3, 5]
+
+[35mTurn: 8
+[0m
+player 0 has
+[36m
+[<0,0>, <6,2>, <7,3>, <12,2>, <12,3>, <8,0>, <7,0>, <9,3>, <12,0>, <12,1>, <6,0>, <7,2>, <6,1>]
+[0m
+[0, 6, 7, 12, 8, 9]
+player 1 has
+[36m
+[<1,0>, <0,3>, <9,2>, <5,2>, <2,3>, <10,1>, <5,1>, <8,1>, <10,3>, <9,0>, <10,0>, <4,1>, <10,2>]
+[0m
+[1, 0, 9, 5, 2, 10, 8, 4]
+player 2 has
+[36m
+[<3,3>, <2,1>, <5,0>, <2,2>, <11,2>, <2,0>, <3,0>, <8,3>, <7,1>, <11,1>, <8,2>, <11,3>, <6,3>]
+[0m
+[3, 2, 5, 11, 8, 7, 6]
+player 3 has
+[36m
+[<9,1>, <11,0>, <1,1>, <4,0>, <0,1>, <4,3>, <4,2>, <3,2>, <3,1>, <5,3>, <1,3>, <1,2>, <0,2>]
+[0m
+[9, 11, 1, 4, 0, 3, 5]
+
+[35mTurn: 9
+[0m
+player 0 has
+[36m
+[<0,0>, <6,2>, <7,3>, <12,2>, <12,3>, <8,0>, <7,0>, <9,3>, <12,0>, <12,1>, <6,0>, <7,2>, <6,1>]
+[0m
+[0, 6, 7, 12, 8, 9]
+player 1 has
+[36m
+[<1,0>, <0,3>, <9,2>, <5,2>, <2,3>, <10,1>, <5,1>, <8,1>, <10,3>, <9,0>, <10,0>, <4,1>, <10,2>]
+[0m
+[1, 0, 9, 5, 2, 10, 8, 4]
+player 2 has
+[36m
+[<3,3>, <2,1>, <5,0>, <2,2>, <11,2>, <2,0>, <3,0>, <8,3>, <7,1>, <11,1>, <8,2>, <11,3>, <6,3>]
+[0m
+[3, 2, 5, 11, 8, 7, 6]
+player 3 has
+[36m
+[<9,1>, <11,0>, <1,1>, <4,0>, <0,1>, <4,3>, <4,2>, <3,2>, <3,1>, <5,3>, <1,3>, <1,2>, <0,2>]
+[0m
+[9, 11, 1, 4, 0, 3, 5]
+
+[35mTurn: 10
+[0m
+player 0 has
+[36m
+[<0,0>, <6,2>, <7,3>, <12,2>, <12,3>, <8,0>, <7,0>, <9,3>, <12,0>, <12,1>, <6,0>, <7,2>, <6,1>]
+[0m
+[0, 6, 7, 12, 8, 9]
+player 1 has
+[36m
+[<1,0>, <0,3>, <9,2>, <5,2>, <2,3>, <10,1>, <5,1>, <8,1>, <10,3>, <9,0>, <10,0>, <4,1>, <10,2>]
+[0m
+[1, 0, 9, 5, 2, 10, 8, 4]
+player 2 has
+[36m
+[<3,3>, <2,1>, <5,0>, <2,2>, <11,2>, <2,0>, <3,0>, <8,3>, <7,1>, <11,1>, <8,2>, <11,3>, <6,3>]
+[0m
+[3, 2, 5, 11, 8, 7, 6]
+player 3 has
+[36m
+[<9,1>, <11,0>, <1,1>, <4,0>, <0,1>, <4,3>, <4,2>, <3,2>, <3,1>, <5,3>, <1,3>, <1,2>, <0,2>]
+[0m
+[9, 11, 1, 4, 0, 3, 5]
+
+[35mTurn: 11
+[0m
+player 0 has
+[36m
+[<0,0>, <6,2>, <7,3>, <12,2>, <12,3>, <8,0>, <7,0>, <9,3>, <12,0>, <12,1>, <6,0>, <7,2>, <6,1>]
+[0m
+[0, 6, 7, 12, 8, 9]
+player 1 has
+[36m
+[<1,0>, <0,3>, <9,2>, <5,2>, <2,3>, <10,1>, <5,1>, <8,1>, <10,3>, <9,0>, <10,0>, <4,1>, <10,2>]
+[0m
+[1, 0, 9, 5, 2, 10, 8, 4]
+player 2 has
+[36m
+[<3,3>, <2,1>, <5,0>, <2,2>, <11,2>, <2,0>, <3,0>, <8,3>, <7,1>, <11,1>, <8,2>, <11,3>, <6,3>]
+[0m
+[3, 2, 5, 11, 8, 7, 6]
+player 3 has
+[36m
+[<9,1>, <11,0>, <1,1>, <4,0>, <0,1>, <4,3>, <4,2>, <3,2>, <3,1>, <5,3>, <1,3>, <1,2>, <0,2>]
+[0m
+[9, 11, 1, 4, 0, 3, 5]
+
+[35mTurn: 12
+[0m
+player 0 has
+[36m
+[<0,0>, <6,2>, <7,3>, <12,2>, <12,3>, <8,0>, <7,0>, <9,3>, <12,0>, <12,1>, <6,0>, <7,2>, <6,1>]
+[0m
+[0, 6, 7, 12, 8, 9]
+player 1 has
+[36m
+[<1,0>, <0,3>, <9,2>, <5,2>, <2,3>, <10,1>, <5,1>, <8,1>, <10,3>, <9,0>, <10,0>, <4,1>, <10,2>]
+[0m
+[1, 0, 9, 5, 2, 10, 8, 4]
+player 2 has
+[36m
+[<3,3>, <2,1>, <5,0>, <2,2>, <11,2>, <2,0>, <3,0>, <8,3>, <7,1>, <11,1>, <8,2>, <11,3>, <6,3>]
+[0m
+[3, 2, 5, 11, 8, 7, 6]
+player 3 has
+[36m
+[<9,1>, <11,0>, <1,1>, <4,0>, <0,1>, <4,3>, <4,2>, <3,2>, <3,1>, <5,3>, <1,3>, <1,2>, <0,2>]
+[0m
+[9, 11, 1, 4, 0, 3, 5]
+Of quartet number 0 card number 2 has been removed from player 3 and has been given to player 0. Player 0 now has 14 cards and player 3 now has 12 cards.
+Quartet number 12 has been removed from player 0, player 0 now has 10 cards.
+[<5,2>, <4,3>, <10,1>, <11,3>, <6,3>, <6,1>, <2,3>, <7,0>, <1,1>, <8,0>, <3,1>, <4,2>, <3,0>]
+[<10,3>, <2,0>, <2,2>, <0,1>, <1,2>, <7,3>, <9,1>, <4,0>, <12,3>, <10,0>, <3,3>, <2,1>, <7,2>]
+[<9,2>, <1,3>, <5,1>, <6,2>, <4,1>, <12,1>, <11,0>, <0,3>, <1,0>, <0,0>, <10,2>, <6,0>, <9,0>]
+[<5,0>, <12,0>, <9,3>, <8,1>, <8,2>, <8,3>, <0,2>, <5,3>, <11,1>, <12,2>, <7,1>, <3,2>, <11,2>]
+
+[35mTurn: 1
+[0m
+player 0 has
+[36m
+[<5,2>, <4,3>, <10,1>, <11,3>, <6,3>, <6,1>, <2,3>, <7,0>, <1,1>, <8,0>, <3,1>, <4,2>, <3,0>]
+[0m
+[5, 4, 10, 11, 6, 2, 7, 1, 8, 3]
+player 1 has
+[36m
+[<10,3>, <2,0>, <2,2>, <0,1>, <1,2>, <7,3>, <9,1>, <4,0>, <12,3>, <10,0>, <3,3>, <2,1>, <7,2>]
+[0m
+[10, 2, 0, 1, 7, 9, 4, 12, 3]
+player 2 has
+[36m
+[<9,2>, <1,3>, <5,1>, <6,2>, <4,1>, <12,1>, <11,0>, <0,3>, <1,0>, <0,0>, <10,2>, <6,0>, <9,0>]
+[0m
+[9, 1, 5, 6, 4, 12, 11, 0, 10]
+player 3 has
+[36m
+[<5,0>, <12,0>, <9,3>, <8,1>, <8,2>, <8,3>, <0,2>, <5,3>, <11,1>, <12,2>, <7,1>, <3,2>, <11,2>]
+[0m
+[5, 12, 9, 8, 0, 11, 7, 3]
+
+[35mTurn: 2
+[0m
+player 0 has
+[36m
+[<5,2>, <4,3>, <10,1>, <11,3>, <6,3>, <6,1>, <2,3>, <7,0>, <1,1>, <8,0>, <3,1>, <4,2>, <3,0>]
+[0m
+[5, 4, 10, 11, 6, 2, 7, 1, 8, 3]
+player 1 has
+[36m
+[<10,3>, <2,0>, <2,2>, <0,1>, <1,2>, <7,3>, <9,1>, <4,0>, <12,3>, <10,0>, <3,3>, <2,1>, <7,2>]
+[0m
+[10, 2, 0, 1, 7, 9, 4, 12, 3]
+player 2 has
+[36m
+[<9,2>, <1,3>, <5,1>, <6,2>, <4,1>, <12,1>, <11,0>, <0,3>, <1,0>, <0,0>, <10,2>, <6,0>, <9,0>]
+[0m
+[9, 1, 5, 6, 4, 12, 11, 0, 10]
+player 3 has
+[36m
+[<5,0>, <12,0>, <9,3>, <8,1>, <8,2>, <8,3>, <0,2>, <5,3>, <11,1>, <12,2>, <7,1>, <3,2>, <11,2>]
+[0m
+[5, 12, 9, 8, 0, 11, 7, 3]
+
+[35mTurn: 3
+[0m
+player 0 has
+[36m
+[<5,2>, <4,3>, <10,1>, <11,3>, <6,3>, <6,1>, <2,3>, <7,0>, <1,1>, <8,0>, <3,1>, <4,2>, <3,0>]
+[0m
+[5, 4, 10, 11, 6, 2, 7, 1, 8, 3]
+player 1 has
+[36m
+[<10,3>, <2,0>, <2,2>, <0,1>, <1,2>, <7,3>, <9,1>, <4,0>, <12,3>, <10,0>, <3,3>, <2,1>, <7,2>]
+[0m
+[10, 2, 0, 1, 7, 9, 4, 12, 3]
+player 2 has
+[36m
+[<9,2>, <1,3>, <5,1>, <6,2>, <4,1>, <12,1>, <11,0>, <0,3>, <1,0>, <0,0>, <10,2>, <6,0>, <9,0>]
+[0m
+[9, 1, 5, 6, 4, 12, 11, 0, 10]
+player 3 has
+[36m
+[<5,0>, <12,0>, <9,3>, <8,1>, <8,2>, <8,3>, <0,2>, <5,3>, <11,1>, <12,2>, <7,1>, <3,2>, <11,2>]
+[0m
+[5, 12, 9, 8, 0, 11, 7, 3]
+
+[35mTurn: 4
+[0m
+player 0 has
+[36m
+[<5,2>, <4,3>, <10,1>, <11,3>, <6,3>, <6,1>, <2,3>, <7,0>, <1,1>, <8,0>, <3,1>, <4,2>, <3,0>]
+[0m
+[5, 4, 10, 11, 6, 2, 7, 1, 8, 3]
+player 1 has
+[36m
+[<10,3>, <2,0>, <2,2>, <0,1>, <1,2>, <7,3>, <9,1>, <4,0>, <12,3>, <10,0>, <3,3>, <2,1>, <7,2>]
+[0m
+[10, 2, 0, 1, 7, 9, 4, 12, 3]
+player 2 has
+[36m
+[<9,2>, <1,3>, <5,1>, <6,2>, <4,1>, <12,1>, <11,0>, <0,3>, <1,0>, <0,0>, <10,2>, <6,0>, <9,0>]
+[0m
+[9, 1, 5, 6, 4, 12, 11, 0, 10]
+player 3 has
+[36m
+[<5,0>, <12,0>, <9,3>, <8,1>, <8,2>, <8,3>, <0,2>, <5,3>, <11,1>, <12,2>, <7,1>, <3,2>, <11,2>]
+[0m
+[5, 12, 9, 8, 0, 11, 7, 3]
+
+[35mTurn: 5
+[0m
+player 0 has
+[36m
+[<5,2>, <4,3>, <10,1>, <11,3>, <6,3>, <6,1>, <2,3>, <7,0>, <1,1>, <8,0>, <3,1>, <4,2>, <3,0>]
+[0m
+[5, 4, 10, 11, 6, 2, 7, 1, 8, 3]
+player 1 has
+[36m
+[<10,3>, <2,0>, <2,2>, <0,1>, <1,2>, <7,3>, <9,1>, <4,0>, <12,3>, <10,0>, <3,3>, <2,1>, <7,2>]
+[0m
+[10, 2, 0, 1, 7, 9, 4, 12, 3]
+player 2 has
+[36m
+[<9,2>, <1,3>, <5,1>, <6,2>, <4,1>, <12,1>, <11,0>, <0,3>, <1,0>, <0,0>, <10,2>, <6,0>, <9,0>]
+[0m
+[9, 1, 5, 6, 4, 12, 11, 0, 10]
+player 3 has
+[36m
+[<5,0>, <12,0>, <9,3>, <8,1>, <8,2>, <8,3>, <0,2>, <5,3>, <11,1>, <12,2>, <7,1>, <3,2>, <11,2>]
+[0m
+[5, 12, 9, 8, 0, 11, 7, 3]
+
+[35mTurn: 6
+[0m
+player 0 has
+[36m
+[<5,2>, <4,3>, <10,1>, <11,3>, <6,3>, <6,1>, <2,3>, <7,0>, <1,1>, <8,0>, <3,1>, <4,2>, <3,0>]
+[0m
+[5, 4, 10, 11, 6, 2, 7, 1, 8, 3]
+player 1 has
+[36m
+[<10,3>, <2,0>, <2,2>, <0,1>, <1,2>, <7,3>, <9,1>, <4,0>, <12,3>, <10,0>, <3,3>, <2,1>, <7,2>]
+[0m
+[10, 2, 0, 1, 7, 9, 4, 12, 3]
+player 2 has
+[36m
+[<9,2>, <1,3>, <5,1>, <6,2>, <4,1>, <12,1>, <11,0>, <0,3>, <1,0>, <0,0>, <10,2>, <6,0>, <9,0>]
+[0m
+[9, 1, 5, 6, 4, 12, 11, 0, 10]
+player 3 has
+[36m
+[<5,0>, <12,0>, <9,3>, <8,1>, <8,2>, <8,3>, <0,2>, <5,3>, <11,1>, <12,2>, <7,1>, <3,2>, <11,2>]
+[0m
+[5, 12, 9, 8, 0, 11, 7, 3]
+
+[35mTurn: 7
+[0m
+player 0 has
+[36m
+[<5,2>, <4,3>, <10,1>, <11,3>, <6,3>, <6,1>, <2,3>, <7,0>, <1,1>, <8,0>, <3,1>, <4,2>, <3,0>]
+[0m
+[5, 4, 10, 11, 6, 2, 7, 1, 8, 3]
+player 1 has
+[36m
+[<10,3>, <2,0>, <2,2>, <0,1>, <1,2>, <7,3>, <9,1>, <4,0>, <12,3>, <10,0>, <3,3>, <2,1>, <7,2>]
+[0m
+[10, 2, 0, 1, 7, 9, 4, 12, 3]
+player 2 has
+[36m
+[<9,2>, <1,3>, <5,1>, <6,2>, <4,1>, <12,1>, <11,0>, <0,3>, <1,0>, <0,0>, <10,2>, <6,0>, <9,0>]
+[0m
+[9, 1, 5, 6, 4, 12, 11, 0, 10]
+player 3 has
+[36m
+[<5,0>, <12,0>, <9,3>, <8,1>, <8,2>, <8,3>, <0,2>, <5,3>, <11,1>, <12,2>, <7,1>, <3,2>, <11,2>]
+[0m
+[5, 12, 9, 8, 0, 11, 7, 3]
+
+[35mTurn: 8
+[0m
+player 0 has
+[36m
+[<5,2>, <4,3>, <10,1>, <11,3>, <6,3>, <6,1>, <2,3>, <7,0>, <1,1>, <8,0>, <3,1>, <4,2>, <3,0>]
+[0m
+[5, 4, 10, 11, 6, 2, 7, 1, 8, 3]
+player 1 has
+[36m
+[<10,3>, <2,0>, <2,2>, <0,1>, <1,2>, <7,3>, <9,1>, <4,0>, <12,3>, <10,0>, <3,3>, <2,1>, <7,2>]
+[0m
+[10, 2, 0, 1, 7, 9, 4, 12, 3]
+player 2 has
+[36m
+[<9,2>, <1,3>, <5,1>, <6,2>, <4,1>, <12,1>, <11,0>, <0,3>, <1,0>, <0,0>, <10,2>, <6,0>, <9,0>]
+[0m
+[9, 1, 5, 6, 4, 12, 11, 0, 10]
+player 3 has
+[36m
+[<5,0>, <12,0>, <9,3>, <8,1>, <8,2>, <8,3>, <0,2>, <5,3>, <11,1>, <12,2>, <7,1>, <3,2>, <11,2>]
+[0m
+[5, 12, 9, 8, 0, 11, 7, 3]
+Of quartet number 6 card number 0 has been removed from player 2 and has been given to player 0. Player 0 now has 14 cards and player 2 now has 12 cards.
+
+[35mTurn: 9
+[0m
+player 0 has
+[36m
+[<5,2>, <4,3>, <10,1>, <11,3>, <6,3>, <6,1>, <2,3>, <7,0>, <1,1>, <8,0>, <3,1>, <4,2>, <3,0>, <6,0>]
+[0m
+[5, 4, 10, 11, 6, 2, 7, 1, 8, 3]
+player 1 has
+[36m
+[<10,3>, <2,0>, <2,2>, <0,1>, <1,2>, <7,3>, <9,1>, <4,0>, <12,3>, <10,0>, <3,3>, <2,1>, <7,2>]
+[0m
+[10, 2, 0, 1, 7, 9, 4, 12, 3]
+player 2 has
+[36m
+[<9,2>, <1,3>, <5,1>, <6,2>, <4,1>, <12,1>, <11,0>, <0,3>, <1,0>, <0,0>, <10,2>, <9,0>]
+[0m
+[9, 1, 5, 6, 4, 12, 11, 0, 10]
+player 3 has
+[36m
+[<5,0>, <12,0>, <9,3>, <8,1>, <8,2>, <8,3>, <0,2>, <5,3>, <11,1>, <12,2>, <7,1>, <3,2>, <11,2>]
+[0m
+[5, 12, 9, 8, 0, 11, 7, 3]
+
+[35mTurn: 10
+[0m
+player 0 has
+[36m
+[<5,2>, <4,3>, <10,1>, <11,3>, <6,3>, <6,1>, <2,3>, <7,0>, <1,1>, <8,0>, <3,1>, <4,2>, <3,0>, <6,0>]
+[0m
+[5, 4, 10, 11, 6, 2, 7, 1, 8, 3]
+player 1 has
+[36m
+[<10,3>, <2,0>, <2,2>, <0,1>, <1,2>, <7,3>, <9,1>, <4,0>, <12,3>, <10,0>, <3,3>, <2,1>, <7,2>]
+[0m
+[10, 2, 0, 1, 7, 9, 4, 12, 3]
+player 2 has
+[36m
+[<9,2>, <1,3>, <5,1>, <6,2>, <4,1>, <12,1>, <11,0>, <0,3>, <1,0>, <0,0>, <10,2>, <9,0>]
+[0m
+[9, 1, 5, 6, 4, 12, 11, 0, 10]
+player 3 has
+[36m
+[<5,0>, <12,0>, <9,3>, <8,1>, <8,2>, <8,3>, <0,2>, <5,3>, <11,1>, <12,2>, <7,1>, <3,2>, <11,2>]
+[0m
+[5, 12, 9, 8, 0, 11, 7, 3]
+Of quartet number 6 card number 0 has been removed from player 0 and has been given to player 2. Player 2 now has 13 cards and player 0 now has 13 cards.
+Of quartet number 5 card number 3 has been removed from player 3 and has been given to player 2. Player 2 now has 14 cards and player 3 now has 12 cards.
+
+[35mTurn: 11
+[0m
+player 0 has
+[36m
+[<5,2>, <4,3>, <10,1>, <11,3>, <6,3>, <6,1>, <2,3>, <7,0>, <1,1>, <8,0>, <3,1>, <4,2>, <3,0>]
+[0m
+[5, 4, 10, 11, 6, 2, 7, 1, 8, 3]
+player 1 has
+[36m
+[<10,3>, <2,0>, <2,2>, <0,1>, <1,2>, <7,3>, <9,1>, <4,0>, <12,3>, <10,0>, <3,3>, <2,1>, <7,2>]
+[0m
+[10, 2, 0, 1, 7, 9, 4, 12, 3]
+player 2 has
+[36m
+[<9,2>, <1,3>, <5,1>, <6,2>, <4,1>, <12,1>, <11,0>, <0,3>, <1,0>, <0,0>, <10,2>, <9,0>, <6,0>, <5,3>]
+[0m
+[9, 1, 5, 6, 4, 12, 11, 0, 10]
+player 3 has
+[36m
+[<5,0>, <12,0>, <9,3>, <8,1>, <8,2>, <8,3>, <0,2>, <11,1>, <12,2>, <7,1>, <3,2>, <11,2>]
+[0m
+[5, 12, 9, 8, 0, 11, 7, 3]
+Of quartet number 5 card number 3 has been removed from player 2 and has been given to player 3. Player 3 now has 13 cards and player 2 now has 13 cards.
+
+[35mTurn: 12
+[0m
+player 0 has
+[36m
+[<5,2>, <4,3>, <10,1>, <11,3>, <6,3>, <6,1>, <2,3>, <7,0>, <1,1>, <8,0>, <3,1>, <4,2>, <3,0>]
+[0m
+[5, 4, 10, 11, 6, 2, 7, 1, 8, 3]
+player 1 has
+[36m
+[<10,3>, <2,0>, <2,2>, <0,1>, <1,2>, <7,3>, <9,1>, <4,0>, <12,3>, <10,0>, <3,3>, <2,1>, <7,2>]
+[0m
+[10, 2, 0, 1, 7, 9, 4, 12, 3]
+player 2 has
+[36m
+[<9,2>, <1,3>, <5,1>, <6,2>, <4,1>, <12,1>, <11,0>, <0,3>, <1,0>, <0,0>, <10,2>, <9,0>, <6,0>]
+[0m
+[9, 1, 5, 6, 4, 12, 11, 0, 10]
+player 3 has
+[36m
+[<5,0>, <12,0>, <9,3>, <8,1>, <8,2>, <8,3>, <0,2>, <11,1>, <12,2>, <7,1>, <3,2>, <11,2>, <5,3>]
+[0m
+[5, 12, 9, 8, 0, 11, 7, 3]
+Of quartet number 6 card number 0 has been removed from player 2 and has been given to player 0. Player 0 now has 14 cards and player 2 now has 12 cards.
+Of quartet number 5 card number 3 has been removed from player 3 and has been given to player 0. Player 0 now has 15 cards and player 3 now has 12 cards.
+
+[35mTurn: 13
+[0m
+player 0 has
+[36m
+[<5,2>, <4,3>, <10,1>, <11,3>, <6,3>, <6,1>, <2,3>, <7,0>, <1,1>, <8,0>, <3,1>, <4,2>, <3,0>, <6,0>, <5,3>]
+[0m
+[5, 4, 10, 11, 6, 2, 7, 1, 8, 3]
+player 1 has
+[36m
+[<10,3>, <2,0>, <2,2>, <0,1>, <1,2>, <7,3>, <9,1>, <4,0>, <12,3>, <10,0>, <3,3>, <2,1>, <7,2>]
+[0m
+[10, 2, 0, 1, 7, 9, 4, 12, 3]
+player 2 has
+[36m
+[<9,2>, <1,3>, <5,1>, <6,2>, <4,1>, <12,1>, <11,0>, <0,3>, <1,0>, <0,0>, <10,2>, <9,0>]
+[0m
+[9, 1, 5, 6, 4, 12, 11, 0, 10]
+player 3 has
+[36m
+[<5,0>, <12,0>, <9,3>, <8,1>, <8,2>, <8,3>, <0,2>, <11,1>, <12,2>, <7,1>, <3,2>, <11,2>]
+[0m
+[5, 12, 9, 8, 0, 11, 7, 3]
+
+[35mTurn: 14
+[0m
+player 0 has
+[36m
+[<5,2>, <4,3>, <10,1>, <11,3>, <6,3>, <6,1>, <2,3>, <7,0>, <1,1>, <8,0>, <3,1>, <4,2>, <3,0>, <6,0>, <5,3>]
+[0m
+[5, 4, 10, 11, 6, 2, 7, 1, 8, 3]
+player 1 has
+[36m
+[<10,3>, <2,0>, <2,2>, <0,1>, <1,2>, <7,3>, <9,1>, <4,0>, <12,3>, <10,0>, <3,3>, <2,1>, <7,2>]
+[0m
+[10, 2, 0, 1, 7, 9, 4, 12, 3]
+player 2 has
+[36m
+[<9,2>, <1,3>, <5,1>, <6,2>, <4,1>, <12,1>, <11,0>, <0,3>, <1,0>, <0,0>, <10,2>, <9,0>]
+[0m
+[9, 1, 5, 6, 4, 12, 11, 0, 10]
+player 3 has
+[36m
+[<5,0>, <12,0>, <9,3>, <8,1>, <8,2>, <8,3>, <0,2>, <11,1>, <12,2>, <7,1>, <3,2>, <11,2>]
+[0m
+[5, 12, 9, 8, 0, 11, 7, 3]
+Of quartet number 6 card number 0 has been removed from player 0 and has been given to player 2. Player 2 now has 13 cards and player 0 now has 14 cards.
+Of quartet number 5 card number 3 has been removed from player 0 and has been given to player 2. Player 2 now has 14 cards and player 0 now has 13 cards.
+Of quartet number 5 card number 0 has been removed from player 3 and has been given to player 2. Player 2 now has 15 cards and player 3 now has 11 cards.
+Of quartet number 4 card number 2 has been removed from player 0 and has been given to player 2. Player 2 now has 16 cards and player 0 now has 12 cards.
+Of quartet number 6 card number 3 has been removed from player 0 and has been given to player 2. Player 2 now has 17 cards and player 0 now has 11 cards.
+Of quartet number 10 card number 3 has been removed from player 1 and has been given to player 2. Player 2 now has 18 cards and player 1 now has 12 cards.
+
+[35mTurn: 15
+[0m
+player 0 has
+[36m
+[<5,2>, <4,3>, <10,1>, <11,3>, <6,1>, <2,3>, <7,0>, <1,1>, <8,0>, <3,1>, <3,0>]
+[0m
+[5, 4, 10, 11, 6, 2, 7, 1, 8, 3]
+player 1 has
+[36m
+[<2,0>, <2,2>, <0,1>, <1,2>, <7,3>, <9,1>, <4,0>, <12,3>, <10,0>, <3,3>, <2,1>, <7,2>]
+[0m
+[2, 0, 1, 7, 9, 4, 12, 10, 3]
+player 2 has
+[36m
+[<9,2>, <1,3>, <5,1>, <6,2>, <4,1>, <12,1>, <11,0>, <0,3>, <1,0>, <0,0>, <10,2>, <9,0>, <6,0>, <5,3>, <5,0>, <4,2>, <6,3>, <10,3>]
+[0m
+[9, 1, 5, 6, 4, 12, 11, 0, 10]
+player 3 has
+[36m
+[<12,0>, <9,3>, <8,1>, <8,2>, <8,3>, <0,2>, <11,1>, <12,2>, <7,1>, <3,2>, <11,2>]
+[0m
+[12, 9, 8, 0, 11, 7, 3]
+
+[35mTurn: 16
+[0m
+player 0 has
+[36m
+[<5,2>, <4,3>, <10,1>, <11,3>, <6,1>, <2,3>, <7,0>, <1,1>, <8,0>, <3,1>, <3,0>]
+[0m
+[5, 4, 10, 11, 6, 2, 7, 1, 8, 3]
+player 1 has
+[36m
+[<2,0>, <2,2>, <0,1>, <1,2>, <7,3>, <9,1>, <4,0>, <12,3>, <10,0>, <3,3>, <2,1>, <7,2>]
+[0m
+[2, 0, 1, 7, 9, 4, 12, 10, 3]
+player 2 has
+[36m
+[<9,2>, <1,3>, <5,1>, <6,2>, <4,1>, <12,1>, <11,0>, <0,3>, <1,0>, <0,0>, <10,2>, <9,0>, <6,0>, <5,3>, <5,0>, <4,2>, <6,3>, <10,3>]
+[0m
+[9, 1, 5, 6, 4, 12, 11, 0, 10]
+player 3 has
+[36m
+[<12,0>, <9,3>, <8,1>, <8,2>, <8,3>, <0,2>, <11,1>, <12,2>, <7,1>, <3,2>, <11,2>]
+[0m
+[12, 9, 8, 0, 11, 7, 3]
+Of quartet number 6 card number 0 has been removed from player 2 and has been given to player 0. Player 0 now has 12 cards and player 2 now has 17 cards.
+I think player [1] has card number
+<10,0>
+Of quartet number 5 card number 3 has been removed from player 2 and has been given to player 0. Player 0 now has 13 cards and player 2 now has 16 cards.
+I think player [1] has card number
+<10,0>
+Of quartet number 5 card number 0 has been removed from player 2 and has been given to player 0. Player 0 now has 14 cards and player 2 now has 15 cards.
+I think player [1] has card number
+<10,0>
+Of quartet number 4 card number 2 has been removed from player 2 and has been given to player 0. Player 0 now has 15 cards and player 2 now has 14 cards.
+I think player [1] has card number
+<10,0>
+Of quartet number 6 card number 3 has been removed from player 2 and has been given to player 0. Player 0 now has 16 cards and player 2 now has 13 cards.
+I think player [1] has card number
+<10,0>
+Of quartet number 10 card number 3 has been removed from player 2 and has been given to player 0. Player 0 now has 17 cards and player 2 now has 12 cards.
+I think player [1] has card number
+<10,0>
+Of quartet number 10 card number 2 has been removed from player 2 and has been given to player 0. Player 0 now has 18 cards and player 2 now has 11 cards.
+I think player [1] has card number
+<10,0>
+Of quartet number 5 card number 1 has been removed from player 2 and has been given to player 0. Player 0 now has 19 cards and player 2 now has 10 cards.
+Quartet number 5 has been removed from player 0, player 0 now has 15 cards.
+I think player [1] has card number
+<10,0>
+
+[35mTurn: 17
+[0m
+player 0 has
+[36m
+[<4,3>, <10,1>, <11,3>, <6,1>, <2,3>, <7,0>, <1,1>, <8,0>, <3,1>, <3,0>, <6,0>, <4,2>, <6,3>, <10,3>, <10,2>]
+[0m
+[4, 10, 11, 6, 2, 7, 1, 8, 3]
+player 1 has
+[36m
+[<2,0>, <2,2>, <0,1>, <1,2>, <7,3>, <9,1>, <4,0>, <12,3>, <10,0>, <3,3>, <2,1>, <7,2>]
+[0m
+[2, 0, 1, 7, 9, 4, 12, 10, 3]
+player 2 has
+[36m
+[<9,2>, <1,3>, <6,2>, <4,1>, <12,1>, <11,0>, <0,3>, <1,0>, <0,0>, <9,0>]
+[0m
+[9, 1, 6, 4, 12, 11, 0]
+player 3 has
+[36m
+[<12,0>, <9,3>, <8,1>, <8,2>, <8,3>, <0,2>, <11,1>, <12,2>, <7,1>, <3,2>, <11,2>]
+[0m
+[12, 9, 8, 0, 11, 7, 3]
+Of quartet number 4 card number 2 has been removed from player 0 and has been given to player 1. Player 1 now has 13 cards and player 0 now has 14 cards.
+Of quartet number 10 card number 3 has been removed from player 0 and has been given to player 1. Player 1 now has 14 cards and player 0 now has 13 cards.
+Of quartet number 10 card number 2 has been removed from player 0 and has been given to player 1. Player 1 now has 15 cards and player 0 now has 12 cards.
+Of quartet number 1 card number 3 has been removed from player 2 and has been given to player 1. Player 1 now has 16 cards and player 2 now has 9 cards.
+
+[35mTurn: 18
+[0m
+player 0 has
+[36m
+[<4,3>, <10,1>, <11,3>, <6,1>, <2,3>, <7,0>, <1,1>, <8,0>, <3,1>, <3,0>, <6,0>, <6,3>]
+[0m
+[4, 10, 11, 6, 2, 7, 1, 8, 3]
+player 1 has
+[36m
+[<2,0>, <2,2>, <0,1>, <1,2>, <7,3>, <9,1>, <4,0>, <12,3>, <10,0>, <3,3>, <2,1>, <7,2>, <4,2>, <10,3>, <10,2>, <1,3>]
+[0m
+[2, 0, 1, 7, 9, 4, 12, 10, 3]
+player 2 has
+[36m
+[<9,2>, <6,2>, <4,1>, <12,1>, <11,0>, <0,3>, <1,0>, <0,0>, <9,0>]
+[0m
+[9, 6, 4, 12, 11, 0, 1]
+player 3 has
+[36m
+[<12,0>, <9,3>, <8,1>, <8,2>, <8,3>, <0,2>, <11,1>, <12,2>, <7,1>, <3,2>, <11,2>]
+[0m
+[12, 9, 8, 0, 11, 7, 3]
+Of quartet number 6 card number 0 has been removed from player 0 and has been given to player 2. Player 2 now has 10 cards and player 0 now has 11 cards.
+I think player [0] has card number
+<1,1>
+Of quartet number 6 card number 3 has been removed from player 0 and has been given to player 2. Player 2 now has 11 cards and player 0 now has 10 cards.
+I think player [0] has card number
+<1,1>
+Of quartet number 4 card number 2 has been removed from player 1 and has been given to player 2. Player 2 now has 12 cards and player 1 now has 15 cards.
+I think player [0] has card number
+<1,1>
+Of quartet number 1 card number 3 has been removed from player 1 and has been given to player 2. Player 2 now has 13 cards and player 1 now has 14 cards.
+I think player [0] has card number
+<1,1>
+Of quartet number 1 card number 1 has been removed from player 0 and has been given to player 2. Player 2 now has 14 cards and player 0 now has 9 cards.
+I think player [1] has card number
+<12,3>
+Of quartet number 12 card number 0 has been removed from player 3 and has been given to player 2. Player 2 now has 15 cards and player 3 now has 10 cards.
+I think player [1] has card number
+<12,3>
+Of quartet number 0 card number 2 has been removed from player 3 and has been given to player 2. Player 2 now has 16 cards and player 3 now has 9 cards.
+I think player [1] has card number
+<12,3>
+Of quartet number 12 card number 3 has been removed from player 1 and has been given to player 2. Player 2 now has 17 cards and player 1 now has 13 cards.
+
+[35mTurn: 19
+[0m
+player 0 has
+[36m
+[<4,3>, <10,1>, <11,3>, <6,1>, <2,3>, <7,0>, <8,0>, <3,1>, <3,0>]
+[0m
+[4, 10, 11, 6, 2, 7, 8, 3]
+player 1 has
+[36m
+[<2,0>, <2,2>, <0,1>, <1,2>, <7,3>, <9,1>, <4,0>, <10,0>, <3,3>, <2,1>, <7,2>, <10,3>, <10,2>]
+[0m
+[2, 0, 1, 7, 9, 4, 10, 3]
+player 2 has
+[36m
+[<9,2>, <6,2>, <4,1>, <12,1>, <11,0>, <0,3>, <1,0>, <0,0>, <9,0>, <6,0>, <6,3>, <4,2>, <1,3>, <1,1>, <12,0>, <0,2>, <12,3>]
+[0m
+[9, 6, 4, 12, 11, 0, 1]
+player 3 has
+[36m
+[<9,3>, <8,1>, <8,2>, <8,3>, <11,1>, <12,2>, <7,1>, <3,2>, <11,2>]
+[0m
+[9, 8, 11, 12, 7, 3]
+Of quartet number 12 card number 0 has been removed from player 2 and has been given to player 3. Player 3 now has 10 cards and player 2 now has 16 cards.
+Of quartet number 12 card number 3 has been removed from player 2 and has been given to player 3. Player 3 now has 11 cards and player 2 now has 15 cards.
+Of quartet number 9 card number 1 has been removed from player 1 and has been given to player 3. Player 3 now has 12 cards and player 1 now has 12 cards.
+Of quartet number 11 card number 3 has been removed from player 0 and has been given to player 3. Player 3 now has 13 cards and player 0 now has 8 cards.
+
+[35mTurn: 20
+[0m
+player 0 has
+[36m
+[<4,3>, <10,1>, <6,1>, <2,3>, <7,0>, <8,0>, <3,1>, <3,0>]
+[0m
+[4, 10, 6, 2, 7, 8, 3]
+player 1 has
+[36m
+[<2,0>, <2,2>, <0,1>, <1,2>, <7,3>, <4,0>, <10,0>, <3,3>, <2,1>, <7,2>, <10,3>, <10,2>]
+[0m
+[2, 0, 1, 7, 4, 10, 3]
+player 2 has
+[36m
+[<9,2>, <6,2>, <4,1>, <12,1>, <11,0>, <0,3>, <1,0>, <0,0>, <9,0>, <6,0>, <6,3>, <4,2>, <1,3>, <1,1>, <0,2>]
+[0m
+[9, 6, 4, 12, 11, 0, 1]
+player 3 has
+[36m
+[<9,3>, <8,1>, <8,2>, <8,3>, <11,1>, <12,2>, <7,1>, <3,2>, <11,2>, <12,0>, <12,3>, <9,1>, <11,3>]
+[0m
+[9, 8, 11, 12, 7, 3]
+Of quartet number 10 card number 3 has been removed from player 1 and has been given to player 0. Player 0 now has 9 cards and player 1 now has 11 cards.
+I think player [2] has card number
+<4,1>
+I think player [1] has card number
+<10,0>
+Of quartet number 10 card number 2 has been removed from player 1 and has been given to player 0. Player 0 now has 10 cards and player 1 now has 10 cards.
+I think player [2] has card number
+<4,1>
+I think player [1] has card number
+<10,0>
+Of quartet number 6 card number 0 has been removed from player 2 and has been given to player 0. Player 0 now has 11 cards and player 2 now has 14 cards.
+I think player [2] has card number
+<4,1>
+I think player [1] has card number
+<10,0>
+Of quartet number 6 card number 3 has been removed from player 2 and has been given to player 0. Player 0 now has 12 cards and player 2 now has 13 cards.
+I think player [2] has card number
+<4,1>
+I think player [1] has card number
+<10,0>
+Of quartet number 4 card number 2 has been removed from player 2 and has been given to player 0. Player 0 now has 13 cards and player 2 now has 12 cards.
+I think player [2] has card number
+<4,1>
+I think player [1] has card number
+<10,0>
+Of quartet number 3 card number 3 has been removed from player 1 and has been given to player 0. Player 0 now has 14 cards and player 1 now has 9 cards.
+I think player [2] has card number
+<4,1>
+I think player [1] has card number
+<10,0>
+
+[35mTurn: 21
+[0m
+player 0 has
+[36m
+[<4,3>, <10,1>, <6,1>, <2,3>, <7,0>, <8,0>, <3,1>, <3,0>, <10,3>, <10,2>, <6,0>, <6,3>, <4,2>, <3,3>]
+[0m
+[4, 10, 6, 2, 7, 8, 3]
+player 1 has
+[36m
+[<2,0>, <2,2>, <0,1>, <1,2>, <7,3>, <4,0>, <10,0>, <2,1>, <7,2>]
+[0m
+[2, 0, 1, 7, 4, 10]
+player 2 has
+[36m
+[<9,2>, <6,2>, <4,1>, <12,1>, <11,0>, <0,3>, <1,0>, <0,0>, <9,0>, <1,3>, <1,1>, <0,2>]
+[0m
+[9, 6, 4, 12, 11, 0, 1]
+player 3 has
+[36m
+[<9,3>, <8,1>, <8,2>, <8,3>, <11,1>, <12,2>, <7,1>, <3,2>, <11,2>, <12,0>, <12,3>, <9,1>, <11,3>]
+[0m
+[9, 8, 11, 12, 7, 3]
+Of quartet number 10 card number 3 has been removed from player 0 and has been given to player 1. Player 1 now has 10 cards and player 0 now has 13 cards.
+I think player [2] has card number
+<4,1>
+Of quartet number 10 card number 2 has been removed from player 0 and has been given to player 1. Player 1 now has 11 cards and player 0 now has 12 cards.
+I think player [2] has card number
+<4,1>
+Of quartet number 4 card number 2 has been removed from player 0 and has been given to player 1. Player 1 now has 12 cards and player 0 now has 11 cards.
+I think player [2] has card number
+<4,1>
+Of quartet number 1 card number 3 has been removed from player 2 and has been given to player 1. Player 1 now has 13 cards and player 2 now has 11 cards.
+I think player [2] has card number
+<4,1>
+Of quartet number 1 card number 1 has been removed from player 2 and has been given to player 1. Player 1 now has 14 cards and player 2 now has 10 cards.
+I think player [2] has card number
+<4,1>
+Of quartet number 0 card number 2 has been removed from player 2 and has been given to player 1. Player 1 now has 15 cards and player 2 now has 9 cards.
+I think player [2] has card number
+<4,1>
+
+[35mTurn: 22
+[0m
+player 0 has
+[36m
+[<4,3>, <10,1>, <6,1>, <2,3>, <7,0>, <8,0>, <3,1>, <3,0>, <6,0>, <6,3>, <3,3>]
+[0m
+[4, 10, 6, 2, 7, 8, 3]
+player 1 has
+[36m
+[<2,0>, <2,2>, <0,1>, <1,2>, <7,3>, <4,0>, <10,0>, <2,1>, <7,2>, <10,3>, <10,2>, <4,2>, <1,3>, <1,1>, <0,2>]
+[0m
+[2, 0, 1, 7, 4, 10]
+player 2 has
+[36m
+[<9,2>, <6,2>, <4,1>, <12,1>, <11,0>, <0,3>, <1,0>, <0,0>, <9,0>]
+[0m
+[9, 6, 4, 12, 11, 0, 1]
+player 3 has
+[36m
+[<9,3>, <8,1>, <8,2>, <8,3>, <11,1>, <12,2>, <7,1>, <3,2>, <11,2>, <12,0>, <12,3>, <9,1>, <11,3>]
+[0m
+[9, 8, 11, 12, 7, 3]
+Of quartet number 6 card number 0 has been removed from player 0 and has been given to player 2. Player 2 now has 10 cards and player 0 now has 10 cards.
+Of quartet number 6 card number 3 has been removed from player 0 and has been given to player 2. Player 2 now has 11 cards and player 0 now has 9 cards.
+Of quartet number 4 card number 2 has been removed from player 1 and has been given to player 2. Player 2 now has 12 cards and player 1 now has 14 cards.
+Of quartet number 1 card number 3 has been removed from player 1 and has been given to player 2. Player 2 now has 13 cards and player 1 now has 13 cards.
+Of quartet number 1 card number 1 has been removed from player 1 and has been given to player 2. Player 2 now has 14 cards and player 1 now has 12 cards.
+Of quartet number 0 card number 2 has been removed from player 1 and has been given to player 2. Player 2 now has 15 cards and player 1 now has 11 cards.
+Of quartet number 12 card number 0 has been removed from player 3 and has been given to player 2. Player 2 now has 16 cards and player 3 now has 12 cards.
+Of quartet number 12 card number 3 has been removed from player 3 and has been given to player 2. Player 2 now has 17 cards and player 3 now has 11 cards.
+Of quartet number 9 card number 1 has been removed from player 3 and has been given to player 2. Player 2 now has 18 cards and player 3 now has 10 cards.
+Of quartet number 11 card number 3 has been removed from player 3 and has been given to player 2. Player 2 now has 19 cards and player 3 now has 9 cards.
+Of quartet number 4 card number 0 has been removed from player 1 and has been given to player 2. Player 2 now has 20 cards and player 1 now has 10 cards.
+
+[35mTurn: 23
+[0m
+player 0 has
+[36m
+[<4,3>, <10,1>, <6,1>, <2,3>, <7,0>, <8,0>, <3,1>, <3,0>, <3,3>]
+[0m
+[4, 10, 6, 2, 7, 8, 3]
+player 1 has
+[36m
+[<2,0>, <2,2>, <0,1>, <1,2>, <7,3>, <10,0>, <2,1>, <7,2>, <10,3>, <10,2>]
+[0m
+[2, 0, 1, 7, 10]
+player 2 has
+[36m
+[<9,2>, <6,2>, <4,1>, <12,1>, <11,0>, <0,3>, <1,0>, <0,0>, <9,0>, <6,0>, <6,3>, <4,2>, <1,3>, <1,1>, <0,2>, <12,0>, <12,3>, <9,1>, <11,3>, <4,0>]
+[0m
+[9, 6, 4, 12, 11, 0, 1]
+player 3 has
+[36m
+[<9,3>, <8,1>, <8,2>, <8,3>, <11,1>, <12,2>, <7,1>, <3,2>, <11,2>]
+[0m
+[9, 8, 11, 12, 7, 3]
+Of quartet number 3 card number 3 has been removed from player 0 and has been given to player 3. Player 3 now has 10 cards and player 0 now has 8 cards.
+Of quartet number 12 card number 0 has been removed from player 2 and has been given to player 3. Player 3 now has 11 cards and player 2 now has 19 cards.
+Of quartet number 12 card number 3 has been removed from player 2 and has been given to player 3. Player 3 now has 12 cards and player 2 now has 18 cards.
+Of quartet number 9 card number 1 has been removed from player 2 and has been given to player 3. Player 3 now has 13 cards and player 2 now has 17 cards.
+Of quartet number 11 card number 3 has been removed from player 2 and has been given to player 3. Player 3 now has 14 cards and player 2 now has 16 cards.
+
+[35mTurn: 24
+[0m
+player 0 has
+[36m
+[<4,3>, <10,1>, <6,1>, <2,3>, <7,0>, <8,0>, <3,1>, <3,0>]
+[0m
+[4, 10, 6, 2, 7, 8, 3]
+player 1 has
+[36m
+[<2,0>, <2,2>, <0,1>, <1,2>, <7,3>, <10,0>, <2,1>, <7,2>, <10,3>, <10,2>]
+[0m
+[2, 0, 1, 7, 10]
+player 2 has
+[36m
+[<9,2>, <6,2>, <4,1>, <12,1>, <11,0>, <0,3>, <1,0>, <0,0>, <9,0>, <6,0>, <6,3>, <4,2>, <1,3>, <1,1>, <0,2>, <4,0>]
+[0m
+[9, 6, 4, 12, 11, 0, 1]
+player 3 has
+[36m
+[<9,3>, <8,1>, <8,2>, <8,3>, <11,1>, <12,2>, <7,1>, <3,2>, <11,2>, <3,3>, <12,0>, <12,3>, <9,1>, <11,3>]
+[0m
+[9, 8, 11, 12, 7, 3]
+Of quartet number 10 card number 3 has been removed from player 1 and has been given to player 0. Player 0 now has 9 cards and player 1 now has 9 cards.
+I think player [2] has card number
+<4,1>
+I think player [1] has card number
+<10,0>
+Of quartet number 10 card number 2 has been removed from player 1 and has been given to player 0. Player 0 now has 10 cards and player 1 now has 8 cards.
+I think player [2] has card number
+<4,1>
+I think player [1] has card number
+<10,0>
+Of quartet number 6 card number 0 has been removed from player 2 and has been given to player 0. Player 0 now has 11 cards and player 2 now has 15 cards.
+I think player [2] has card number
+<4,1>
+I think player [1] has card number
+<10,0>
+Of quartet number 6 card number 3 has been removed from player 2 and has been given to player 0. Player 0 now has 12 cards and player 2 now has 14 cards.
+I think player [2] has card number
+<4,1>
+I think player [1] has card number
+<10,0>
+Of quartet number 4 card number 2 has been removed from player 2 and has been given to player 0. Player 0 now has 13 cards and player 2 now has 13 cards.
+I think player [2] has card number
+<4,1>
+I think player [1] has card number
+<10,0>
+Of quartet number 4 card number 0 has been removed from player 2 and has been given to player 0. Player 0 now has 14 cards and player 2 now has 12 cards.
+I think player [2] has card number
+<4,1>
+I think player [1] has card number
+<10,0>
+Of quartet number 3 card number 3 has been removed from player 3 and has been given to player 0. Player 0 now has 15 cards and player 3 now has 13 cards.
+I think player [2] has card number
+<4,1>
+I think player [1] has card number
+<10,0>
+Of quartet number 8 card number 1 has been removed from player 3 and has been given to player 0. Player 0 now has 16 cards and player 3 now has 12 cards.
+I think player [2] has card number
+<4,1>
+I think player [1] has card number
+<10,0>
+Of quartet number 4 card number 1 has been removed from player 2 and has been given to player 0. Player 0 now has 17 cards and player 2 now has 11 cards.
+Quartet number 4 has been removed from player 0, player 0 now has 13 cards.
+I think player [1] has card number
+<10,0>
+I think player [3] has card number
+<8,2>
+
+[35mTurn: 25
+[0m
+player 0 has
+[36m
+[<10,1>, <6,1>, <2,3>, <7,0>, <8,0>, <3,1>, <3,0>, <10,3>, <10,2>, <6,0>, <6,3>, <3,3>, <8,1>]
+[0m
+[10, 6, 2, 7, 8, 3]
+player 1 has
+[36m
+[<2,0>, <2,2>, <0,1>, <1,2>, <7,3>, <10,0>, <2,1>, <7,2>]
+[0m
+[2, 0, 1, 7, 10]
+player 2 has
+[36m
+[<9,2>, <6,2>, <12,1>, <11,0>, <0,3>, <1,0>, <0,0>, <9,0>, <1,3>, <1,1>, <0,2>]
+[0m
+[9, 6, 12, 11, 0, 1]
+player 3 has
+[36m
+[<9,3>, <8,2>, <8,3>, <11,1>, <12,2>, <7,1>, <3,2>, <11,2>, <12,0>, <12,3>, <9,1>, <11,3>]
+[0m
+[9, 8, 11, 12, 7, 3]
+Of quartet number 10 card number 3 has been removed from player 0 and has been given to player 1. Player 1 now has 9 cards and player 0 now has 12 cards.
+I think player [0] has card number
+<7,0>
+Of quartet number 10 card number 2 has been removed from player 0 and has been given to player 1. Player 1 now has 10 cards and player 0 now has 11 cards.
+I think player [0] has card number
+<7,0>
+Of quartet number 1 card number 3 has been removed from player 2 and has been given to player 1. Player 1 now has 11 cards and player 2 now has 10 cards.
+I think player [0] has card number
+<7,0>
+Of quartet number 1 card number 1 has been removed from player 2 and has been given to player 1. Player 1 now has 12 cards and player 2 now has 9 cards.
+I think player [0] has card number
+<7,0>
+Of quartet number 0 card number 2 has been removed from player 2 and has been given to player 1. Player 1 now has 13 cards and player 2 now has 8 cards.
+I think player [0] has card number
+<7,0>
+Of quartet number 1 card number 0 has been removed from player 2 and has been given to player 1. Player 1 now has 14 cards and player 2 now has 7 cards.
+Quartet number 1 has been removed from player 1, player 1 now has 10 cards.
+I think player [0] has card number
+<7,0>
+
+[35mTurn: 26
+[0m
+player 0 has
+[36m
+[<10,1>, <6,1>, <2,3>, <7,0>, <8,0>, <3,1>, <3,0>, <6,0>, <6,3>, <3,3>, <8,1>]
+[0m
+[10, 6, 2, 7, 8, 3]
+player 1 has
+[36m
+[<2,0>, <2,2>, <0,1>, <7,3>, <10,0>, <2,1>, <7,2>, <10,3>, <10,2>, <0,2>]
+[0m
+[2, 0, 7, 10]
+player 2 has
+[36m
+[<9,2>, <6,2>, <12,1>, <11,0>, <0,3>, <0,0>, <9,0>]
+[0m
+[9, 6, 12, 11, 0]
+player 3 has
+[36m
+[<9,3>, <8,2>, <8,3>, <11,1>, <12,2>, <7,1>, <3,2>, <11,2>, <12,0>, <12,3>, <9,1>, <11,3>]
+[0m
+[9, 8, 11, 12, 7, 3]
+Of quartet number 6 card number 0 has been removed from player 0 and has been given to player 2. Player 2 now has 8 cards and player 0 now has 10 cards.
+Of quartet number 6 card number 3 has been removed from player 0 and has been given to player 2. Player 2 now has 9 cards and player 0 now has 9 cards.
+Of quartet number 0 card number 2 has been removed from player 1 and has been given to player 2. Player 2 now has 10 cards and player 1 now has 9 cards.
+Of quartet number 12 card number 0 has been removed from player 3 and has been given to player 2. Player 2 now has 11 cards and player 3 now has 11 cards.
+Of quartet number 12 card number 3 has been removed from player 3 and has been given to player 2. Player 2 now has 12 cards and player 3 now has 10 cards.
+Of quartet number 9 card number 1 has been removed from player 3 and has been given to player 2. Player 2 now has 13 cards and player 3 now has 9 cards.
+Of quartet number 11 card number 3 has been removed from player 3 and has been given to player 2. Player 2 now has 14 cards and player 3 now has 8 cards.
+
+[35mTurn: 27
+[0m
+player 0 has
+[36m
+[<10,1>, <6,1>, <2,3>, <7,0>, <8,0>, <3,1>, <3,0>, <3,3>, <8,1>]
+[0m
+[10, 6, 2, 7, 8, 3]
+player 1 has
+[36m
+[<2,0>, <2,2>, <0,1>, <7,3>, <10,0>, <2,1>, <7,2>, <10,3>, <10,2>]
+[0m
+[2, 0, 7, 10]
+player 2 has
+[36m
+[<9,2>, <6,2>, <12,1>, <11,0>, <0,3>, <0,0>, <9,0>, <6,0>, <6,3>, <0,2>, <12,0>, <12,3>, <9,1>, <11,3>]
+[0m
+[9, 6, 12, 11, 0]
+player 3 has
+[36m
+[<9,3>, <8,2>, <8,3>, <11,1>, <12,2>, <7,1>, <3,2>, <11,2>]
+[0m
+[9, 8, 11, 12, 7, 3]
+Of quartet number 3 card number 3 has been removed from player 0 and has been given to player 3. Player 3 now has 9 cards and player 0 now has 8 cards.
+I think player [2] has card number
+<9,2>
+I think player [2] has card number
+<12,1>
+Of quartet number 8 card number 1 has been removed from player 0 and has been given to player 3. Player 3 now has 10 cards and player 0 now has 7 cards.
+I think player [2] has card number
+<9,2>
+I think player [2] has card number
+<12,1>
+Of quartet number 12 card number 0 has been removed from player 2 and has been given to player 3. Player 3 now has 11 cards and player 2 now has 13 cards.
+I think player [2] has card number
+<9,2>
+I think player [2] has card number
+<12,1>
+Of quartet number 12 card number 3 has been removed from player 2 and has been given to player 3. Player 3 now has 12 cards and player 2 now has 12 cards.
+I think player [2] has card number
+<9,2>
+I think player [2] has card number
+<12,1>
+Of quartet number 9 card number 1 has been removed from player 2 and has been given to player 3. Player 3 now has 13 cards and player 2 now has 11 cards.
+I think player [2] has card number
+<9,2>
+I think player [2] has card number
+<12,1>
+Of quartet number 11 card number 3 has been removed from player 2 and has been given to player 3. Player 3 now has 14 cards and player 2 now has 10 cards.
+I think player [2] has card number
+<9,2>
+I think player [2] has card number
+<12,1>
+
+[35mTurn: 28
+[0m
+player 0 has
+[36m
+[<10,1>, <6,1>, <2,3>, <7,0>, <8,0>, <3,1>, <3,0>]
+[0m
+[10, 6, 2, 7, 8, 3]
+player 1 has
+[36m
+[<2,0>, <2,2>, <0,1>, <7,3>, <10,0>, <2,1>, <7,2>, <10,3>, <10,2>]
+[0m
+[2, 0, 7, 10]
+player 2 has
+[36m
+[<9,2>, <6,2>, <12,1>, <11,0>, <0,3>, <0,0>, <9,0>, <6,0>, <6,3>, <0,2>]
+[0m
+[9, 6, 12, 11, 0]
+player 3 has
+[36m
+[<9,3>, <8,2>, <8,3>, <11,1>, <12,2>, <7,1>, <3,2>, <11,2>, <3,3>, <8,1>, <12,0>, <12,3>, <9,1>, <11,3>]
+[0m
+[9, 8, 11, 12, 7, 3]
+Of quartet number 10 card number 3 has been removed from player 1 and has been given to player 0. Player 0 now has 8 cards and player 1 now has 8 cards.
+I think player [1] has card number
+<10,0>
+I think player [1] has card number
+<2,1>
+I think player [3] has card number
+<8,2>
+Of quartet number 10 card number 2 has been removed from player 1 and has been given to player 0. Player 0 now has 9 cards and player 1 now has 7 cards.
+I think player [1] has card number
+<10,0>
+I think player [1] has card number
+<2,1>
+I think player [3] has card number
+<8,2>
+Of quartet number 6 card number 0 has been removed from player 2 and has been given to player 0. Player 0 now has 10 cards and player 2 now has 9 cards.
+I think player [1] has card number
+<10,0>
+I think player [1] has card number
+<2,1>
+I think player [3] has card number
+<8,2>
+Of quartet number 6 card number 3 has been removed from player 2 and has been given to player 0. Player 0 now has 11 cards and player 2 now has 8 cards.
+I think player [1] has card number
+<10,0>
+I think player [1] has card number
+<2,1>
+I think player [3] has card number
+<8,2>
+Of quartet number 3 card number 3 has been removed from player 3 and has been given to player 0. Player 0 now has 12 cards and player 3 now has 13 cards.
+I think player [1] has card number
+<10,0>
+I think player [1] has card number
+<2,1>
+I think player [3] has card number
+<8,2>
+Of quartet number 8 card number 1 has been removed from player 3 and has been given to player 0. Player 0 now has 13 cards and player 3 now has 12 cards.
+I think player [1] has card number
+<10,0>
+I think player [1] has card number
+<2,1>
+I think player [3] has card number
+<8,2>
+
+[35mTurn: 29
+[0m
+player 0 has
+[36m
+[<10,1>, <6,1>, <2,3>, <7,0>, <8,0>, <3,1>, <3,0>, <10,3>, <10,2>, <6,0>, <6,3>, <3,3>, <8,1>]
+[0m
+[10, 6, 2, 7, 8, 3]
+player 1 has
+[36m
+[<2,0>, <2,2>, <0,1>, <7,3>, <10,0>, <2,1>, <7,2>]
+[0m
+[2, 0, 7, 10]
+player 2 has
+[36m
+[<9,2>, <6,2>, <12,1>, <11,0>, <0,3>, <0,0>, <9,0>, <0,2>]
+[0m
+[9, 6, 12, 11, 0]
+player 3 has
+[36m
+[<9,3>, <8,2>, <8,3>, <11,1>, <12,2>, <7,1>, <3,2>, <11,2>, <12,0>, <12,3>, <9,1>, <11,3>]
+[0m
+[9, 8, 11, 12, 7, 3]
+Of quartet number 10 card number 3 has been removed from player 0 and has been given to player 1. Player 1 now has 8 cards and player 0 now has 12 cards.
+I think player [0] has card number
+<7,0>
+Of quartet number 10 card number 2 has been removed from player 0 and has been given to player 1. Player 1 now has 9 cards and player 0 now has 11 cards.
+I think player [0] has card number
+<7,0>
+Of quartet number 0 card number 2 has been removed from player 2 and has been given to player 1. Player 1 now has 10 cards and player 2 now has 7 cards.
+I think player [0] has card number
+<7,0>
+
+[35mTurn: 30
+[0m
+player 0 has
+[36m
+[<10,1>, <6,1>, <2,3>, <7,0>, <8,0>, <3,1>, <3,0>, <6,0>, <6,3>, <3,3>, <8,1>]
+[0m
+[10, 6, 2, 7, 8, 3]
+player 1 has
+[36m
+[<2,0>, <2,2>, <0,1>, <7,3>, <10,0>, <2,1>, <7,2>, <10,3>, <10,2>, <0,2>]
+[0m
+[2, 0, 7, 10]
+player 2 has
+[36m
+[<9,2>, <6,2>, <12,1>, <11,0>, <0,3>, <0,0>, <9,0>]
+[0m
+[9, 6, 12, 11, 0]
+player 3 has
+[36m
+[<9,3>, <8,2>, <8,3>, <11,1>, <12,2>, <7,1>, <3,2>, <11,2>, <12,0>, <12,3>, <9,1>, <11,3>]
+[0m
+[9, 8, 11, 12, 7, 3]
+Of quartet number 6 card number 0 has been removed from player 0 and has been given to player 2. Player 2 now has 8 cards and player 0 now has 10 cards.
+I think player [3] has card number
+<9,3>
+I think player [3] has card number
+<12,2>
+Of quartet number 6 card number 3 has been removed from player 0 and has been given to player 2. Player 2 now has 9 cards and player 0 now has 9 cards.
+I think player [3] has card number
+<9,3>
+I think player [3] has card number
+<12,2>
+Of quartet number 0 card number 2 has been removed from player 1 and has been given to player 2. Player 2 now has 10 cards and player 1 now has 9 cards.
+I think player [3] has card number
+<9,3>
+I think player [3] has card number
+<12,2>
+Of quartet number 12 card number 0 has been removed from player 3 and has been given to player 2. Player 2 now has 11 cards and player 3 now has 11 cards.
+I think player [3] has card number
+<9,3>
+I think player [3] has card number
+<12,2>
+Of quartet number 12 card number 3 has been removed from player 3 and has been given to player 2. Player 2 now has 12 cards and player 3 now has 10 cards.
+I think player [3] has card number
+<9,3>
+I think player [3] has card number
+<12,2>
+Of quartet number 9 card number 1 has been removed from player 3 and has been given to player 2. Player 2 now has 13 cards and player 3 now has 9 cards.
+I think player [3] has card number
+<9,3>
+I think player [3] has card number
+<12,2>
+Of quartet number 11 card number 3 has been removed from player 3 and has been given to player 2. Player 2 now has 14 cards and player 3 now has 8 cards.
+I think player [3] has card number
+<9,3>
+I think player [3] has card number
+<12,2>
+Of quartet number 11 card number 1 has been removed from player 3 and has been given to player 2. Player 2 now has 15 cards and player 3 now has 7 cards.
+I think player [3] has card number
+<9,3>
+I think player [3] has card number
+<12,2>
+
+[35mTurn: 31
+[0m
+player 0 has
+[36m
+[<10,1>, <6,1>, <2,3>, <7,0>, <8,0>, <3,1>, <3,0>, <3,3>, <8,1>]
+[0m
+[10, 6, 2, 7, 8, 3]
+player 1 has
+[36m
+[<2,0>, <2,2>, <0,1>, <7,3>, <10,0>, <2,1>, <7,2>, <10,3>, <10,2>]
+[0m
+[2, 0, 7, 10]
+player 2 has
+[36m
+[<9,2>, <6,2>, <12,1>, <11,0>, <0,3>, <0,0>, <9,0>, <6,0>, <6,3>, <0,2>, <12,0>, <12,3>, <9,1>, <11,3>, <11,1>]
+[0m
+[9, 6, 12, 11, 0]
+player 3 has
+[36m
+[<9,3>, <8,2>, <8,3>, <12,2>, <7,1>, <3,2>, <11,2>]
+[0m
+[9, 8, 12, 7, 3, 11]
+Of quartet number 3 card number 3 has been removed from player 0 and has been given to player 3. Player 3 now has 8 cards and player 0 now has 8 cards.
+I think player [2] has card number
+<9,2>
+I think player [2] has card number
+<12,1>
+I think player [0] has card number
+<7,0>
+I think player [1] has card number
+<7,3>
+Of quartet number 8 card number 1 has been removed from player 0 and has been given to player 3. Player 3 now has 9 cards and player 0 now has 7 cards.
+I think player [2] has card number
+<9,2>
+I think player [2] has card number
+<12,1>
+I think player [0] has card number
+<7,0>
+I think player [1] has card number
+<7,3>
+Of quartet number 12 card number 0 has been removed from player 2 and has been given to player 3. Player 3 now has 10 cards and player 2 now has 14 cards.
+I think player [2] has card number
+<9,2>
+I think player [2] has card number
+<12,1>
+I think player [0] has card number
+<7,0>
+I think player [1] has card number
+<7,3>
+Of quartet number 12 card number 3 has been removed from player 2 and has been given to player 3. Player 3 now has 11 cards and player 2 now has 13 cards.
+I think player [2] has card number
+<9,2>
+I think player [2] has card number
+<12,1>
+I think player [0] has card number
+<7,0>
+I think player [1] has card number
+<7,3>
+Of quartet number 9 card number 1 has been removed from player 2 and has been given to player 3. Player 3 now has 12 cards and player 2 now has 12 cards.
+I think player [2] has card number
+<9,2>
+I think player [2] has card number
+<12,1>
+I think player [0] has card number
+<7,0>
+I think player [1] has card number
+<7,3>
+Of quartet number 11 card number 3 has been removed from player 2 and has been given to player 3. Player 3 now has 13 cards and player 2 now has 11 cards.
+I think player [2] has card number
+<9,2>
+I think player [2] has card number
+<12,1>
+I think player [0] has card number
+<7,0>
+I think player [1] has card number
+<7,3>
+Of quartet number 11 card number 1 has been removed from player 2 and has been given to player 3. Player 3 now has 14 cards and player 2 now has 10 cards.
+I think player [2] has card number
+<9,2>
+I think player [2] has card number
+<12,1>
+I think player [0] has card number
+<7,0>
+I think player [1] has card number
+<7,3>
+
+[35mTurn: 32
+[0m
+player 0 has
+[36m
+[<10,1>, <6,1>, <2,3>, <7,0>, <8,0>, <3,1>, <3,0>]
+[0m
+[10, 6, 2, 7, 8, 3]
+player 1 has
+[36m
+[<2,0>, <2,2>, <0,1>, <7,3>, <10,0>, <2,1>, <7,2>, <10,3>, <10,2>]
+[0m
+[2, 0, 7, 10]
+player 2 has
+[36m
+[<9,2>, <6,2>, <12,1>, <11,0>, <0,3>, <0,0>, <9,0>, <6,0>, <6,3>, <0,2>]
+[0m
+[9, 6, 12, 11, 0]
+player 3 has
+[36m
+[<9,3>, <8,2>, <8,3>, <12,2>, <7,1>, <3,2>, <11,2>, <3,3>, <8,1>, <12,0>, <12,3>, <9,1>, <11,3>, <11,1>]
+[0m
+[9, 8, 12, 7, 3, 11]
+Of quartet number 10 card number 3 has been removed from player 1 and has been given to player 0. Player 0 now has 8 cards and player 1 now has 8 cards.
+I think player [1] has card number
+<10,0>
+I think player [1] has card number
+<2,1>
+I think player [1] has card number
+<7,2>
+I think player [3] has card number
+<8,2>
+I think player [3] has card number
+<8,3>
+Of quartet number 10 card number 2 has been removed from player 1 and has been given to player 0. Player 0 now has 9 cards and player 1 now has 7 cards.
+I think player [1] has card number
+<10,0>
+I think player [1] has card number
+<2,1>
+I think player [1] has card number
+<7,2>
+I think player [3] has card number
+<8,2>
+I think player [3] has card number
+<8,3>
+Of quartet number 6 card number 0 has been removed from player 2 and has been given to player 0. Player 0 now has 10 cards and player 2 now has 9 cards.
+I think player [1] has card number
+<10,0>
+I think player [1] has card number
+<2,1>
+I think player [1] has card number
+<7,2>
+I think player [3] has card number
+<8,2>
+I think player [3] has card number
+<8,3>
+Of quartet number 6 card number 3 has been removed from player 2 and has been given to player 0. Player 0 now has 11 cards and player 2 now has 8 cards.
+I think player [1] has card number
+<10,0>
+I think player [1] has card number
+<2,1>
+I think player [1] has card number
+<7,2>
+I think player [3] has card number
+<8,2>
+I think player [3] has card number
+<8,3>
+Of quartet number 3 card number 3 has been removed from player 3 and has been given to player 0. Player 0 now has 12 cards and player 3 now has 13 cards.
+I think player [1] has card number
+<10,0>
+I think player [1] has card number
+<2,1>
+I think player [1] has card number
+<7,2>
+I think player [3] has card number
+<8,2>
+I think player [3] has card number
+<8,3>
+Of quartet number 8 card number 1 has been removed from player 3 and has been given to player 0. Player 0 now has 13 cards and player 3 now has 12 cards.
+I think player [1] has card number
+<10,0>
+I think player [1] has card number
+<2,1>
+I think player [1] has card number
+<7,2>
+I think player [3] has card number
+<8,2>
+I think player [3] has card number
+<8,3>
+
+[35mTurn: 33
+[0m
+player 0 has
+[36m
+[<10,1>, <6,1>, <2,3>, <7,0>, <8,0>, <3,1>, <3,0>, <10,3>, <10,2>, <6,0>, <6,3>, <3,3>, <8,1>]
+[0m
+[10, 6, 2, 7, 8, 3]
+player 1 has
+[36m
+[<2,0>, <2,2>, <0,1>, <7,3>, <10,0>, <2,1>, <7,2>]
+[0m
+[2, 0, 7, 10]
+player 2 has
+[36m
+[<9,2>, <6,2>, <12,1>, <11,0>, <0,3>, <0,0>, <9,0>, <0,2>]
+[0m
+[9, 6, 12, 11, 0]
+player 3 has
+[36m
+[<9,3>, <8,2>, <8,3>, <12,2>, <7,1>, <3,2>, <11,2>, <12,0>, <12,3>, <9,1>, <11,3>, <11,1>]
+[0m
+[9, 8, 12, 7, 3, 11]
+Of quartet number 10 card number 3 has been removed from player 0 and has been given to player 1. Player 1 now has 8 cards and player 0 now has 12 cards.
+I think player [0] has card number
+<7,0>
+I think player [0] has card number
+<10,1>
+Of quartet number 10 card number 2 has been removed from player 0 and has been given to player 1. Player 1 now has 9 cards and player 0 now has 11 cards.
+I think player [0] has card number
+<7,0>
+I think player [0] has card number
+<10,1>
+Of quartet number 0 card number 2 has been removed from player 2 and has been given to player 1. Player 1 now has 10 cards and player 2 now has 7 cards.
+I think player [0] has card number
+<7,0>
+I think player [0] has card number
+<10,1>
+Of quartet number 2 card number 3 has been removed from player 0 and has been given to player 1. Player 1 now has 11 cards and player 0 now has 10 cards.
+Quartet number 2 has been removed from player 1, player 1 now has 7 cards.
+I think player [0] has card number
+<7,0>
+I think player [0] has card number
+<10,1>
+
+[35mTurn: 34
+[0m
+player 0 has
+[36m
+[<10,1>, <6,1>, <7,0>, <8,0>, <3,1>, <3,0>, <6,0>, <6,3>, <3,3>, <8,1>]
+[0m
+[10, 6, 7, 8, 3]
+player 1 has
+[36m
+[<0,1>, <7,3>, <10,0>, <7,2>, <10,3>, <10,2>, <0,2>]
+[0m
+[0, 7, 10]
+player 2 has
+[36m
+[<9,2>, <6,2>, <12,1>, <11,0>, <0,3>, <0,0>, <9,0>]
+[0m
+[9, 6, 12, 11, 0]
+player 3 has
+[36m
+[<9,3>, <8,2>, <8,3>, <12,2>, <7,1>, <3,2>, <11,2>, <12,0>, <12,3>, <9,1>, <11,3>, <11,1>]
+[0m
+[9, 8, 12, 7, 3, 11]
+Of quartet number 6 card number 0 has been removed from player 0 and has been given to player 2. Player 2 now has 8 cards and player 0 now has 9 cards.
+I think player [3] has card number
+<9,3>
+I think player [3] has card number
+<12,2>
+I think player [1] has card number
+<0,1>
+Of quartet number 6 card number 3 has been removed from player 0 and has been given to player 2. Player 2 now has 9 cards and player 0 now has 8 cards.
+I think player [3] has card number
+<9,3>
+I think player [3] has card number
+<12,2>
+I think player [1] has card number
+<0,1>
+Of quartet number 0 card number 2 has been removed from player 1 and has been given to player 2. Player 2 now has 10 cards and player 1 now has 6 cards.
+I think player [3] has card number
+<9,3>
+I think player [3] has card number
+<12,2>
+I think player [1] has card number
+<0,1>
+Of quartet number 12 card number 0 has been removed from player 3 and has been given to player 2. Player 2 now has 11 cards and player 3 now has 11 cards.
+I think player [3] has card number
+<9,3>
+I think player [3] has card number
+<12,2>
+I think player [1] has card number
+<0,1>
+Of quartet number 12 card number 3 has been removed from player 3 and has been given to player 2. Player 2 now has 12 cards and player 3 now has 10 cards.
+I think player [3] has card number
+<9,3>
+I think player [3] has card number
+<12,2>
+I think player [1] has card number
+<0,1>
+Of quartet number 9 card number 1 has been removed from player 3 and has been given to player 2. Player 2 now has 13 cards and player 3 now has 9 cards.
+I think player [3] has card number
+<9,3>
+I think player [3] has card number
+<12,2>
+I think player [1] has card number
+<0,1>
+Of quartet number 11 card number 3 has been removed from player 3 and has been given to player 2. Player 2 now has 14 cards and player 3 now has 8 cards.
+I think player [3] has card number
+<9,3>
+I think player [3] has card number
+<12,2>
+I think player [1] has card number
+<0,1>
+Of quartet number 11 card number 1 has been removed from player 3 and has been given to player 2. Player 2 now has 15 cards and player 3 now has 7 cards.
+I think player [3] has card number
+<9,3>
+I think player [3] has card number
+<12,2>
+I think player [1] has card number
+<0,1>
+
+[35mTurn: 35
+[0m
+player 0 has
+[36m
+[<10,1>, <6,1>, <7,0>, <8,0>, <3,1>, <3,0>, <3,3>, <8,1>]
+[0m
+[10, 6, 7, 8, 3]
+player 1 has
+[36m
+[<0,1>, <7,3>, <10,0>, <7,2>, <10,3>, <10,2>]
+[0m
+[0, 7, 10]
+player 2 has
+[36m
+[<9,2>, <6,2>, <12,1>, <11,0>, <0,3>, <0,0>, <9,0>, <6,0>, <6,3>, <0,2>, <12,0>, <12,3>, <9,1>, <11,3>, <11,1>]
+[0m
+[9, 6, 12, 11, 0]
+player 3 has
+[36m
+[<9,3>, <8,2>, <8,3>, <12,2>, <7,1>, <3,2>, <11,2>]
+[0m
+[9, 8, 12, 7, 3, 11]
+Of quartet number 3 card number 3 has been removed from player 0 and has been given to player 3. Player 3 now has 8 cards and player 0 now has 7 cards.
+I think player [2] has card number
+<9,0>
+I think player [2] has card number
+<9,2>
+I think player [2] has card number
+<12,1>
+I think player [0] has card number
+<7,0>
+I think player [1] has card number
+<7,2>
+I think player [1] has card number
+<7,3>
+I think player [2] has card number
+<11,0>
+Of quartet number 8 card number 1 has been removed from player 0 and has been given to player 3. Player 3 now has 9 cards and player 0 now has 6 cards.
+I think player [2] has card number
+<9,0>
+I think player [2] has card number
+<9,2>
+I think player [2] has card number
+<12,1>
+I think player [0] has card number
+<7,0>
+I think player [1] has card number
+<7,2>
+I think player [1] has card number
+<7,3>
+I think player [2] has card number
+<11,0>
+Of quartet number 12 card number 0 has been removed from player 2 and has been given to player 3. Player 3 now has 10 cards and player 2 now has 14 cards.
+I think player [2] has card number
+<9,0>
+I think player [2] has card number
+<9,2>
+I think player [2] has card number
+<12,1>
+I think player [0] has card number
+<7,0>
+I think player [1] has card number
+<7,2>
+I think player [1] has card number
+<7,3>
+I think player [2] has card number
+<11,0>
+Of quartet number 12 card number 3 has been removed from player 2 and has been given to player 3. Player 3 now has 11 cards and player 2 now has 13 cards.
+I think player [2] has card number
+<9,0>
+I think player [2] has card number
+<9,2>
+I think player [2] has card number
+<12,1>
+I think player [0] has card number
+<7,0>
+I think player [1] has card number
+<7,2>
+I think player [1] has card number
+<7,3>
+I think player [2] has card number
+<11,0>
+Of quartet number 9 card number 1 has been removed from player 2 and has been given to player 3. Player 3 now has 12 cards and player 2 now has 12 cards.
+I think player [2] has card number
+<9,0>
+I think player [2] has card number
+<9,2>
+I think player [2] has card number
+<12,1>
+I think player [0] has card number
+<7,0>
+I think player [1] has card number
+<7,2>
+I think player [1] has card number
+<7,3>
+I think player [2] has card number
+<11,0>
+Of quartet number 11 card number 3 has been removed from player 2 and has been given to player 3. Player 3 now has 13 cards and player 2 now has 11 cards.
+I think player [2] has card number
+<9,0>
+I think player [2] has card number
+<9,2>
+I think player [2] has card number
+<12,1>
+I think player [0] has card number
+<7,0>
+I think player [1] has card number
+<7,2>
+I think player [1] has card number
+<7,3>
+I think player [2] has card number
+<11,0>
+Of quartet number 11 card number 1 has been removed from player 2 and has been given to player 3. Player 3 now has 14 cards and player 2 now has 10 cards.
+I think player [2] has card number
+<9,0>
+I think player [2] has card number
+<9,2>
+I think player [2] has card number
+<12,1>
+I think player [0] has card number
+<7,0>
+I think player [1] has card number
+<7,2>
+I think player [1] has card number
+<7,3>
+I think player [2] has card number
+<11,0>
+Of quartet number 8 card number 0 has been removed from player 0 and has been given to player 3. Player 3 now has 15 cards and player 0 now has 5 cards.
+Quartet number 8 has been removed from player 3, player 3 now has 11 cards.
+I think player [2] has card number
+<9,0>
+I think player [2] has card number
+<9,2>
+I think player [2] has card number
+<12,1>
+I think player [0] has card number
+<7,0>
+I think player [1] has card number
+<7,2>
+I think player [1] has card number
+<7,3>
+I think player [2] has card number
+<11,0>
+
+[35mTurn: 36
+[0m
+player 0 has
+[36m
+[<10,1>, <6,1>, <7,0>, <3,1>, <3,0>]
+[0m
+[10, 6, 7, 3]
+player 1 has
+[36m
+[<0,1>, <7,3>, <10,0>, <7,2>, <10,3>, <10,2>]
+[0m
+[0, 7, 10]
+player 2 has
+[36m
+[<9,2>, <6,2>, <12,1>, <11,0>, <0,3>, <0,0>, <9,0>, <6,0>, <6,3>, <0,2>]
+[0m
+[9, 6, 12, 11, 0]
+player 3 has
+[36m
+[<9,3>, <12,2>, <7,1>, <3,2>, <11,2>, <3,3>, <12,0>, <12,3>, <9,1>, <11,3>, <11,1>]
+[0m
+[9, 12, 7, 3, 11]
+Of quartet number 10 card number 3 has been removed from player 1 and has been given to player 0. Player 0 now has 6 cards and player 1 now has 5 cards.
+I think player [1] has card number
+<10,0>
+I think player [1] has card number
+<7,2>
+Of quartet number 10 card number 2 has been removed from player 1 and has been given to player 0. Player 0 now has 7 cards and player 1 now has 4 cards.
+I think player [1] has card number
+<10,0>
+I think player [1] has card number
+<7,2>
+Of quartet number 6 card number 0 has been removed from player 2 and has been given to player 0. Player 0 now has 8 cards and player 2 now has 9 cards.
+I think player [1] has card number
+<10,0>
+I think player [1] has card number
+<7,2>
+Of quartet number 6 card number 3 has been removed from player 2 and has been given to player 0. Player 0 now has 9 cards and player 2 now has 8 cards.
+I think player [1] has card number
+<10,0>
+I think player [1] has card number
+<7,2>
+Of quartet number 3 card number 3 has been removed from player 3 and has been given to player 0. Player 0 now has 10 cards and player 3 now has 10 cards.
+I think player [1] has card number
+<10,0>
+I think player [1] has card number
+<7,2>
+
+[35mTurn: 37
+[0m
+player 0 has
+[36m
+[<10,1>, <6,1>, <7,0>, <3,1>, <3,0>, <10,3>, <10,2>, <6,0>, <6,3>, <3,3>]
+[0m
+[10, 6, 7, 3]
+player 1 has
+[36m
+[<0,1>, <7,3>, <10,0>, <7,2>]
+[0m
+[0, 7, 10]
+player 2 has
+[36m
+[<9,2>, <6,2>, <12,1>, <11,0>, <0,3>, <0,0>, <9,0>, <0,2>]
+[0m
+[9, 6, 12, 11, 0]
+player 3 has
+[36m
+[<9,3>, <12,2>, <7,1>, <3,2>, <11,2>, <12,0>, <12,3>, <9,1>, <11,3>, <11,1>]
+[0m
+[9, 12, 7, 3, 11]
+Of quartet number 10 card number 3 has been removed from player 0 and has been given to player 1. Player 1 now has 5 cards and player 0 now has 9 cards.
+I think player [0] has card number
+<7,0>
+I think player [0] has card number
+<10,1>
+Of quartet number 10 card number 2 has been removed from player 0 and has been given to player 1. Player 1 now has 6 cards and player 0 now has 8 cards.
+I think player [0] has card number
+<7,0>
+I think player [0] has card number
+<10,1>
+Of quartet number 0 card number 2 has been removed from player 2 and has been given to player 1. Player 1 now has 7 cards and player 2 now has 7 cards.
+I think player [0] has card number
+<7,0>
+I think player [0] has card number
+<10,1>
+
+[35mTurn: 38
+[0m
+player 0 has
+[36m
+[<10,1>, <6,1>, <7,0>, <3,1>, <3,0>, <6,0>, <6,3>, <3,3>]
+[0m
+[10, 6, 7, 3]
+player 1 has
+[36m
+[<0,1>, <7,3>, <10,0>, <7,2>, <10,3>, <10,2>, <0,2>]
+[0m
+[0, 7, 10]
+player 2 has
+[36m
+[<9,2>, <6,2>, <12,1>, <11,0>, <0,3>, <0,0>, <9,0>]
+[0m
+[9, 6, 12, 11, 0]
+player 3 has
+[36m
+[<9,3>, <12,2>, <7,1>, <3,2>, <11,2>, <12,0>, <12,3>, <9,1>, <11,3>, <11,1>]
+[0m
+[9, 12, 7, 3, 11]
+Of quartet number 6 card number 0 has been removed from player 0 and has been given to player 2. Player 2 now has 8 cards and player 0 now has 7 cards.
+I think player [3] has card number
+<9,3>
+I think player [3] has card number
+<12,2>
+I think player [3] has card number
+<11,2>
+I think player [1] has card number
+<0,1>
+Of quartet number 6 card number 3 has been removed from player 0 and has been given to player 2. Player 2 now has 9 cards and player 0 now has 6 cards.
+I think player [3] has card number
+<9,3>
+I think player [3] has card number
+<12,2>
+I think player [3] has card number
+<11,2>
+I think player [1] has card number
+<0,1>
+Of quartet number 0 card number 2 has been removed from player 1 and has been given to player 2. Player 2 now has 10 cards and player 1 now has 6 cards.
+I think player [3] has card number
+<9,3>
+I think player [3] has card number
+<12,2>
+I think player [3] has card number
+<11,2>
+I think player [1] has card number
+<0,1>
+Of quartet number 12 card number 0 has been removed from player 3 and has been given to player 2. Player 2 now has 11 cards and player 3 now has 9 cards.
+I think player [3] has card number
+<9,3>
+I think player [3] has card number
+<12,2>
+I think player [3] has card number
+<11,2>
+I think player [1] has card number
+<0,1>
+Of quartet number 12 card number 3 has been removed from player 3 and has been given to player 2. Player 2 now has 12 cards and player 3 now has 8 cards.
+I think player [3] has card number
+<9,3>
+I think player [3] has card number
+<12,2>
+I think player [3] has card number
+<11,2>
+I think player [1] has card number
+<0,1>
+Of quartet number 9 card number 1 has been removed from player 3 and has been given to player 2. Player 2 now has 13 cards and player 3 now has 7 cards.
+I think player [3] has card number
+<9,3>
+I think player [3] has card number
+<12,2>
+I think player [3] has card number
+<11,2>
+I think player [1] has card number
+<0,1>
+Of quartet number 11 card number 3 has been removed from player 3 and has been given to player 2. Player 2 now has 14 cards and player 3 now has 6 cards.
+I think player [3] has card number
+<9,3>
+I think player [3] has card number
+<12,2>
+I think player [3] has card number
+<11,2>
+I think player [1] has card number
+<0,1>
+Of quartet number 11 card number 1 has been removed from player 3 and has been given to player 2. Player 2 now has 15 cards and player 3 now has 5 cards.
+I think player [3] has card number
+<9,3>
+I think player [3] has card number
+<12,2>
+I think player [3] has card number
+<11,2>
+I think player [1] has card number
+<0,1>
+Of quartet number 11 card number 2 has been removed from player 3 and has been given to player 2. Player 2 now has 16 cards and player 3 now has 4 cards.
+Quartet number 11 has been removed from player 2, player 2 now has 12 cards.
+I think player [3] has card number
+<9,3>
+I think player [3] has card number
+<12,2>
+I think player [1] has card number
+<0,1>
+Of quartet number 0 card number 1 has been removed from player 1 and has been given to player 2. Player 2 now has 13 cards and player 1 now has 5 cards.
+Quartet number 0 has been removed from player 2, player 2 now has 9 cards.
+I think player [3] has card number
+<9,3>
+I think player [3] has card number
+<12,2>
+
+[35mTurn: 39
+[0m
+player 0 has
+[36m
+[<10,1>, <6,1>, <7,0>, <3,1>, <3,0>, <3,3>]
+[0m
+[10, 6, 7, 3]
+player 1 has
+[36m
+[<7,3>, <10,0>, <7,2>, <10,3>, <10,2>]
+[0m
+[7, 10]
+player 2 has
+[36m
+[<9,2>, <6,2>, <12,1>, <9,0>, <6,0>, <6,3>, <12,0>, <12,3>, <9,1>]
+[0m
+[9, 6, 12]
+player 3 has
+[36m
+[<9,3>, <12,2>, <7,1>, <3,2>]
+[0m
+[9, 12, 7, 3]
+Of quartet number 3 card number 3 has been removed from player 0 and has been given to player 3. Player 3 now has 5 cards and player 0 now has 5 cards.
+I think player [2] has card number
+<9,0>
+I think player [2] has card number
+<9,2>
+I think player [2] has card number
+<12,1>
+I think player [0] has card number
+<7,0>
+I think player [1] has card number
+<7,2>
+I think player [1] has card number
+<7,3>
+Of quartet number 12 card number 0 has been removed from player 2 and has been given to player 3. Player 3 now has 6 cards and player 2 now has 8 cards.
+I think player [2] has card number
+<9,0>
+I think player [2] has card number
+<9,2>
+I think player [2] has card number
+<12,1>
+I think player [0] has card number
+<7,0>
+I think player [1] has card number
+<7,2>
+I think player [1] has card number
+<7,3>
+Of quartet number 12 card number 3 has been removed from player 2 and has been given to player 3. Player 3 now has 7 cards and player 2 now has 7 cards.
+I think player [2] has card number
+<9,0>
+I think player [2] has card number
+<9,2>
+I think player [2] has card number
+<12,1>
+I think player [0] has card number
+<7,0>
+I think player [1] has card number
+<7,2>
+I think player [1] has card number
+<7,3>
+Of quartet number 9 card number 1 has been removed from player 2 and has been given to player 3. Player 3 now has 8 cards and player 2 now has 6 cards.
+I think player [2] has card number
+<9,0>
+I think player [2] has card number
+<9,2>
+I think player [2] has card number
+<12,1>
+I think player [0] has card number
+<7,0>
+I think player [1] has card number
+<7,2>
+I think player [1] has card number
+<7,3>
+Of quartet number 12 card number 1 has been removed from player 2 and has been given to player 3. Player 3 now has 9 cards and player 2 now has 5 cards.
+Quartet number 12 has been removed from player 3, player 3 now has 5 cards.
+I think player [2] has card number
+<9,0>
+I think player [2] has card number
+<9,2>
+I think player [0] has card number
+<7,0>
+I think player [1] has card number
+<7,2>
+I think player [1] has card number
+<7,3>
+
+[35mTurn: 40
+[0m
+player 0 has
+[36m
+[<10,1>, <6,1>, <7,0>, <3,1>, <3,0>]
+[0m
+[10, 6, 7, 3]
+player 1 has
+[36m
+[<7,3>, <10,0>, <7,2>, <10,3>, <10,2>]
+[0m
+[7, 10]
+player 2 has
+[36m
+[<9,2>, <6,2>, <9,0>, <6,0>, <6,3>]
+[0m
+[9, 6]
+player 3 has
+[36m
+[<9,3>, <7,1>, <3,2>, <3,3>, <9,1>]
+[0m
+[9, 7, 3]
+Of quartet number 10 card number 3 has been removed from player 1 and has been given to player 0. Player 0 now has 6 cards and player 1 now has 4 cards.
+I think player [1] has card number
+<10,0>
+I think player [2] has card number
+<6,2>
+I think player [1] has card number
+<7,2>
+I think player [3] has card number
+<3,2>
+Of quartet number 10 card number 2 has been removed from player 1 and has been given to player 0. Player 0 now has 7 cards and player 1 now has 3 cards.
+I think player [1] has card number
+<10,0>
+I think player [2] has card number
+<6,2>
+I think player [1] has card number
+<7,2>
+I think player [3] has card number
+<3,2>
+Of quartet number 6 card number 0 has been removed from player 2 and has been given to player 0. Player 0 now has 8 cards and player 2 now has 4 cards.
+I think player [1] has card number
+<10,0>
+I think player [2] has card number
+<6,2>
+I think player [1] has card number
+<7,2>
+I think player [3] has card number
+<3,2>
+Of quartet number 6 card number 3 has been removed from player 2 and has been given to player 0. Player 0 now has 9 cards and player 2 now has 3 cards.
+I think player [1] has card number
+<10,0>
+I think player [2] has card number
+<6,2>
+I think player [1] has card number
+<7,2>
+I think player [3] has card number
+<3,2>
+Of quartet number 3 card number 3 has been removed from player 3 and has been given to player 0. Player 0 now has 10 cards and player 3 now has 4 cards.
+I think player [1] has card number
+<10,0>
+I think player [2] has card number
+<6,2>
+I think player [1] has card number
+<7,2>
+I think player [3] has card number
+<3,2>
+
+[35mTurn: 41
+[0m
+player 0 has
+[36m
+[<10,1>, <6,1>, <7,0>, <3,1>, <3,0>, <10,3>, <10,2>, <6,0>, <6,3>, <3,3>]
+[0m
+[10, 6, 7, 3]
+player 1 has
+[36m
+[<7,3>, <10,0>, <7,2>]
+[0m
+[7, 10]
+player 2 has
+[36m
+[<9,2>, <6,2>, <9,0>]
+[0m
+[9, 6]
+player 3 has
+[36m
+[<9,3>, <7,1>, <3,2>, <9,1>]
+[0m
+[9, 7, 3]
+Of quartet number 10 card number 3 has been removed from player 0 and has been given to player 1. Player 1 now has 4 cards and player 0 now has 9 cards.
+I think player [0] has card number
+<7,0>
+I think player [0] has card number
+<10,1>
+Of quartet number 10 card number 2 has been removed from player 0 and has been given to player 1. Player 1 now has 5 cards and player 0 now has 8 cards.
+I think player [0] has card number
+<7,0>
+I think player [0] has card number
+<10,1>
+
+[35mTurn: 42
+[0m
+player 0 has
+[36m
+[<10,1>, <6,1>, <7,0>, <3,1>, <3,0>, <6,0>, <6,3>, <3,3>]
+[0m
+[10, 6, 7, 3]
+player 1 has
+[36m
+[<7,3>, <10,0>, <7,2>, <10,3>, <10,2>]
+[0m
+[7, 10]
+player 2 has
+[36m
+[<9,2>, <6,2>, <9,0>]
+[0m
+[9, 6]
+player 3 has
+[36m
+[<9,3>, <7,1>, <3,2>, <9,1>]
+[0m
+[9, 7, 3]
+Of quartet number 6 card number 0 has been removed from player 0 and has been given to player 2. Player 2 now has 4 cards and player 0 now has 7 cards.
+I think player [3] has card number
+<9,3>
+Of quartet number 6 card number 3 has been removed from player 0 and has been given to player 2. Player 2 now has 5 cards and player 0 now has 6 cards.
+I think player [3] has card number
+<9,3>
+Of quartet number 9 card number 1 has been removed from player 3 and has been given to player 2. Player 2 now has 6 cards and player 3 now has 3 cards.
+I think player [3] has card number
+<9,3>
+
+[35mTurn: 43
+[0m
+player 0 has
+[36m
+[<10,1>, <6,1>, <7,0>, <3,1>, <3,0>, <3,3>]
+[0m
+[10, 6, 7, 3]
+player 1 has
+[36m
+[<7,3>, <10,0>, <7,2>, <10,3>, <10,2>]
+[0m
+[7, 10]
+player 2 has
+[36m
+[<9,2>, <6,2>, <9,0>, <6,0>, <6,3>, <9,1>]
+[0m
+[9, 6]
+player 3 has
+[36m
+[<9,3>, <7,1>, <3,2>]
+[0m
+[9, 7, 3]
+Of quartet number 3 card number 3 has been removed from player 0 and has been given to player 3. Player 3 now has 4 cards and player 0 now has 5 cards.
+I think player [2] has card number
+<9,0>
+I think player [2] has card number
+<9,2>
+I think player [0] has card number
+<7,0>
+I think player [1] has card number
+<7,2>
+I think player [1] has card number
+<7,3>
+I think player [0] has card number
+<3,1>
+Of quartet number 9 card number 1 has been removed from player 2 and has been given to player 3. Player 3 now has 5 cards and player 2 now has 5 cards.
+I think player [2] has card number
+<9,0>
+I think player [2] has card number
+<9,2>
+I think player [0] has card number
+<7,0>
+I think player [1] has card number
+<7,2>
+I think player [1] has card number
+<7,3>
+I think player [0] has card number
+<3,1>
+
+[35mTurn: 44
+[0m
+player 0 has
+[36m
+[<10,1>, <6,1>, <7,0>, <3,1>, <3,0>]
+[0m
+[10, 6, 7, 3]
+player 1 has
+[36m
+[<7,3>, <10,0>, <7,2>, <10,3>, <10,2>]
+[0m
+[7, 10]
+player 2 has
+[36m
+[<9,2>, <6,2>, <9,0>, <6,0>, <6,3>]
+[0m
+[9, 6]
+player 3 has
+[36m
+[<9,3>, <7,1>, <3,2>, <3,3>, <9,1>]
+[0m
+[9, 7, 3]
+Of quartet number 10 card number 3 has been removed from player 1 and has been given to player 0. Player 0 now has 6 cards and player 1 now has 4 cards.
+I think player [1] has card number
+<10,0>
+I think player [2] has card number
+<6,2>
+I think player [3] has card number
+<7,1>
+I think player [1] has card number
+<7,2>
+I think player [3] has card number
+<3,2>
+Of quartet number 10 card number 2 has been removed from player 1 and has been given to player 0. Player 0 now has 7 cards and player 1 now has 3 cards.
+I think player [1] has card number
+<10,0>
+I think player [2] has card number
+<6,2>
+I think player [3] has card number
+<7,1>
+I think player [1] has card number
+<7,2>
+I think player [3] has card number
+<3,2>
+Of quartet number 6 card number 0 has been removed from player 2 and has been given to player 0. Player 0 now has 8 cards and player 2 now has 4 cards.
+I think player [1] has card number
+<10,0>
+I think player [2] has card number
+<6,2>
+I think player [3] has card number
+<7,1>
+I think player [1] has card number
+<7,2>
+I think player [3] has card number
+<3,2>
+Of quartet number 6 card number 3 has been removed from player 2 and has been given to player 0. Player 0 now has 9 cards and player 2 now has 3 cards.
+I think player [1] has card number
+<10,0>
+I think player [2] has card number
+<6,2>
+I think player [3] has card number
+<7,1>
+I think player [1] has card number
+<7,2>
+I think player [3] has card number
+<3,2>
+Of quartet number 3 card number 3 has been removed from player 3 and has been given to player 0. Player 0 now has 10 cards and player 3 now has 4 cards.
+I think player [1] has card number
+<10,0>
+I think player [2] has card number
+<6,2>
+I think player [3] has card number
+<7,1>
+I think player [1] has card number
+<7,2>
+I think player [3] has card number
+<3,2>
+
+[35mTurn: 45
+[0m
+player 0 has
+[36m
+[<10,1>, <6,1>, <7,0>, <3,1>, <3,0>, <10,3>, <10,2>, <6,0>, <6,3>, <3,3>]
+[0m
+[10, 6, 7, 3]
+player 1 has
+[36m
+[<7,3>, <10,0>, <7,2>]
+[0m
+[7, 10]
+player 2 has
+[36m
+[<9,2>, <6,2>, <9,0>]
+[0m
+[9, 6]
+player 3 has
+[36m
+[<9,3>, <7,1>, <3,2>, <9,1>]
+[0m
+[9, 7, 3]
+Of quartet number 10 card number 3 has been removed from player 0 and has been given to player 1. Player 1 now has 4 cards and player 0 now has 9 cards.
+I think player [0] has card number
+<7,0>
+I think player [3] has card number
+<7,1>
+I think player [0] has card number
+<10,1>
+Of quartet number 10 card number 2 has been removed from player 0 and has been given to player 1. Player 1 now has 5 cards and player 0 now has 8 cards.
+I think player [0] has card number
+<7,0>
+I think player [3] has card number
+<7,1>
+I think player [0] has card number
+<10,1>
+
+[35mTurn: 46
+[0m
+player 0 has
+[36m
+[<10,1>, <6,1>, <7,0>, <3,1>, <3,0>, <6,0>, <6,3>, <3,3>]
+[0m
+[10, 6, 7, 3]
+player 1 has
+[36m
+[<7,3>, <10,0>, <7,2>, <10,3>, <10,2>]
+[0m
+[7, 10]
+player 2 has
+[36m
+[<9,2>, <6,2>, <9,0>]
+[0m
+[9, 6]
+player 3 has
+[36m
+[<9,3>, <7,1>, <3,2>, <9,1>]
+[0m
+[9, 7, 3]
+Of quartet number 6 card number 0 has been removed from player 0 and has been given to player 2. Player 2 now has 4 cards and player 0 now has 7 cards.
+I think player [3] has card number
+<9,3>
+Of quartet number 6 card number 3 has been removed from player 0 and has been given to player 2. Player 2 now has 5 cards and player 0 now has 6 cards.
+I think player [3] has card number
+<9,3>
+Of quartet number 9 card number 1 has been removed from player 3 and has been given to player 2. Player 2 now has 6 cards and player 3 now has 3 cards.
+I think player [3] has card number
+<9,3>
+
+[35mTurn: 47
+[0m
+player 0 has
+[36m
+[<10,1>, <6,1>, <7,0>, <3,1>, <3,0>, <3,3>]
+[0m
+[10, 6, 7, 3]
+player 1 has
+[36m
+[<7,3>, <10,0>, <7,2>, <10,3>, <10,2>]
+[0m
+[7, 10]
+player 2 has
+[36m
+[<9,2>, <6,2>, <9,0>, <6,0>, <6,3>, <9,1>]
+[0m
+[9, 6]
+player 3 has
+[36m
+[<9,3>, <7,1>, <3,2>]
+[0m
+[9, 7, 3]
+Of quartet number 3 card number 3 has been removed from player 0 and has been given to player 3. Player 3 now has 4 cards and player 0 now has 5 cards.
+I think player [2] has card number
+<9,0>
+I think player [2] has card number
+<9,2>
+I think player [0] has card number
+<7,0>
+I think player [1] has card number
+<7,2>
+I think player [1] has card number
+<7,3>
+I think player [0] has card number
+<3,1>
+Of quartet number 9 card number 1 has been removed from player 2 and has been given to player 3. Player 3 now has 5 cards and player 2 now has 5 cards.
+I think player [2] has card number
+<9,0>
+I think player [2] has card number
+<9,2>
+I think player [0] has card number
+<7,0>
+I think player [1] has card number
+<7,2>
+I think player [1] has card number
+<7,3>
+I think player [0] has card number
+<3,1>
+Of quartet number 3 card number 1 has been removed from player 0 and has been given to player 3. Player 3 now has 6 cards and player 0 now has 4 cards.
+I think player [2] has card number
+<9,0>
+I think player [2] has card number
+<9,2>
+I think player [0] has card number
+<7,0>
+I think player [1] has card number
+<7,2>
+I think player [1] has card number
+<7,3>
+Of quartet number 7 card number 2 has been removed from player 1 and has been given to player 3. Player 3 now has 7 cards and player 1 now has 4 cards.
+I think player [2] has card number
+<9,0>
+I think player [2] has card number
+<9,2>
+I think player [0] has card number
+<7,0>
+I think player [1] has card number
+<7,3>
+I think player [0] has card number
+<3,0>
+
+[35mTurn: 48
+[0m
+player 0 has
+[36m
+[<10,1>, <6,1>, <7,0>, <3,0>]
+[0m
+[10, 6, 7, 3]
+player 1 has
+[36m
+[<7,3>, <10,0>, <10,3>, <10,2>]
+[0m
+[7, 10]
+player 2 has
+[36m
+[<9,2>, <6,2>, <9,0>, <6,0>, <6,3>]
+[0m
+[9, 6]
+player 3 has
+[36m
+[<9,3>, <7,1>, <3,2>, <3,3>, <9,1>, <3,1>, <7,2>]
+[0m
+[9, 7, 3]
+Of quartet number 10 card number 3 has been removed from player 1 and has been given to player 0. Player 0 now has 5 cards and player 1 now has 3 cards.
+I think player [1] has card number
+<10,0>
+I think player [2] has card number
+<6,2>
+I think player [3] has card number
+<7,1>
+I think player [3] has card number
+<3,2>
+Of quartet number 10 card number 2 has been removed from player 1 and has been given to player 0. Player 0 now has 6 cards and player 1 now has 2 cards.
+I think player [1] has card number
+<10,0>
+I think player [2] has card number
+<6,2>
+I think player [3] has card number
+<7,1>
+I think player [3] has card number
+<3,2>
+Of quartet number 6 card number 0 has been removed from player 2 and has been given to player 0. Player 0 now has 7 cards and player 2 now has 4 cards.
+I think player [1] has card number
+<10,0>
+I think player [2] has card number
+<6,2>
+I think player [3] has card number
+<7,1>
+I think player [3] has card number
+<3,2>
+Of quartet number 6 card number 3 has been removed from player 2 and has been given to player 0. Player 0 now has 8 cards and player 2 now has 3 cards.
+I think player [1] has card number
+<10,0>
+I think player [2] has card number
+<6,2>
+I think player [3] has card number
+<7,1>
+I think player [3] has card number
+<3,2>
+Of quartet number 3 card number 3 has been removed from player 3 and has been given to player 0. Player 0 now has 9 cards and player 3 now has 6 cards.
+I think player [1] has card number
+<10,0>
+I think player [2] has card number
+<6,2>
+I think player [3] has card number
+<7,1>
+I think player [3] has card number
+<3,2>
+Of quartet number 3 card number 1 has been removed from player 3 and has been given to player 0. Player 0 now has 10 cards and player 3 now has 5 cards.
+I think player [1] has card number
+<10,0>
+I think player [2] has card number
+<6,2>
+I think player [3] has card number
+<7,1>
+I think player [3] has card number
+<3,2>
+Of quartet number 7 card number 2 has been removed from player 3 and has been given to player 0. Player 0 now has 11 cards and player 3 now has 4 cards.
+I think player [1] has card number
+<10,0>
+I think player [2] has card number
+<6,2>
+I think player [3] has card number
+<7,1>
+I think player [3] has card number
+<3,2>
+
+[35mTurn: 49
+[0m
+player 0 has
+[36m
+[<10,1>, <6,1>, <7,0>, <3,0>, <10,3>, <10,2>, <6,0>, <6,3>, <3,3>, <3,1>, <7,2>]
+[0m
+[10, 6, 7, 3]
+player 1 has
+[36m
+[<7,3>, <10,0>]
+[0m
+[7, 10]
+player 2 has
+[36m
+[<9,2>, <6,2>, <9,0>]
+[0m
+[9, 6]
+player 3 has
+[36m
+[<9,3>, <7,1>, <3,2>, <9,1>]
+[0m
+[9, 7, 3]
+Of quartet number 10 card number 3 has been removed from player 0 and has been given to player 1. Player 1 now has 3 cards and player 0 now has 10 cards.
+I think player [0] has card number
+<7,0>
+I think player [3] has card number
+<7,1>
+I think player [0] has card number
+<10,1>
+Of quartet number 10 card number 2 has been removed from player 0 and has been given to player 1. Player 1 now has 4 cards and player 0 now has 9 cards.
+I think player [0] has card number
+<7,0>
+I think player [3] has card number
+<7,1>
+I think player [0] has card number
+<10,1>
+Of quartet number 7 card number 2 has been removed from player 0 and has been given to player 1. Player 1 now has 5 cards and player 0 now has 8 cards.
+I think player [0] has card number
+<7,0>
+I think player [3] has card number
+<7,1>
+I think player [0] has card number
+<10,1>
+
+[35mTurn: 50
+[0m
+player 0 has
+[36m
+[<10,1>, <6,1>, <7,0>, <3,0>, <6,0>, <6,3>, <3,3>, <3,1>]
+[0m
+[10, 6, 7, 3]
+player 1 has
+[36m
+[<7,3>, <10,0>, <10,3>, <10,2>, <7,2>]
+[0m
+[7, 10]
+player 2 has
+[36m
+[<9,2>, <6,2>, <9,0>]
+[0m
+[9, 6]
+player 3 has
+[36m
+[<9,3>, <7,1>, <3,2>, <9,1>]
+[0m
+[9, 7, 3]
+Of quartet number 6 card number 0 has been removed from player 0 and has been given to player 2. Player 2 now has 4 cards and player 0 now has 7 cards.
+I think player [3] has card number
+<9,3>
+Of quartet number 6 card number 3 has been removed from player 0 and has been given to player 2. Player 2 now has 5 cards and player 0 now has 6 cards.
+I think player [3] has card number
+<9,3>
+Of quartet number 9 card number 1 has been removed from player 3 and has been given to player 2. Player 2 now has 6 cards and player 3 now has 3 cards.
+I think player [3] has card number
+<9,3>
+
+[35mTurn: 51
+[0m
+player 0 has
+[36m
+[<10,1>, <6,1>, <7,0>, <3,0>, <3,3>, <3,1>]
+[0m
+[10, 6, 7, 3]
+player 1 has
+[36m
+[<7,3>, <10,0>, <10,3>, <10,2>, <7,2>]
+[0m
+[7, 10]
+player 2 has
+[36m
+[<9,2>, <6,2>, <9,0>, <6,0>, <6,3>, <9,1>]
+[0m
+[9, 6]
+player 3 has
+[36m
+[<9,3>, <7,1>, <3,2>]
+[0m
+[9, 7, 3]
+Of quartet number 3 card number 3 has been removed from player 0 and has been given to player 3. Player 3 now has 4 cards and player 0 now has 5 cards.
+I think player [2] has card number
+<9,0>
+I think player [2] has card number
+<9,2>
+I think player [0] has card number
+<7,0>
+I think player [1] has card number
+<7,3>
+I think player [0] has card number
+<3,0>
+Of quartet number 3 card number 1 has been removed from player 0 and has been given to player 3. Player 3 now has 5 cards and player 0 now has 4 cards.
+I think player [2] has card number
+<9,0>
+I think player [2] has card number
+<9,2>
+I think player [0] has card number
+<7,0>
+I think player [1] has card number
+<7,3>
+I think player [0] has card number
+<3,0>
+Of quartet number 7 card number 2 has been removed from player 1 and has been given to player 3. Player 3 now has 6 cards and player 1 now has 4 cards.
+I think player [2] has card number
+<9,0>
+I think player [2] has card number
+<9,2>
+I think player [0] has card number
+<7,0>
+I think player [1] has card number
+<7,3>
+I think player [0] has card number
+<3,0>
+Of quartet number 9 card number 1 has been removed from player 2 and has been given to player 3. Player 3 now has 7 cards and player 2 now has 5 cards.
+I think player [2] has card number
+<9,0>
+I think player [2] has card number
+<9,2>
+I think player [0] has card number
+<7,0>
+I think player [1] has card number
+<7,3>
+I think player [0] has card number
+<3,0>
+Of quartet number 7 card number 3 has been removed from player 1 and has been given to player 3. Player 3 now has 8 cards and player 1 now has 3 cards.
+I think player [2] has card number
+<9,0>
+I think player [2] has card number
+<9,2>
+I think player [0] has card number
+<7,0>
+I think player [0] has card number
+<3,0>
+
+[35mTurn: 52
+[0m
+player 0 has
+[36m
+[<10,1>, <6,1>, <7,0>, <3,0>]
+[0m
+[10, 6, 7, 3]
+player 1 has
+[36m
+[<10,0>, <10,3>, <10,2>]
+[0m
+[10]
+player 2 has
+[36m
+[<9,2>, <6,2>, <9,0>, <6,0>, <6,3>]
+[0m
+[9, 6]
+player 3 has
+[36m
+[<9,3>, <7,1>, <3,2>, <3,3>, <3,1>, <7,2>, <9,1>, <7,3>]
+[0m
+[9, 7, 3]
+Of quartet number 10 card number 3 has been removed from player 1 and has been given to player 0. Player 0 now has 5 cards and player 1 now has 2 cards.
+I think player [1] has card number
+<10,0>
+I think player [2] has card number
+<6,2>
+I think player [3] has card number
+<7,1>
+I think player [3] has card number
+<3,2>
+Of quartet number 10 card number 2 has been removed from player 1 and has been given to player 0. Player 0 now has 6 cards and player 1 now has 1 cards.
+I think player [1] has card number
+<10,0>
+I think player [2] has card number
+<6,2>
+I think player [3] has card number
+<7,1>
+I think player [3] has card number
+<3,2>
+Of quartet number 6 card number 0 has been removed from player 2 and has been given to player 0. Player 0 now has 7 cards and player 2 now has 4 cards.
+I think player [1] has card number
+<10,0>
+I think player [2] has card number
+<6,2>
+I think player [3] has card number
+<7,1>
+I think player [3] has card number
+<3,2>
+Of quartet number 6 card number 3 has been removed from player 2 and has been given to player 0. Player 0 now has 8 cards and player 2 now has 3 cards.
+I think player [1] has card number
+<10,0>
+I think player [2] has card number
+<6,2>
+I think player [3] has card number
+<7,1>
+I think player [3] has card number
+<3,2>
+Of quartet number 3 card number 3 has been removed from player 3 and has been given to player 0. Player 0 now has 9 cards and player 3 now has 7 cards.
+I think player [1] has card number
+<10,0>
+I think player [2] has card number
+<6,2>
+I think player [3] has card number
+<7,1>
+I think player [3] has card number
+<3,2>
+Of quartet number 3 card number 1 has been removed from player 3 and has been given to player 0. Player 0 now has 10 cards and player 3 now has 6 cards.
+I think player [1] has card number
+<10,0>
+I think player [2] has card number
+<6,2>
+I think player [3] has card number
+<7,1>
+I think player [3] has card number
+<3,2>
+Of quartet number 7 card number 2 has been removed from player 3 and has been given to player 0. Player 0 now has 11 cards and player 3 now has 5 cards.
+I think player [1] has card number
+<10,0>
+I think player [2] has card number
+<6,2>
+I think player [3] has card number
+<7,1>
+I think player [3] has card number
+<3,2>
+Of quartet number 7 card number 3 has been removed from player 3 and has been given to player 0. Player 0 now has 12 cards and player 3 now has 4 cards.
+I think player [1] has card number
+<10,0>
+I think player [2] has card number
+<6,2>
+I think player [3] has card number
+<7,1>
+I think player [3] has card number
+<3,2>
+
+[35mTurn: 53
+[0m
+player 0 has
+[36m
+[<10,1>, <6,1>, <7,0>, <3,0>, <10,3>, <10,2>, <6,0>, <6,3>, <3,3>, <3,1>, <7,2>, <7,3>]
+[0m
+[10, 6, 7, 3]
+player 1 has
+[36m
+[<10,0>]
+[0m
+[10]
+player 2 has
+[36m
+[<9,2>, <6,2>, <9,0>]
+[0m
+[9, 6]
+player 3 has
+[36m
+[<9,3>, <7,1>, <3,2>, <9,1>]
+[0m
+[9, 7, 3]
+Of quartet number 10 card number 3 has been removed from player 0 and has been given to player 1. Player 1 now has 2 cards and player 0 now has 11 cards.
+I think player [0] has card number
+<10,1>
+Of quartet number 10 card number 2 has been removed from player 0 and has been given to player 1. Player 1 now has 3 cards and player 0 now has 10 cards.
+I think player [0] has card number
+<10,1>
+
+[35mTurn: 54
+[0m
+player 0 has
+[36m
+[<10,1>, <6,1>, <7,0>, <3,0>, <6,0>, <6,3>, <3,3>, <3,1>, <7,2>, <7,3>]
+[0m
+[10, 6, 7, 3]
+player 1 has
+[36m
+[<10,0>, <10,3>, <10,2>]
+[0m
+[10]
+player 2 has
+[36m
+[<9,2>, <6,2>, <9,0>]
+[0m
+[9, 6]
+player 3 has
+[36m
+[<9,3>, <7,1>, <3,2>, <9,1>]
+[0m
+[9, 7, 3]
+Of quartet number 6 card number 0 has been removed from player 0 and has been given to player 2. Player 2 now has 4 cards and player 0 now has 9 cards.
+I think player [3] has card number
+<9,3>
+Of quartet number 6 card number 3 has been removed from player 0 and has been given to player 2. Player 2 now has 5 cards and player 0 now has 8 cards.
+I think player [3] has card number
+<9,3>
+Of quartet number 9 card number 1 has been removed from player 3 and has been given to player 2. Player 2 now has 6 cards and player 3 now has 3 cards.
+I think player [3] has card number
+<9,3>
+Of quartet number 6 card number 1 has been removed from player 0 and has been given to player 2. Player 2 now has 7 cards and player 0 now has 7 cards.
+Quartet number 6 has been removed from player 2, player 2 now has 3 cards.
+I think player [3] has card number
+<9,3>
+
+[35mTurn: 55
+[0m
+player 0 has
+[36m
+[<10,1>, <7,0>, <3,0>, <3,3>, <3,1>, <7,2>, <7,3>]
+[0m
+[10, 7, 3]
+player 1 has
+[36m
+[<10,0>, <10,3>, <10,2>]
+[0m
+[10]
+player 2 has
+[36m
+[<9,2>, <9,0>, <9,1>]
+[0m
+[9]
+player 3 has
+[36m
+[<9,3>, <7,1>, <3,2>]
+[0m
+[9, 7, 3]
+Of quartet number 3 card number 3 has been removed from player 0 and has been given to player 3. Player 3 now has 4 cards and player 0 now has 6 cards.
+I think player [2] has card number
+<9,0>
+I think player [2] has card number
+<9,2>
+I think player [0] has card number
+<7,0>
+I think player [0] has card number
+<3,0>
+Of quartet number 3 card number 1 has been removed from player 0 and has been given to player 3. Player 3 now has 5 cards and player 0 now has 5 cards.
+I think player [2] has card number
+<9,0>
+I think player [2] has card number
+<9,2>
+I think player [0] has card number
+<7,0>
+I think player [0] has card number
+<3,0>
+Of quartet number 7 card number 2 has been removed from player 0 and has been given to player 3. Player 3 now has 6 cards and player 0 now has 4 cards.
+I think player [2] has card number
+<9,0>
+I think player [2] has card number
+<9,2>
+I think player [0] has card number
+<7,0>
+I think player [0] has card number
+<3,0>
+Of quartet number 7 card number 3 has been removed from player 0 and has been given to player 3. Player 3 now has 7 cards and player 0 now has 3 cards.
+I think player [2] has card number
+<9,0>
+I think player [2] has card number
+<9,2>
+I think player [0] has card number
+<7,0>
+I think player [0] has card number
+<3,0>
+Of quartet number 9 card number 1 has been removed from player 2 and has been given to player 3. Player 3 now has 8 cards and player 2 now has 2 cards.
+I think player [2] has card number
+<9,0>
+I think player [2] has card number
+<9,2>
+I think player [0] has card number
+<7,0>
+I think player [0] has card number
+<3,0>
+Of quartet number 3 card number 0 has been removed from player 0 and has been given to player 3. Player 3 now has 9 cards and player 0 now has 2 cards.
+Quartet number 3 has been removed from player 3, player 3 now has 5 cards.
+I think player [2] has card number
+<9,0>
+I think player [2] has card number
+<9,2>
+I think player [0] has card number
+<7,0>
+Of quartet number 9 card number 0 has been removed from player 2 and has been given to player 3. Player 3 now has 6 cards and player 2 now has 1 cards.
+I think player [2] has card number
+<9,2>
+I think player [0] has card number
+<7,0>
+
+[35mTurn: 56
+[0m
+player 0 has
+[36m
+[<10,1>, <7,0>]
+[0m
+[10, 7]
+player 1 has
+[36m
+[<10,0>, <10,3>, <10,2>]
+[0m
+[10]
+player 2 has
+[36m
+[<9,2>]
+[0m
+[9]
+player 3 has
+[36m
+[<9,3>, <7,1>, <7,2>, <7,3>, <9,1>, <9,0>]
+[0m
+[9, 7]
+Of quartet number 10 card number 3 has been removed from player 1 and has been given to player 0. Player 0 now has 3 cards and player 1 now has 2 cards.
+I think player [1] has card number
+<10,0>
+I think player [3] has card number
+<7,1>
+Of quartet number 10 card number 2 has been removed from player 1 and has been given to player 0. Player 0 now has 4 cards and player 1 now has 1 cards.
+I think player [1] has card number
+<10,0>
+I think player [3] has card number
+<7,1>
+Of quartet number 7 card number 2 has been removed from player 3 and has been given to player 0. Player 0 now has 5 cards and player 3 now has 5 cards.
+I think player [1] has card number
+<10,0>
+I think player [3] has card number
+<7,1>
+Of quartet number 7 card number 3 has been removed from player 3 and has been given to player 0. Player 0 now has 6 cards and player 3 now has 4 cards.
+I think player [1] has card number
+<10,0>
+I think player [3] has card number
+<7,1>
+Of quartet number 10 card number 0 has been removed from player 1 and has been given to player 0. Player 0 now has 7 cards and player 1 now has 0 cards.
+Quartet number 10 has been removed from player 0, player 0 now has 3 cards.
+I think player [3] has card number
+<7,1>
+
+[35mTurn: 57
+[0m
+player 0 has
+[36m
+[<7,0>, <7,2>, <7,3>]
+[0m
+[7]
+player 1 has
+[36m
+[]
+[0m
+[]
+player 2 has
+[36m
+[<9,2>]
+[0m
+[9]
+player 3 has
+[36m
+[<9,3>, <7,1>, <9,1>, <9,0>]
+[0m
+[9, 7]
+Of quartet number 9 card number 1 has been removed from player 3 and has been given to player 2. Player 2 now has 2 cards and player 3 now has 3 cards.
+I think player [3] has card number
+<9,3>
+Of quartet number 9 card number 0 has been removed from player 3 and has been given to player 2. Player 2 now has 3 cards and player 3 now has 2 cards.
+I think player [3] has card number
+<9,3>
+
+[35mTurn: 58
+[0m
+player 0 has
+[36m
+[<7,0>, <7,2>, <7,3>]
+[0m
+[7]
+player 1 has
+[36m
+[]
+[0m
+[]
+player 2 has
+[36m
+[<9,2>, <9,1>, <9,0>]
+[0m
+[9]
+player 3 has
+[36m
+[<9,3>, <7,1>]
+[0m
+[9, 7]
+Of quartet number 7 card number 2 has been removed from player 0 and has been given to player 3. Player 3 now has 3 cards and player 0 now has 2 cards.
+I think player [2] has card number
+<9,2>
+I think player [0] has card number
+<7,0>
+Of quartet number 7 card number 3 has been removed from player 0 and has been given to player 3. Player 3 now has 4 cards and player 0 now has 1 cards.
+I think player [2] has card number
+<9,2>
+I think player [0] has card number
+<7,0>
+Of quartet number 9 card number 1 has been removed from player 2 and has been given to player 3. Player 3 now has 5 cards and player 2 now has 2 cards.
+I think player [2] has card number
+<9,2>
+I think player [0] has card number
+<7,0>
+Of quartet number 9 card number 0 has been removed from player 2 and has been given to player 3. Player 3 now has 6 cards and player 2 now has 1 cards.
+I think player [2] has card number
+<9,2>
+I think player [0] has card number
+<7,0>
+
+[35mTurn: 59
+[0m
+player 0 has
+[36m
+[<7,0>]
+[0m
+[7]
+player 1 has
+[36m
+[]
+[0m
+[]
+player 2 has
+[36m
+[<9,2>]
+[0m
+[9]
+player 3 has
+[36m
+[<9,3>, <7,1>, <7,2>, <7,3>, <9,1>, <9,0>]
+[0m
+[9, 7]
+Of quartet number 7 card number 2 has been removed from player 3 and has been given to player 0. Player 0 now has 2 cards and player 3 now has 5 cards.
+I think player [3] has card number
+<7,1>
+Of quartet number 7 card number 3 has been removed from player 3 and has been given to player 0. Player 0 now has 3 cards and player 3 now has 4 cards.
+I think player [3] has card number
+<7,1>
+
+[35mTurn: 60
+[0m
+player 0 has
+[36m
+[<7,0>, <7,2>, <7,3>]
+[0m
+[7]
+player 1 has
+[36m
+[]
+[0m
+[]
+player 2 has
+[36m
+[<9,2>]
+[0m
+[9]
+player 3 has
+[36m
+[<9,3>, <7,1>, <9,1>, <9,0>]
+[0m
+[9, 7]
+Of quartet number 9 card number 1 has been removed from player 3 and has been given to player 2. Player 2 now has 2 cards and player 3 now has 3 cards.
+I think player [3] has card number
+<9,3>
+Of quartet number 9 card number 0 has been removed from player 3 and has been given to player 2. Player 2 now has 3 cards and player 3 now has 2 cards.
+I think player [3] has card number
+<9,3>
+
+[35mTurn: 61
+[0m
+player 0 has
+[36m
+[<7,0>, <7,2>, <7,3>]
+[0m
+[7]
+player 1 has
+[36m
+[]
+[0m
+[]
+player 2 has
+[36m
+[<9,2>, <9,1>, <9,0>]
+[0m
+[9]
+player 3 has
+[36m
+[<9,3>, <7,1>]
+[0m
+[9, 7]
+Of quartet number 7 card number 2 has been removed from player 0 and has been given to player 3. Player 3 now has 3 cards and player 0 now has 2 cards.
+I think player [2] has card number
+<9,2>
+I think player [0] has card number
+<7,0>
+Of quartet number 7 card number 3 has been removed from player 0 and has been given to player 3. Player 3 now has 4 cards and player 0 now has 1 cards.
+I think player [2] has card number
+<9,2>
+I think player [0] has card number
+<7,0>
+Of quartet number 9 card number 1 has been removed from player 2 and has been given to player 3. Player 3 now has 5 cards and player 2 now has 2 cards.
+I think player [2] has card number
+<9,2>
+I think player [0] has card number
+<7,0>
+Of quartet number 9 card number 0 has been removed from player 2 and has been given to player 3. Player 3 now has 6 cards and player 2 now has 1 cards.
+I think player [2] has card number
+<9,2>
+I think player [0] has card number
+<7,0>
+Of quartet number 7 card number 0 has been removed from player 0 and has been given to player 3. Player 3 now has 7 cards and player 0 now has 0 cards.
+Quartet number 7 has been removed from player 3, player 3 now has 3 cards.
+I think player [2] has card number
+<9,2>
+Of quartet number 9 card number 2 has been removed from player 2 and has been given to player 3. Player 3 now has 4 cards and player 2 now has 0 cards.
+Quartet number 9 has been removed from player 3, player 3 now has 0 cards.
+
+[35mTurn: 62
+[0m
+player 0 has
+[36m
+[]
+[0m
+[]
+player 1 has
+[36m
+[]
+[0m
+[]
+player 2 has
+[36m
+[]
+[0m
+[]
+player 3 has
+[36m
+[]
+[0m
+[]
+[34mThe final score is
+[36mPlayer 0 has scored 3 points
+[0m
+[36mPlayer 1 has scored 2 points
+[0m
+[36mPlayer 2 has scored 3 points
+[0m
+[36mPlayer 3 has scored 5 points
+[0m
+The winner is player 3
