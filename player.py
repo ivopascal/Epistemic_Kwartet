@@ -42,8 +42,10 @@ class Player:
 
 			    # Don't allow another turn if the game is over
                 if self.brain.get_valid_kinds() != []:
+                    self.removeKinds(self.brain.checkAllKinds())
                     self.play()
             else:
+                self.removeKinds(self.brain.checkAllKinds())
                 return False
         
         if self.strategy == 1:
@@ -54,8 +56,10 @@ class Player:
 
 			    # Don't allow another turn if the game is over
                 if self.brain.get_valid_kinds() != []:
+                    self.removeKinds(self.brain.checkAllKinds())
                     self.play()
             else:
+                self.removeKinds(self.brain.checkAllKinds())
                 return False        
 
         if self.strategy == 2:
@@ -67,8 +71,10 @@ class Player:
                     self.perform_inference()
                     # Don't allow another turn if the game is over
                     if self.brain.get_valid_kinds() != []:
+                        self.removeKinds(self.brain.checkAllKinds())
                         self.play()
                 else:
+                    self.removeKinds(self.brain.checkAllKinds())
                     return False
             if x == 1:
                 if self.silent_request():
@@ -77,9 +83,12 @@ class Player:
                     self.perform_inference()
                     # Don't allow another turn if the game is over
                     if self.brain.get_valid_kinds() != []:
+                        self.removeKinds(self.brain.checkAllKinds())
                         self.play()
                 else:
+                    self.removeKinds(self.brain.checkAllKinds())
                     return False
+                    
         if self.strategy == 3:
             if self.random_request():
 			    # Clear all full sets
@@ -87,8 +96,10 @@ class Player:
                 self.perform_inference()
 			    # Don't allow another turn if the game is over
                 if self.brain.get_valid_kinds() != []:
+                    self.removeKinds(self.brain.checkAllKinds())
                     self.play()
             else:
+                self.removeKinds(self.brain.checkAllKinds())
                 return False
 			
     def perform_inference(self):
@@ -116,6 +127,7 @@ class Player:
                     if len(possible_card_owners) is 1:
                         self.brain.add_card_to_knowledge(possible_card_owners[0], card)
                         kindSet.remove(card)
+                        #print("test1")
                         self.perform_inference()
             
             #INFERENCE BASED ON WHAT IF PLAYER HAS 3 CARDS, BUT DOES NOT KNOW LOCATION OF CARD, BUT DOES KNOW OWNS TYPE OF CARD
@@ -134,51 +146,57 @@ class Player:
                 if len(possible_owner) is 1:
                     self.brain.add_card_to_knowledge(possible_owner[0], card)
                     kindSet.remove(card)
+                    #print("check1")
                     self.perform_inference()
             
             #INFERENCE BASED ON KNOWING THE LOCATION OF THREE CARDS
-            #  HAS ERROR CURRENTLY. IF EXTRA TIME FIGURE THIS OUT!!!
-            #kindSet = [deck.Card(kinds, value) for value in range(4)]
-            #for card in kindSet:
-                #if card in self.cards:
-                    #kindSet.remove(card)
-                    
-            #possible_opponents = []
-            #for opponent in self.opponents:
-                #possible_opponents.append(opponent.id)
+            kindSet = [deck.Card(kinds, value) for value in range(4)]
+            #print(kindSet)
+            for card in kindSet:
+                if card in self.cards:
+                    kindSet.remove(card)
+            possible_owner = []
+            possible_owner_already_owns_card = []
+            unknown_owner = []
             
-            #not_possible_opponents = []
-            #for op in self.opponents:
-                #for card_num in kindSet:
-                    #if self.brain.certain_cards(op.id, card_num) is 1:
-                        #if card_num in kindSet:
-                            #kindSet.remove(card_num)
-                            #not_possible_opponents.append(op.id)
+
+            for op in self.opponents:
+                for card in kindSet:
+                    if self.brain.certain_cards(op.id, card) is 1:
+                        if card in kindSet:
+                            kindSet.remove(card)
+                            possible_owner_already_owns_card.append(op.id)
             
-            #for item in not_possible_opponents:
-                #if item in possible_opponents:
-                    #possible_opponents.remove(item)
-                                    
+            for op in self.opponents:
+                if self.brain.owns_kind(op, kinds):
+                    possible_owner.append(op.id)
             
-            #if len(kindSet) is 1 and len(possible_opponents) > 0 :
-                #card = kindSet[0]
-                #count = 0
-                #possible_owner = []
-                #for opponent in self.opponents:
-                    #if self.brain.certain_not_cards(opponent.id, card) is 0:
-                        #if self.brain.owns_kind(opponent.id, card.kind) is 1:
-                            #possible_owner.append(opponent.id)
-                        
-                #if len(possible_owner) > 0:
-                    #if self.brain.certain_cards(possible_owner[0], card) is 0:
-                        #self.brain.add_card_to_knowledge(possible_owner[0], card)
-                        #kindSet.remove(card)
-                        #print("OWNS CARD")
-                        #print(possible_owner[0])
-                        #print(card)
-                        #self.perform_inference()
-                    #else:
-                        #return True
+            if len(kindSet) == 1:
+                if len(possible_owner) == 1:
+                    self.brain.add_card_to_knowledge(possible_owner[0], card)
+                    kindSet.remove(card)
+                    #print("succes1")
+                    self.perform_inference()
+                else:
+                    new_owner_list = []
+                    for op in self.opponents:
+                        if self.brain.certain_not_cards(op, card) == 0:
+                            new_owner_list.append(op.id)
+                    if len(new_owner_list) == 1:
+                        self.brain.add_card_to_knowledge(new_owner_list[0], card)
+                        kindSet.remove(card)
+                        #print("success2")
+                        self.perform_inference()
+                    elif len(new_owner_list) > 0:
+                        for op in new_owner_list:
+                            unknown_cards = self.brain.known_cards_number[op] - self.brain.get_number_of_requestable_cards(op)
+                            if unknown_cards == 0:
+                                new_owner_list.remove(op)
+                        if len(new_owner_list) == 1:
+                            self.brain.add_card_to_knowledge(new_owner_list[0], card)
+                            kindSet.remove(card)
+                            #print("success3")
+                            self.perform_inference()
 
         return True
 

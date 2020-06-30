@@ -176,10 +176,36 @@ The greedy strategy takes more advantage of the knowledge and logic that is defi
 
 ## Silent requests
 
-//TODO!
+The silent strategy is similar to the greedy strategy. The main difference is that they will only ask for a card that they know a certain player has, when they know the position for all four cards. In the cases where they only know the position of three or less cards of a set they own partly, they will ask 2/3 of the times for a random card or 1/3 of the times for a card they own themselves. They will thus lie and ask for their own cards more often than in the regular random request, to avoid other players from finding out what their cards are.
 
+## Mixed request
+
+As a fourth possible request type, we use a mix of the greedy and the silent request. Half of the times the player will play as if they are using the greedy strategy and the other half of the times they play as if using the silent strategy. This mixed strategy is added as an valid strategy for the fourth player to use, furthermore it can be used to see if a mixed strategy would be more useful. 
 # Results
+We ran the program 1000 times and kept track of which strategy won the most and the amount of tied wins. <br>
+Furthermore we also calculated the average number of turns. <br> <br>
+This led to the following data: <br> <br>
+We played 1000 rounds
+The Greedy strategy had 577 out of 1000 wins
+The Silent strategy had 70 out of 1000 wins
+The Mixed strategy had 204 out of 1000 wins
+The Random strategy had 0 out of 1000 wins
+The Greedy strategy had 144 ties
+The Silent strategy had 49 ties
+The Mixed strategy had 116 ties
+The Random strategy had 1 ties
+The average turn length is 156.582
 
+We played 10000 rounds
+The Greedy strategy had 5766 out of 10000 wins
+The Silent strategy had 630 out of 10000 wins
+The Mixed strategy had 2070 out of 10000 wins
+The Random strategy had 3 out of 10000 wins
+The Greedy strategy had 1411 ties
+The Silent strategy had 571 ties
+The Mixed strategy had 1216 ties
+The Random strategy had 2 ties
+The average turn length is 157.2527
 //TODO!
 
 # Analysis of results

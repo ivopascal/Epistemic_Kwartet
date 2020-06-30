@@ -80,7 +80,7 @@ class Brain:
         self.nkinds = nkinds
         self.cards = cards
         self.id = id
-        print(self.cards)
+        #print(self.cards)
 
     # Let's the brain become aware that an opponent exists
     # This allows it to keep track of how many components there are
