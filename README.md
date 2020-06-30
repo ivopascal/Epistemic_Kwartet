@@ -185,27 +185,27 @@ As a fourth possible request type, we use a mix of the greedy and the silent req
 We ran the program 1000 times and kept track of which strategy won the most and the amount of tied wins. <br>
 Furthermore we also calculated the average number of turns. <br> <br>
 This led to the following data: <br> <br>
-We played 1000 rounds
-The Greedy strategy had 577 out of 1000 wins
-The Silent strategy had 70 out of 1000 wins
-The Mixed strategy had 204 out of 1000 wins
-The Random strategy had 0 out of 1000 wins
-The Greedy strategy had 144 ties
-The Silent strategy had 49 ties
-The Mixed strategy had 116 ties
-The Random strategy had 1 ties
-The average turn length is 156.582
-
-We played 10000 rounds
-The Greedy strategy had 5766 out of 10000 wins
-The Silent strategy had 630 out of 10000 wins
-The Mixed strategy had 2070 out of 10000 wins
-The Random strategy had 3 out of 10000 wins
-The Greedy strategy had 1411 ties
-The Silent strategy had 571 ties
-The Mixed strategy had 1216 ties
-The Random strategy had 2 ties
-The average turn length is 157.2527
+We played 1000 rounds<br>
+The Greedy strategy had 577 out of 1000 wins<br>
+The Silent strategy had 70 out of 1000 wins <br>
+The Mixed strategy had 204 out of 1000 wins<br>
+The Random strategy had 0 out of 1000 wins<br>
+The Greedy strategy had 144 ties<br>
+The Silent strategy had 49 ties<br>
+The Mixed strategy had 116 ties<br>
+The Random strategy had 1 ties<br>
+The average turn length is 156.582<br>
+<br><br>
+We played 10000 rounds<br>
+The Greedy strategy had 5766 out of 10000 wins<br>
+The Silent strategy had 630 out of 10000 wins<br>
+The Mixed strategy had 2070 out of 10000 wins<br>
+The Random strategy had 3 out of 10000 wins<br>
+The Greedy strategy had 1411 ties<br>
+The Silent strategy had 571 ties<br>
+The Mixed strategy had 1216 ties<br>
+The Random strategy had 2 ties<br>
+The average turn length is 157.2527<br>
 //TODO!
 
 # Analysis of results
