@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>NextTurnButton</class>
+ <widget class="QWidget" name="NextTurnButton">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1117</width>
+    <height>879</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="4" column="1">
+    <widget class="QLabel" name="Player3Label">
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; color:#0000ff;&quot;&gt;Player 3&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="8">
+    <widget class="QLabel" name="Player1Label">
+     <property name="maximumSize">
+      <size>
+       <width>16777215</width>
+       <height>71</height>
+      </size>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; color:#ff0000;&quot;&gt;Player 1&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="2">
+    <widget class="QLabel" name="Plyr3_cards">
+     <property name="text">
+      <string>Player 3 Cards</string>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="9">
+    <widget class="QPushButton" name="NextPointbttn">
+     <property name="text">
+      <string>Next Point</string>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="0">
+    <widget class="QPushButton" name="StartBttn">
+     <property name="text">
+      <string>Start</string>
+     </property>
+    </widget>
+   </item>
+   <item row="5" column="6">
+    <widget class="QLabel" name="Plyr4_cards">
+     <property name="text">
+      <string>Player 4 Cards</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="6">
+    <widget class="QLabel" name="Plyr2_cards">
+     <property name="text">
+      <string>Player 2 Cards</string>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="7">
+    <widget class="QLabel" name="Plyr1_cards">
+     <property name="text">
+      <string>Player 1 Cards</string>
+     </property>
+    </widget>
+   </item>
+   <item row="6" column="6">
+    <widget class="QLabel" name="Player4Label">
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; color:#ff5500;&quot;&gt;Player 4&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="6">
+    <widget class="QLabel" name="Player2Label">
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; color:#005500;&quot;&gt;Player 2&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+  <action name="actionssn">
+   <property name="text">
+    <string>ssn</string>
+   </property>
+   <property name="toolTip">
+    <string>bg</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="MasterAI/2B/LAMAS/Proje/rsrc.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>StartBttn</sender>
+   <signal>clicked()</signal>
+   <receiver>Plyr3_cards</receiver>
+   <slot>update()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>127</x>
+     <y>445</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>365</x>
+     <y>429</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>StartBttn</sender>
+   <signal>clicked()</signal>
+   <receiver>Plyr2_cards</receiver>
+   <slot>update()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>85</x>
+     <y>439</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>558</x>
+     <y>318</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>StartBttn</sender>
+   <signal>clicked()</signal>
+   <receiver>Plyr1_cards</receiver>
+   <slot>update()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>85</x>
+     <y>439</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>715</x>
+     <y>439</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>StartBttn</sender>
+   <signal>clicked()</signal>
+   <receiver>Plyr4_cards</receiver>
+   <slot>update()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>85</x>
+     <y>439</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>558</x>
+     <y>560</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>NextPointbttn</sender>
+   <signal>clicked()</signal>
+   <receiver>Plyr2_cards</receiver>
+   <slot>update()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1030</x>
+     <y>439</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>558</x>
+     <y>318</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>NextPointbttn</sender>
+   <signal>clicked()</signal>
+   <receiver>Plyr1_cards</receiver>
+   <slot>update()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1030</x>
+     <y>439</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>715</x>
+     <y>439</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>NextPointbttn</sender>
+   <signal>clicked()</signal>
+   <receiver>Plyr3_cards</receiver>
+   <slot>update()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1030</x>
+     <y>439</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>400</x>
+     <y>439</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>NextPointbttn</sender>
+   <signal>clicked()</signal>
+   <receiver>Plyr4_cards</receiver>
+   <slot>update()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1030</x>
+     <y>439</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>558</x>
+     <y>560</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

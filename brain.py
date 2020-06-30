@@ -213,7 +213,34 @@ class Brain:
                 else:
                     return 0
     
+    def owns_kind(self, opponent, card):
+        for known_player in self.known_players:
+            if known_player.id is opponent:
+                if card in known_player.knownKinds:
+                    return 1
+                else:
+                    return 0
+                    
     def add_card_to_knowledge(self, opponent, card):
         for known_player in self.known_players:
             if known_player.id == opponent:
                 known_player.card_given(card)
+    
+    def check_if_in_list(self, card):
+        owned_kinds = self.get_owned_kinds()
+        requestable_cards = list()
+        for known_player in self.known_players:
+            if card in known_player.certainCards:
+                return True
+
+    def return_card_in_list(self, card):
+        owned_kinds = self.get_owned_kinds()
+        requestable_cards = list()
+        for known_player in self.known_players:
+            if card in known_player.certainCards:
+                for cards in known_player.certainCards:
+                    if cards == card:
+                        return (cards, known_player.id)
+                
+                
+                
