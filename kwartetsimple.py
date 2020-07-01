@@ -7,7 +7,7 @@
 # WARNING! All changes made in this file will be lost!
 
 from PyQt4 import QtCore, QtGui
-
+import main
 try:
     _fromUtf8 = QtCore.QString.fromUtf8
 except AttributeError:
@@ -88,7 +88,8 @@ class Ui_NextTurnButton(object):
         self.actionssn.setText(_translate("NextTurnButton", "ssn", None))
         self.actionssn.setToolTip(_translate("NextTurnButton", "bg", None))
 
-import rsrc_rc
+#import rsrc_rc
+
 
 if __name__ == "__main__":
     import sys
@@ -97,5 +98,6 @@ if __name__ == "__main__":
     ui = Ui_NextTurnButton()
     ui.setupUi(NextTurnButton)
     NextTurnButton.show()
+    NextTurnButton.update
     sys.exit(app.exec_())
 

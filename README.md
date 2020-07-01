@@ -71,12 +71,12 @@ $H_i \langle t,v\rangle \iff K_i H_i \langle t,v\rangle$.
 We also say that it is known that each card can only exist once. We call this the axiom of singularity. $H_i \langle t,v\rangle \to \neg H_j \langle t,v\rangle$ for all $j \neq i$. By KD ofcourse any player that knows the antecedent also knows the consequence here. Note here that the inverse is not necessarily true, as a type may also be removed from the game, so that no-one has any card of that type. 
 
 To support this concept we define another axiom, the axiom of (in)existence:
-$ (H_x \langle t, v_1\rangle \land H_x \langle t, v_2 \rangle \land H_x \langle t, v_3\rangle \land H_x \langle t, v_4\rangle) 
+$ (H_{x1} \langle t, v_1\rangle \land H_{x2} \langle t, v_2 \rangle \land H_{x3} \langle t, v_3\rangle \land H_{x4} \langle t, v_4\rangle) 
 \lor (\neg H_i \langle t,v_1\rangle \land \neg H_i \langle t,v_2\rangle \land \neg H_i \langle t,v_3\rangle \land \neg H_i \langle t,v_4\rangle )$ where each instance of $x$ can be any player while $i$ applies to ALL players. With this axiom the intuitive concept that either all cards of a type are held distributed across players (first part of disjunction), or no-one has any card of the type.
 
 Lastly, in order to complete the understanding that all cards exist until they are removed we need to add the start-state axiom. This axiom says as long as it is not common knowledge that no-one has any cards of a kind, then it must be the case that these cards are distributed over players. This means that:
 
-$ (H_x \langle t, v_1\rangle \land H_x \langle t, v_2 \rangle \land H_x \langle t, v_3\rangle \land H_x \langle t, v_4\rangle) 
+$ (H_{x1} \langle t, v_1\rangle \land H_{x2} \langle t, v_2 \rangle \land H_{x3} \langle t, v_3\rangle \land H_{x4} \langle t, v_4\rangle) 
 \lor C(\neg H_i \langle t,v_1\rangle \land \neg H_i \langle t,v_2\rangle \land \neg H_i \langle t,v_3\rangle \land \neg H_i \langle t,v_4\rangle)$
 
 With this axiom we know that all cards exist at the start, and cards will only stop existing once someone has announced that they removed a set. 
@@ -176,11 +176,54 @@ The greedy strategy takes more advantage of the knowledge and logic that is defi
 
 ## Silent requests
 
-//TODO!
+The silent strategy is similar to the greedy strategy. The main difference is that they will only ask for a card that they know a certain player has, when they know the position for all four cards. In the cases where they only know the position of three or less cards of a set they own partly, they will ask 2/3 of the times for a random card or 1/3 of the times for a card they own themselves. They will thus lie and ask for their own cards more often than in the regular random request, to avoid other players from finding out what their cards are.
 
+## Mixed request
+
+As a fourth possible request type, we use a mix of the greedy and the silent request. Half of the times the player will play as if they are using the greedy strategy and the other half of the times they play as if using the silent strategy. This mixed strategy is added as an valid strategy for the fourth player to use, furthermore it can be used to see if a mixed strategy would be more useful. 
 # Results
+We ran the program 1000 times and kept track of which strategy won the most and the amount of tied wins. <br>
+Furthermore we also calculated the average number of turns. <br> <br>
+This led to the following data: <br> <br>
+We played 1000 rounds<br>
+The Greedy strategy had 577 out of 1000 wins<br>
+The Silent strategy had 70 out of 1000 wins <br>
+The Mixed strategy had 204 out of 1000 wins<br>
+The Random strategy had 0 out of 1000 wins<br>
+The Greedy strategy had 144 ties<br>
+The Silent strategy had 49 ties<br>
+The Mixed strategy had 116 ties<br>
+The Random strategy had 1 ties<br>
+The average turn length is 156.582<br>
+<br><br>
+We played 10000 rounds<br>
+The Greedy strategy had 5766 out of 10000 wins<br>
+The Silent strategy had 630 out of 10000 wins<br>
+The Mixed strategy had 2070 out of 10000 wins<br>
+The Random strategy had 3 out of 10000 wins<br>
+The Greedy strategy had 1411 ties<br>
+The Silent strategy had 571 ties<br>
+The Mixed strategy had 1216 ties<br>
+The Random strategy had 2 ties<br>
+The average turn length is 157.2527<br>
 
-//TODO!
+<br>
+<br>
+NEW RESULTS AFTER ADDING EXTRA INFERENCE STEP:<br>
+We played 10000 rounds<br>
+The Greedy strategy had 5597 out of 10000 wins<br>
+The Silent strategy had 781 out of 10000 wins<br>
+The Mixed strategy had 1933 out of 10000 wins<br>
+The Random strategy had 2 out of 10000 wins<br>
+The Greedy strategy had 1545 ties<br>
+The Silent strategy had 683 ties<br>
+The Mixed strategy had 1290 ties<br>
+The Random strategy had 1 ties<br>
+The average turn length is 137.2307<br>
+
+![Alt text](numberofwins.png?raw=true "Title")
+![Alt text](numberofties.png?raw=true "Title")
+
 
 # Analysis of results
 
