@@ -206,7 +206,21 @@ The Silent strategy had 571 ties<br>
 The Mixed strategy had 1216 ties<br>
 The Random strategy had 2 ties<br>
 The average turn length is 157.2527<br>
-//TODO!
+
+<br>
+<br>
+NEW RESULTS AFTER ADDING EXTRA INFERENCE STEP:<br>
+We played 10000 rounds<br>
+The Greedy strategy had 5597 out of 10000 wins<br>
+The Silent strategy had 781 out of 10000 wins<br>
+The Mixed strategy had 1933 out of 10000 wins<br>
+The Random strategy had 2 out of 10000 wins<br>
+The Greedy strategy had 1545 ties<br>
+The Silent strategy had 683 ties<br>
+The Mixed strategy had 1290 ties<br>
+The Random strategy had 1 ties<br>
+The average turn length is 137.2307<br>
+
 
 # Analysis of results
 
