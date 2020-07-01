@@ -5,7 +5,7 @@ import player
 import colorama
 from colorama import Fore, Style
 import os
-	
+
 if __name__ == "__main__":
     value = int(input("How many rounds do you want to play? "))
     all_winners = []
@@ -39,7 +39,7 @@ if __name__ == "__main__":
                 for p in players:
                     total_score += p.score
                     #print(p.brain.known_cards_number[num])
-                    print("player " + str(num) + " has") 
+                    print("player " + str(num) + " has")
                     print(Fore.CYAN)
                     print(p.cards)
                     print(Style.RESET_ALL)
@@ -49,9 +49,9 @@ if __name__ == "__main__":
                     turn = -1
                 total_score = 0
             player_counter +=1
-        
+
         print(Fore.BLUE + "The final score is")
-        count = 0    
+        count = 0
         winner = 0
         highest_score = 0
         for p in players:
@@ -61,25 +61,25 @@ if __name__ == "__main__":
             if p.score >= highest_score:
                 highest_score = p.score
                 winner = count
-            
+
             count +=1
-        
+
         winners = []
         for p in players:
             if p.score == highest_score:
                 winners.append(p.id)
-                
-        
+
+
         if len(winners) == 1:
-            print("The winner is player " + str(winner))   
+            print("The winner is player " + str(winner))
             all_winners.append(winners[0])
-                 
+
         else:
             print("The winners are:" )
             for win in winners:
                 print("Player " + str(win))
                 all_ties.append(win)
-    
+
     greedy = 0
     silent = 0
     mixed = 0
@@ -97,7 +97,7 @@ if __name__ == "__main__":
             mixed +=1
         elif winner == 3:
             random +=1
-    
+
     for winner in all_ties:
         if winner == 0:
             tgreedy +=1
@@ -106,8 +106,8 @@ if __name__ == "__main__":
         elif winner == 2:
             tmixed +=1
         elif winner == 3:
-            trandom +=1        
-            
+            trandom +=1
+
     print("We played " + str(value) + " rounds")
     print("The Greedy strategy had " + str(greedy) + " out of " + str(value) + " wins")
     print("The Silent strategy had " + str(silent) + " out of " + str(value) + " wins")
@@ -117,7 +117,29 @@ if __name__ == "__main__":
     print("The Silent strategy had " + str(tsilent) + " ties")
     print("The Mixed strategy had " + str(tmixed) + " ties")
     print("The Random strategy had " + str(trandom) + " ties")
-    
-    
-        
-        
+
+    text = f''' 
+   We played  {str(value)}  rounds
+   The Greedy strategy had {str(greedy)}  out of  {str(value)}  wins
+   The Silent strategy had {str(silent)}  out of  {str(value)}  wins
+   The Mixed strategy had  {str(mixed)} out of  {str(value)}  wins
+   The Random strategy had  {str(random)} out of  {str(value)}  wins
+   The Greedy strategy had {str(tgreedy)} ties
+   The Silent strategy had  {str(tsilent)}  ties
+   The Mixed strategy had   {str(tmixed)}   ties
+   The Random strategy had {str(trandom)}  ties
+'''
+
+
+    with open('secondfile.txt', 'w') as file:
+        file.write(text)
+
+
+    text = f''' 
+   The winner is player  {str(winner)}
+   
+'''
+
+
+    with open('secondfile.txt', 'w') as file:
+        file.write(text)
