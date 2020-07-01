@@ -221,6 +221,8 @@ The Mixed strategy had 1290 ties<br>
 The Random strategy had 1 ties<br>
 The average turn length is 137.2307<br>
 
+![Alt text](numberofties.png?raw=true "Title")
+
 
 # Analysis of results
 
