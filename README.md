@@ -71,12 +71,12 @@ $H_i \langle t,v\rangle \iff K_i H_i \langle t,v\rangle$.
 We also say that it is known that each card can only exist once. We call this the axiom of singularity. $H_i \langle t,v\rangle \to \neg H_j \langle t,v\rangle$ for all $j \neq i$. By KD ofcourse any player that knows the antecedent also knows the consequence here. Note here that the inverse is not necessarily true, as a type may also be removed from the game, so that no-one has any card of that type. 
 
 To support this concept we define another axiom, the axiom of (in)existence:
-$ (H_x \langle t, v_1\rangle \land H_x \langle t, v_2 \rangle \land H_x \langle t, v_3\rangle \land H_x \langle t, v_4\rangle) 
+$ (H_{x1} \langle t, v_1\rangle \land H_{x2} \langle t, v_2 \rangle \land H_{x3} \langle t, v_3\rangle \land H_{x4} \langle t, v_4\rangle) 
 \lor (\neg H_i \langle t,v_1\rangle \land \neg H_i \langle t,v_2\rangle \land \neg H_i \langle t,v_3\rangle \land \neg H_i \langle t,v_4\rangle )$ where each instance of $x$ can be any player while $i$ applies to ALL players. With this axiom the intuitive concept that either all cards of a type are held distributed across players (first part of disjunction), or no-one has any card of the type.
 
 Lastly, in order to complete the understanding that all cards exist until they are removed we need to add the start-state axiom. This axiom says as long as it is not common knowledge that no-one has any cards of a kind, then it must be the case that these cards are distributed over players. This means that:
 
-$ (H_x \langle t, v_1\rangle \land H_x \langle t, v_2 \rangle \land H_x \langle t, v_3\rangle \land H_x \langle t, v_4\rangle) 
+$ (H_{x1} \langle t, v_1\rangle \land H_{x2} \langle t, v_2 \rangle \land H_{x3} \langle t, v_3\rangle \land H_{x4} \langle t, v_4\rangle) 
 \lor C(\neg H_i \langle t,v_1\rangle \land \neg H_i \langle t,v_2\rangle \land \neg H_i \langle t,v_3\rangle \land \neg H_i \langle t,v_4\rangle)$
 
 With this axiom we know that all cards exist at the start, and cards will only stop existing once someone has announced that they removed a set. 
