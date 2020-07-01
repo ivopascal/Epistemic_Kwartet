@@ -33,14 +33,15 @@ class Player:
     # Call this function to hand the turn to this player
     # The player will keep taking turns until it fails.
     def play(self):
+        self.perform_inference()
         if self.strategy == 0:
             if self.certain_request():
-			    # Clear all full sets
+		# Clear all full sets
                 self.removeKinds(self.brain.checkAllKinds())
                 self.perform_inference()
 
 
-			    # Don't allow another turn if the game is over
+		# Don't allow another turn if the game is over
                 if self.brain.get_valid_kinds() != []:
                     self.removeKinds(self.brain.checkAllKinds())
                     self.play()
