@@ -34,25 +34,35 @@ class Player:
     # The player will keep taking turns until it fails.
     def play(self):
         self.perform_inference()
+        
+        #greedy strategy
         if self.strategy == 0:
             if self.certain_request():
-		# Clear all full sets
+				# Clear all full sets
                 self.removeKinds(self.brain.checkAllKinds())
+                
+                #perform the inference
                 self.perform_inference()
 
-
-		# Don't allow another turn if the game is over
+				# Don't allow another turn if the game is over
+				# Another check for removeKinds is done in these instances due to
+				# a very rare error, where about 1 in 1000 times it would not be able
+				# to remove a full set. 
                 if self.brain.get_valid_kinds() != []:
                     self.removeKinds(self.brain.checkAllKinds())
                     self.play()
+                    
             else:
                 self.removeKinds(self.brain.checkAllKinds())
                 return False
         
+        #silent strategy
         if self.strategy == 1:
             if self.silent_request():
 			    # Clear all full sets
                 self.removeKinds(self.brain.checkAllKinds())
+                
+                #perform the inference
                 self.perform_inference()
 
 			    # Don't allow another turn if the game is over
@@ -62,14 +72,19 @@ class Player:
             else:
                 self.removeKinds(self.brain.checkAllKinds())
                 return False        
-
+		
+		#mixed strategy
         if self.strategy == 2:
             x = random.randrange(2)
+            #play greedy this turn
             if x == 0:
                 if self.certain_request():
                     # Clear all full sets
                     self.removeKinds(self.brain.checkAllKinds())
+                    
+                    #perform the inference 
                     self.perform_inference()
+                    
                     # Don't allow another turn if the game is over
                     if self.brain.get_valid_kinds() != []:
                         self.removeKinds(self.brain.checkAllKinds())
@@ -77,11 +92,16 @@ class Player:
                 else:
                     self.removeKinds(self.brain.checkAllKinds())
                     return False
+            
+            #play silent this turn
             if x == 1:
                 if self.silent_request():
                     # Clear all full sets
                     self.removeKinds(self.brain.checkAllKinds())
+                    
+                    #check for inference
                     self.perform_inference()
+                    
                     # Don't allow another turn if the game is over
                     if self.brain.get_valid_kinds() != []:
                         self.removeKinds(self.brain.checkAllKinds())
@@ -89,12 +109,16 @@ class Player:
                 else:
                     self.removeKinds(self.brain.checkAllKinds())
                     return False
-                    
+        
+        #play random strategy       
         if self.strategy == 3:
             if self.random_request():
 			    # Clear all full sets
                 self.removeKinds(self.brain.checkAllKinds())
+                
+                #check for inference
                 self.perform_inference()
+                
 			    # Don't allow another turn if the game is over
                 if self.brain.get_valid_kinds() != []:
                     self.removeKinds(self.brain.checkAllKinds())
@@ -102,12 +126,17 @@ class Player:
             else:
                 self.removeKinds(self.brain.checkAllKinds())
                 return False
-			
+	
+	#Here we check for the inference
+	#We perform the inference based on counting and whether we know a player does not own a card
     def perform_inference(self):
+		#We only check for cards the player may actually ask about
         for kinds in self.brain.get_owned_kinds():
             
-            #INFERENCE BASED ON COUNTING AND CERTAIN AND CERTAINNOT CARDS
+            #We create a list of all cards of a certain kind
             kindSet = [deck.Card(kinds, value) for value in range(4)]
+            
+            #we remove the cards the player already owns
             for card in kindSet:
                 if card in self.cards:
                     kindSet.remove(card)
