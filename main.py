@@ -13,7 +13,6 @@ if __name__ == "__main__":
     all_ties = []
     all_turns = []
     for i in range (value):
-        print(i)
         d = deck.Deck(ncards=52)
         d.shuffle()
         cuts = d.cut(4)
@@ -27,6 +26,10 @@ if __name__ == "__main__":
 
         turn = 0
         player_counter = 0
+        print("turn " + str(turn))
+        for player in players:
+            print(player.cards)
+			
         while turn >= 0:
             play = (player_counter%len(players))
             if len(players[play].cards) > 0:
@@ -34,18 +37,20 @@ if __name__ == "__main__":
                 turn += 1
 
                 total_score = 0
-                print("")
-                print(Fore.MAGENTA + "Turn: " + str(turn))
-                print(Style.RESET_ALL)
+                print("turn " + str(turn))
+                #print("")
+                #print(Fore.MAGENTA + "Turn: " + str(turn))
+                #print(Style.RESET_ALL)
                 num = 0
                 for p in players:
                     total_score += p.score
-                    print(p.brain.known_cards_number[num])
-                    print("player " + str(num) + " has") 
-                    print(Fore.CYAN)
                     print(p.cards)
-                    print(Style.RESET_ALL)
-                    print(p.brain.get_owned_kinds())
+                    #print(p.brain.known_cards_number[num])
+                    #print("player " + str(num) + " has") 
+                    #print(Fore.CYAN)
+                    #print(p.cards)
+                    #print(Style.RESET_ALL)
+                    #print(p.brain.get_owned_kinds())
                     num+=1
                 if total_score == d.nkinds:
                     all_turns.append(turn)
@@ -53,14 +58,17 @@ if __name__ == "__main__":
                 total_score = 0
             player_counter +=1
         
-        print(Fore.BLUE + "The final score is")
+        print("The game is finished")
+        print("The final score is")
+        #print(Fore.BLUE + "The final score is")
         count = 0    
         winner = 0
         highest_score = 0
         for p in players:
             string = "Player " + str(count) + " has scored " + str(p.score) + " points"
-            print(Fore.CYAN + string)
-            print(Style.RESET_ALL)
+            print(string)
+            #print(Fore.CYAN + string)
+            #print(Style.RESET_ALL)
             if p.score >= highest_score:
                 highest_score = p.score
                 winner = count
