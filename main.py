@@ -8,11 +8,16 @@ import os
 	
 if __name__ == "__main__":
     value = int(input("How many rounds do you want to play? "))
-    #value = 5
     all_winners = []
     all_ties = []
     all_turns = []
+    f = open("output.txt", "w")
+    print("")
+    f.close()
     for i in range (value):
+        f = open("output.txt", "a")
+        print("This is game " + str(i+1), file=f)
+        f.close()
         d = deck.Deck(ncards=52)
         d.shuffle()
         cuts = d.cut(4)
@@ -26,10 +31,12 @@ if __name__ == "__main__":
 
         turn = 0
         player_counter = 0
-        print("turn " + str(turn))
-        for player in players:
-            print(player.cards)
-			
+        f = open("output.txt", "a")
+        print("turn " + str(turn), file=f)
+        for p in players:
+            print(p.cards, file=f)
+        f.close()
+        
         while turn >= 0:
             play = (player_counter%len(players))
             if len(players[play].cards) > 0:
@@ -37,20 +44,15 @@ if __name__ == "__main__":
                 turn += 1
 
                 total_score = 0
-                print("turn " + str(turn))
-                #print("")
-                #print(Fore.MAGENTA + "Turn: " + str(turn))
-                #print(Style.RESET_ALL)
+                f = open("output.txt", "a")
+                print("turn " + str(turn), file=f)
+                f.close()
                 num = 0
                 for p in players:
                     total_score += p.score
-                    print(p.cards)
-                    #print(p.brain.known_cards_number[num])
-                    #print("player " + str(num) + " has") 
-                    #print(Fore.CYAN)
-                    #print(p.cards)
-                    #print(Style.RESET_ALL)
-                    #print(p.brain.get_owned_kinds())
+                    f = open("output.txt", "a")
+                    print(p.cards, file=f)
+                    f.close()
                     num+=1
                 if total_score == d.nkinds:
                     all_turns.append(turn)
@@ -58,17 +60,18 @@ if __name__ == "__main__":
                 total_score = 0
             player_counter +=1
         
-        print("The game is finished")
-        print("The final score is")
-        #print(Fore.BLUE + "The final score is")
+        f = open("output.txt", "a")
+        print("The game is finished", file=f)
+        print("The final score is", file=f)
+        f.close()
         count = 0    
         winner = 0
         highest_score = 0
         for p in players:
+            f = open("output.txt", "a")
             string = "Player " + str(count) + " has scored " + str(p.score) + " points"
-            print(string)
-            #print(Fore.CYAN + string)
-            #print(Style.RESET_ALL)
+            print(string, file=f)
+            f.close()
             if p.score >= highest_score:
                 highest_score = p.score
                 winner = count
@@ -80,17 +83,21 @@ if __name__ == "__main__":
             if p.score == highest_score:
                 winners.append(p.id)
                 
-        
+
         if len(winners) == 1:
-            print("The winner is player " + str(winner))   
+            f = open("output.txt", "a")
+            print("The winner is player " + str(winner), file=f)   
             all_winners.append(winners[0])
+            f.close()
                  
         else:
-            print("The winners are:" )
+            f = open("output.txt", "a")
+            print("The winners are:" , file=f)
             for win in winners:
-                print("Player " + str(win))
+                print("Player " + str(win), file=f)
                 all_ties.append(win)
-    
+            f.close()
+		
     greedy = 0
     silent = 0
     mixed = 0
@@ -124,17 +131,18 @@ if __name__ == "__main__":
         count += turn
     average_turn_length = count/value
     
-    print("We played " + str(value) + " rounds")
-    print("The Greedy strategy had " + str(greedy) + " out of " + str(value) + " wins")
-    print("The Silent strategy had " + str(silent) + " out of " + str(value) + " wins")
-    print("The Mixed strategy had " + str(mixed) + " out of " + str(value) + " wins")
-    print("The Random strategy had " + str(random) + " out of " + str(value) + " wins")
-    print("The Greedy strategy had " + str(tgreedy) + " ties")
-    print("The Silent strategy had " + str(tsilent) + " ties")
-    print("The Mixed strategy had " + str(tmixed) + " ties")
-    print("The Random strategy had " + str(trandom) + " ties")
-    print("The average turn length is " + str(average_turn_length))
-    
+    f = open("output.txt", "a")
+    print("We played " + str(value) + " rounds", file=f)
+    print("The Greedy strategy had " + str(greedy) + " out of " + str(value) + " wins", file=f)
+    print("The Silent strategy had " + str(silent) + " out of " + str(value) + " wins", file=f)
+    print("The Mixed strategy had " + str(mixed) + " out of " + str(value) + " wins", file=f)
+    print("The Random strategy had " + str(random) + " out of " + str(value) + " wins", file=f)
+    print("The Greedy strategy had " + str(tgreedy) + " ties", file=f)
+    print("The Silent strategy had " + str(tsilent) + " ties", file=f)
+    print("The Mixed strategy had " + str(tmixed) + " ties", file=f)
+    print("The Random strategy had " + str(trandom) + " ties", file=f)
+    print("The average turn length is " + str(average_turn_length), file=f)
+    f.close()
     
         
         
