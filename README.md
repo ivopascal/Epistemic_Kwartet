@@ -216,6 +216,7 @@ The silent strategy is similar to the greedy strategy. The main difference is th
 As a fourth possible request type, we use a mix of the greedy and the silent request. Half of the times the player will play as if they are using the greedy strategy and the other half of the times they play as if using the silent strategy. This mixed strategy is added as a valid strategy for the fourth player to use, furthermore it can be used to see if a mixed strategy would be more useful. 
 
 # The graphical User Interface
+The Graphical User Interface used in this project is created from scratch with PyQT5. The Graphical User Interface here is using "output.txt" as a database for player turns and cards. There are 2 functioning buttons, 8 text labels and 8 connections in this GUI. The first button named "Start" sets all players' text labels to the first turn of the game. All players have their own textlabels and have textlabels for their cards. The second buttons name is Next Turn. The Next Turn button has 4 connections to the related text labels of player cards. Next Turn button activates the functions for next turns. When the button is pressed, our update function pulls the next turn states from the output.txt file and increments the turn value by 1. Furthermore, the Graphical User Interface only shows the first game played in main.py however output.txt has more details from all games played and winning strategies. Embedding an epistemicly logical game to a Graphical User Interface comes with different challenges. One of our biggest challenge was constantly updating players hands. There are also some flaws with scaling since our hand size is too long, it causes GUI to outscale in earlier stages of the game. This flaw can be solved by resizing the windows panel. At the last turns of the game most cards are removed from game and game finishes by no card remaining in the player card labels. This process can be repeatable and can be reinspected for different games. To examine new game, running main.py and opening GUI will be enough.
 
 # Results
 We ran the program for a total of 10.000 rounds. 
@@ -263,7 +264,7 @@ Rerunning the code will overwrite the previous "output.txt"<br>
 The code is located here: "https://github.com/ivopascal/Epistemic_Kwartet.git" 
 
 ## Graphical User Interface
-After running the main code and generating the output.txt file, this output.txt file is used to create the graphical user interface. The code can be run by using RUN INSTRUCTIONS. The graphical user interface will show for the first game, the cards each player has at the end of a turn. In the rounds where the request failed, the GUI will not show any changes. 
+After running the main code and generating the output.txt file, this output.txt file is used to create the graphical user interface. The code can be run by using python3 UI.py. To start you need to press the start button, afterwards the next turn button can be used to see the next turn. The graphical user interface will show for all turns the first game, the cards each player has at the end of a turn. In the rounds where the request failed, the GUI will not show any changes. 
 
 
 
