@@ -37,7 +37,7 @@ def find_correct_player_information(turn, player):
                 correct_line = i
 
             if i == (correct_line + player):
-               # print(turn)
+                # print(turn)
                 turn += 1
                 #   print(player)
                 print(line)
@@ -48,9 +48,9 @@ def find_correct_player_information(turn, player):
 # print(string)
 
 
-
-
 class Ui_NextTurnButton(object):
+    turn = 1
+
     def setupUi(self, NextTurnButton):
         NextTurnButton.setObjectName("NextTurnButton")
         NextTurnButton.resize(1117, 879)
@@ -95,12 +95,18 @@ class Ui_NextTurnButton(object):
         self.StartBttn.clicked.connect(self.reset_label2)
         self.StartBttn.clicked.connect(self.reset_label3)
         self.StartBttn.clicked.connect(self.reset_label4)
-        self.NextPointbttn.clicked.connect(self.update_label2)
-        self.NextPointbttn.clicked.connect(self.update_label1)
-        self.NextPointbttn.clicked.connect(self.update_label3)
-        self.NextPointbttn.clicked.connect(self.update_label4)
+     #   self.NextPointbttn.clicked.connect(self.update_label2)
+     #   self.NextPointbttn.clicked.connect(self.update_label1)
+     #   self.NextPointbttn.clicked.connect(self.update_label3)
+     #   self.NextPointbttn.clicked.connect(self.update_label4)
+        self.NextPointbttn.clicked.connect(self.playnext)
         QtCore.QMetaObject.connectSlotsByName(NextTurnButton)
-
+    def playnext(self):
+        self.update_label1()
+        self.update_label2()
+        self.update_label3()
+        self.update_label4()
+        self.increaseturn()
     def retranslateUi(self, NextTurnButton):
         _translate = QtCore.QCoreApplication.translate
         NextTurnButton.setWindowTitle(_translate("NextTurnButton", "Form"))
@@ -109,7 +115,7 @@ class Ui_NextTurnButton(object):
         self.Player1Label.setText(_translate("NextTurnButton",
                                              "<html><head/><body><p><span style=\" font-size:14pt; color:#ff0000;\">Player 1</span></p></body></html>"))
         self.Plyr3_cards.setText(_translate("NextTurnButton", "Player 3 Cards"))
-        self.NextPointbttn.setText(_translate("NextTurnButton", "Results"))
+        self.NextPointbttn.setText(_translate("NextTurnButton", "Next Turn"))
         self.StartBttn.setText(_translate("NextTurnButton", "Start"))
         self.Plyr4_cards.setText(_translate("NextTurnButton", "Player 4 Cards"))
         self.Plyr2_cards.setText(_translate("NextTurnButton", "Player 2 Cards"))
@@ -121,36 +127,41 @@ class Ui_NextTurnButton(object):
         self.actionssn.setText(_translate("NextTurnButton", "ssn"))
         self.actionssn.setToolTip(_translate("NextTurnButton", "bg"))
 
-    def update_label1(self, turn, player):
-        text = find_correct_player_information(turn, player)
+    def update_label1(self):
+        text = find_correct_player_information(self.turn, 1)
         self.Plyr1_cards.setText(text)
-      #  print(11)
 
-    def update_label2(self, turn, player):
-        text = find_correct_player_information(turn, player)
+    #  print(11)
+
+    def update_label2(self):
+        text = find_correct_player_information(self.turn, 2)
         self.Plyr2_cards.setText(text)
-       # print(12)
-    def update_label3(self, turn, player):
-        text = find_correct_player_information(turn, player)
+
+    # print(12)
+    def update_label3(self):
+        text = find_correct_player_information(self.turn, 3)
         self.Plyr3_cards.setText(text)
-      #  print(13)
-    def update_label4(self, turn, player):
-        turn = + 1
-        text = find_correct_player_information(turn, player)
+        print(self.turn, 'abcc')
+
+    #  print(13)
+    def update_label4(self):
+
+        text = find_correct_player_information(self.turn, 4)
         self.Plyr4_cards.setText(text)
-       # print(14)
+    def increaseturn(self):
+        self.turn +=1
+    # print(14)
     def reset_label1(self):
-        self.Plyr1_cards.setText('')
+        self.Plyr1_cards.setText(find_correct_player_information(1, 1))
 
     def reset_label2(self):
-        self.Plyr2_cards.setText('')
+        self.Plyr2_cards.setText(find_correct_player_information(1, 2))
 
     def reset_label3(self):
-        self.Plyr3_cards.setText('')
+        self.Plyr3_cards.setText(find_correct_player_information(1, 3))
 
     def reset_label4(self):
-        self.Plyr4_cards.setText('')
-
+        self.Plyr4_cards.setText(find_correct_player_information(1, 4))
 
 
 if __name__ == "__main__":
@@ -162,20 +173,20 @@ if __name__ == "__main__":
     ui.setupUi(NextTurnButton)
     NextTurnButton.show()
 
-    turn = 1
-    ia1=0
-    while find_correct_player_information(turn, 1):
-        #print(9)
-        turn += 1
-        ui.update_label1(turn, 1)
-        ui.update_label2(turn, 2)
-        ui.update_label3(turn, 3)
-        ui.update_label4(turn, 4)
 
-        print(ia1)
-        ia1 += 1
+    ia1 = 0
 
-   # ui.update_label1(turn+1,1)
-    #print(15)
+  #  while find_correct_player_information(ui.turn, 1):
+        # print(9)
+    ui.update_label1()
+    ui.update_label2()
+    ui.update_label3()
+    ui.update_label4()
+
+    print(ia1)
+    ia1 += 1
+
+    # ui.update_label1(turn+1,1)
+    # print(15)
 
     sys.exit(app.exec_())
