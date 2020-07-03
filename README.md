@@ -2,13 +2,18 @@
 ### Last update: 3 July 2020, 19:10
 
 # Logical Aspects of Multi-agent Systems: Epistemic Kwartet
-Kwartet is a Dutch card game that centres around exchanging cards between players, provided that you know who that card has. This means that in order to win each player wants to maximize their knowledge of who has which cards, while minimizing the knowledge that their opponents have. This allows the player to collect more sets than their opponents and therefore win the game/
+Kwartet is a Dutch card game that centres around exchanging cards between players, provided that you know who that card has. This means that in order to win each player wants to maximize their knowledge of who has which cards, while minimizing the knowledge that their opponents have. This allows the player to collect more sets than their opponents and therefore win the game.
+
+Kwartet is generally considered as a childrens game, as it is an easy game to play. Most kwartet games are themed, where each set has an different theme and each card in a set displays a specific item relating to that topic. For example, an animal themed kwartet may have a set of farm animals, consisting of a cow, a pig, a chicken and a goat and another set of pets, consisting of an dog, a cat, a rabbit and a hamster. Generally, information about the object on the cards are displayed to teach children facts as an educational tool. Beside specific themed kwartets, it also happens commonly that companies give kwartets away as promotional material with information on their products or information that relates to their business. For example, a bakery may give away a bakery themed kwartet. A kwartet can have between 8 and 20 sets of four cards. <br>
+
+![Alt text](Kwartet-My-body.jpg?raw=true "Title")
+An example kwartet, with an body theme meant to teach children the English words for different parts of the body.
 
 With a game as kwartet Epistemic logic is a good tool for formalizing player strategies. Each player knows their own state and might know some things about an opponent's state. Every move is a public announcement which allows the other players to learn something about the state of the game. As the possible worlds collapse the players become increasingly aware of how the cards are distributed.
 
 # The Game
 
-Kwartet can be played with any number of players, but the current implementation assumes 4 players. Each player gets an even split of the deck of card. The deck consists of a number of sets (in this case 13), each set having 4 members (forming a total of 52 cards). The goal for each player is to collect as many full sets as possible.
+Kwartet can be played with any number of players, but the current implementation assumes 4 players. Each player gets an even split of the deck of card. The deck consists of a number of sets (in this case 13), each set having 4 members (forming a total of 52 cards). The goal for each player is to collect as many full sets as possible. In contrast to real kwartet games, we won't use themed cards, but instead just call our cards card $\langle 1,1\rangle, \langle 1,2\rangle, \langle 1,3\rangle, \langle 1,4\rangle, \langle 2,1\rangle$, et cetera.
 
 ## The turns
 
