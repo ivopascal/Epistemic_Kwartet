@@ -181,36 +181,14 @@ The silent strategy is similar to the greedy strategy. The main difference is th
 ## Mixed request
 
 As a fourth possible request type, we use a mix of the greedy and the silent request. Half of the times the player will play as if they are using the greedy strategy and the other half of the times they play as if using the silent strategy. This mixed strategy is added as an valid strategy for the fourth player to use, furthermore it can be used to see if a mixed strategy would be more useful. 
-# Results
-We ran the program 1000 times and kept track of which strategy won the most and the amount of tied wins. <br>
-Furthermore we also calculated the average number of turns. <br> <br>
-This led to the following data: <br> <br>
-We played 1000 rounds<br>
-The Greedy strategy had 577 out of 1000 wins<br>
-The Silent strategy had 70 out of 1000 wins <br>
-The Mixed strategy had 204 out of 1000 wins<br>
-The Random strategy had 0 out of 1000 wins<br>
-The Greedy strategy had 144 ties<br>
-The Silent strategy had 49 ties<br>
-The Mixed strategy had 116 ties<br>
-The Random strategy had 1 ties<br>
-The average turn length is 156.582<br>
-<br><br>
-We played 10000 rounds<br>
-The Greedy strategy had 5766 out of 10000 wins<br>
-The Silent strategy had 630 out of 10000 wins<br>
-The Mixed strategy had 2070 out of 10000 wins<br>
-The Random strategy had 3 out of 10000 wins<br>
-The Greedy strategy had 1411 ties<br>
-The Silent strategy had 571 ties<br>
-The Mixed strategy had 1216 ties<br>
-The Random strategy had 2 ties<br>
-The average turn length is 157.2527<br>
 
-<br>
-<br>
-NEW RESULTS AFTER ADDING EXTRA INFERENCE STEP:<br>
-We played 10000 rounds<br>
+# Results
+We ran the program for a total of 10.000 rounds. 
+For each round we kept track of the winners, the amount of turns and the average number of successful inferences per game. <br>
+We created an overview of the number of times each strategy had a win and each time a strategy had a tied win. <br>
+We also calculated the average number of successfull inferences performed per game and the average turn length per game. <br>
+This led to the following data: <br> <br>
+8313 games resulted in having one winner and the other 1687 games resulted in having two or more winners.<br>
 The Greedy strategy had 5597 out of 10000 wins<br>
 The Silent strategy had 781 out of 10000 wins<br>
 The Mixed strategy had 1933 out of 10000 wins<br>
@@ -219,8 +197,11 @@ The Greedy strategy had 1545 ties<br>
 The Silent strategy had 683 ties<br>
 The Mixed strategy had 1290 ties<br>
 The Random strategy had 1 ties<br>
+<br>
 The average turn length is 137.2307<br>
-
+The average number of inferences per game is 24.4148. <br>
+<br>
+The circle diagrams below, show the percentages that each strategy won for both normal wins and the runs that resulted in a tie. <br>
 ![Alt text](numberofwins.png?raw=true "Title")
 ![Alt text](numberofties.png?raw=true "Title")
 
