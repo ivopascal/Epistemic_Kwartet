@@ -1,4 +1,4 @@
-### Authors: Ivo de Jong, Unmut Demirci and Marjolein Spijkerman 
+### Authors: Ivo de Jong, Umut Demirci and Marjolein Spijkerman 
 ### Last update: 3 July 2020, 19:10
 
 # Logical Aspects of Multi-agent Systems: Epistemic Kwartet
