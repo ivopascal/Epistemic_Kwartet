@@ -140,143 +140,109 @@ class Player:
             for card in kindSet:
                 if card in self.cards:
                     kindSet.remove(card)
-                    
+            
+            #Here we check for all the cards currently in the list, whether we already know the location
+            #and otherwise we'll check if we can determine the owner
             for card in kindSet:
                 total_sum = 0
+                
+                #check if we already know the location. 
                 for player in self.opponents:
                     total_sum += self.brain.certain_cards(player.id, card)
-                    #self.brain.certain_cards(player.id, card)
-                            
+                    
+                
+                #create a list of possible owners
                 possible_card_owners = []
+                
+                #If we don't know the location yet
                 if total_sum is 0:
+					
+					#go through all players
                     for player in self.opponents:
+						
+						#when the card is not in the player's list of certain_not_cards
                         if self.brain.certain_not_cards(player.id, card) is 0:
+							
+							#calculate the number of unknown cards, thus cards the player has but we don't know what card it is
                             unknown_cards = self.brain.known_cards_number[player.id] - self.brain.get_number_of_requestable_cards(player.id)
+                            
+                            #If the number of unknown cards is larger than 0 it is possible they own this card and are appended in the list
                             if unknown_cards > 0:
                                 possible_card_owners.append(player.id)
+                    
+                    #If there is now only one possible player left who can have the card, then that player indeed has that card            
                     if len(possible_card_owners) is 1:
                         self.brain.add_card_to_knowledge(possible_card_owners[0], card)
                         kindSet.remove(card)
-                        #print("test1")
                         self.perform_inference()
-            
-            #INFERENCE BASED ON WHAT IF PLAYER HAS 3 CARDS, BUT DOES NOT KNOW LOCATION OF CARD, BUT DOES KNOW OWNS TYPE OF CARD
-            kindSet = [deck.Card(kinds, value) for value in range(4)]
-            for card in kindSet:
-                if card in self.cards:
-                    kindSet.remove(card)
-                    
-            if len(kindSet) is 1:
-                card = kindSet[0]
-                count = 0
-                possible_owner = []
-                for opponent in self.opponents:
-                    if self.brain.owns_kind(opponent.id, card.kind):
-                        possible_owner.append(opponent.id)
-                if len(possible_owner) is 1:
-                    self.brain.add_card_to_knowledge(possible_owner[0], card)
-                    kindSet.remove(card)
-                    #print("check1")
-                    self.perform_inference()
-            
-            #INFERENCE BASED ON KNOWING THE LOCATION OF THREE CARDS
-            kindSet = [deck.Card(kinds, value) for value in range(4)]
-            #print(kindSet)
-            for card in kindSet:
-                if card in self.cards:
-                    kindSet.remove(card)
-            possible_owner = []
-            possible_owner_already_owns_card = []
-            unknown_owner = []
-            
-
-            for op in self.opponents:
-                for card in kindSet:
-                    if self.brain.certain_cards(op.id, card) is 1:
-                        if card in kindSet:
-                            kindSet.remove(card)
-                            possible_owner_already_owns_card.append(op.id)
-            
-            for op in self.opponents:
-                if self.brain.owns_kind(op, kinds):
-                    possible_owner.append(op.id)
-            
-            if len(kindSet) == 1:
-                if len(possible_owner) == 1:
-                    self.brain.add_card_to_knowledge(possible_owner[0], card)
-                    kindSet.remove(card)
-                    #print("succes1")
-                    self.perform_inference()
-                else:
-                    new_owner_list = []
-                    for op in self.opponents:
-                        if self.brain.certain_not_cards(op, card) == 0:
-                            new_owner_list.append(op.id)
-                    if len(new_owner_list) == 1:
-                        self.brain.add_card_to_knowledge(new_owner_list[0], card)
-                        kindSet.remove(card)
-                        #print("success2")
-                        self.perform_inference()
-                    elif len(new_owner_list) > 0:
-                        for op in new_owner_list:
-                            unknown_cards = self.brain.known_cards_number[op] - self.brain.get_number_of_requestable_cards(op)
-                            if unknown_cards == 0:
-                                new_owner_list.remove(op)
-                        if len(new_owner_list) == 1:
-                            self.brain.add_card_to_knowledge(new_owner_list[0], card)
-                            kindSet.remove(card)
-                            #print("success3")
-                            self.perform_inference()
 
         return True
 
     # This is the greedy strategy
     def certain_request(self):
+		#requests list of requestable cards, thus cards they know location of
         requestable_cards = self.brain.get_requestable_cards()
+        #if list is empty, ask for a random request
         if requestable_cards == []:
             return self.random_request()
+        
+        #for all opponents
         for opponent in self.opponents:
+			#if this opponent has a requestable cards
             if opponent.id == requestable_cards[0][1]:
+				#draw that card and assert that card indeed belongs to opponent
                 r = opponent.draw(requestable_cards[0][0])
                 assert(r)
+                #append the card to yourself and let announcer announce the card
                 self.cards.append(r)
                 self.announcer.card_taken(r, opponent.id, self.id)
                 return True
         return False
     
     #Will only ask for cards, when location of all cards is certain. 
-    #Will otherwise lie and ask for their own cards.
+    #Will otherwise lie and ask for their own cards or ask for random card
     def silent_request(self):
         requestable_cards = self.brain.get_requestable_cards()
         if requestable_cards == []:
+			#will ask for own or random card with 1/3 vs 2/3 chance
+			#only asking own cards is really bad for performance. 
             x = random.randrange(3)
             if x > 0:
                 return self.random_request()
             else:
                 return self.owned_request()
         
+        #list here the cards of requestable cards that player is actually allowed to ask
         may_request = []
         for kinds in self.brain.get_owned_kinds():
+			#counter to keep track if location of all four cards is known
             count = 0
             for i in range(4):
                 card = deck.Card(kinds, i)
+                #if card is owned by themselves increase count
                 if card in self.cards:
                     count+=1
+                #if card location is known increase count
                 if self.brain.check_if_in_list(card):
                     count+=1
-
+			
+			#when the count is 4, all locations are known
+			#Here we add the cards we do not own and can request to the may request list
             if count == 4:
                 for i in range(4):
                     card = deck.Card(kinds, i)
                     if self.brain.check_if_in_list(card):
                         may_request.append(self.brain.return_card_in_list(card))
-                        
+        
+        #If may request is empty, ask for owned or random card         
         if may_request == []:
             x = random.randrange(3)
             if x > 0:
                 return self.random_request()
             else:
                 return self.owned_request()
+        
+        #request all cards in the may request list. This works the same as the greedy request code
         for opponent in self.opponents:
             if opponent.id == may_request[0][1]:
                 r = opponent.draw(may_request[0][0])
@@ -287,6 +253,9 @@ class Player:
         return False
         
     # Request a random card of a valid kind from a random opponent
+    # Creates a random card based on the owned kinds and that chooses a random
+    # value number. Then picks random opponent.
+    # Then either announces giver has the card or does not have the card
     def random_request(self):
         requestable_kinds = self.brain.get_owned_kinds()
         if requestable_kinds == []:
@@ -303,16 +272,24 @@ class Player:
             self.announcer.card_taken(r, opponent.id, self.id)
             return True
 
+	#Works similarly to the random request, but now picks a random card from 
+	#cards that belong to the player
     def owned_request(self):
+		#requestable cards are your own cards
         requestable_kinds = self.cards
+        #you don't have any cards
         if requestable_kinds == []:
             return False
+        #pick a random card
         hcard = random.choice(requestable_kinds)
+        #pick a random opponent
         opponent = self.opponents[random.randrange(len(self.opponents))]
         r = opponent.draw(hcard)
+        #opponent does not have card
         if not r:
             self.announcer.failed_request(hcard, opponent.id, self.id)
             return False
+        #opponent has card (this should not be able to happen)
         else:
             self.cards.append(r)
             self.announcer.card_taken(r, opponent.id, self.id)
