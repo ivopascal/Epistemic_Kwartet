@@ -10,8 +10,44 @@ from datetime import datetime
 
 from PyQt5 import QtCore, QtGui, QtWidgets
 from PyQt5.QtWidgets import QApplication, QWidget, QPlainTextEdit
-text=open('results.txt').read()
-points =open('secondfile.txt').read()
+
+text = open('output.txt').read()
+# points =open('secondfile.txt').read()
+
+# global turn = 0
+player4 = 3
+player4turn = 0
+player3 = 2
+player3turn = 0
+player2 = 2
+player2turn= 0
+player1 = 1
+player1turn = 1
+
+
+def find_correct_player_information(turn, player):
+    correct_line = -100
+
+    needed_line = "turn " + str(turn)
+
+    with open("output.txt") as fp:
+        for i, line in enumerate(fp):
+            line = line[:-1]
+            if line == needed_line:
+                correct_line = i
+
+            if i == (correct_line + player):
+               # print(turn)
+             #   print(player)
+                return line
+
+
+#string = find_correct_player_information(124, 1)
+#print(string)
+
+
+
+
 
 class Ui_NextTurnButton(object):
     def setupUi(self, NextTurnButton):
@@ -58,40 +94,47 @@ class Ui_NextTurnButton(object):
         self.StartBttn.clicked.connect(self.reset_label2)
         self.StartBttn.clicked.connect(self.reset_label3)
         self.StartBttn.clicked.connect(self.reset_label4)
-       # self.NextPointbttn.clicked.connect(self.update_label2)
+        self.NextPointbttn.clicked.connect(self.update_label2)
+       # self.NextPointbttn.clicked.connect(incrementturn())
         self.NextPointbttn.clicked.connect(self.update_label1)
-       # self.NextPointbttn.clicked.connect(self.update_label3)
+        self.NextPointbttn.clicked.connect(self.update_label3)
         self.NextPointbttn.clicked.connect(self.update_label4)
         QtCore.QMetaObject.connectSlotsByName(NextTurnButton)
 
     def retranslateUi(self, NextTurnButton):
         _translate = QtCore.QCoreApplication.translate
         NextTurnButton.setWindowTitle(_translate("NextTurnButton", "Form"))
-        self.Player3Label.setText(_translate("NextTurnButton", "<html><head/><body><p><span style=\" font-size:14pt; color:#0000ff;\">Player 3</span></p></body></html>"))
-        self.Player1Label.setText(_translate("NextTurnButton", "<html><head/><body><p><span style=\" font-size:14pt; color:#ff0000;\">Player 1</span></p></body></html>"))
+        self.Player3Label.setText(_translate("NextTurnButton",
+                                             "<html><head/><body><p><span style=\" font-size:14pt; color:#0000ff;\">Player 3</span></p></body></html>"))
+        self.Player1Label.setText(_translate("NextTurnButton",
+                                             "<html><head/><body><p><span style=\" font-size:14pt; color:#ff0000;\">Player 1</span></p></body></html>"))
         self.Plyr3_cards.setText(_translate("NextTurnButton", "Player 3 Cards"))
         self.NextPointbttn.setText(_translate("NextTurnButton", "Results"))
         self.StartBttn.setText(_translate("NextTurnButton", "Start"))
         self.Plyr4_cards.setText(_translate("NextTurnButton", "Player 4 Cards"))
         self.Plyr2_cards.setText(_translate("NextTurnButton", "Player 2 Cards"))
         self.Plyr1_cards.setText(_translate("NextTurnButton", "Player 1 Cards"))
-        self.Player4Label.setText(_translate("NextTurnButton", "<html><head/><body><p><span style=\" font-size:14pt; color:#ff5500;\">Player 4</span></p></body></html>"))
-        self.Player2Label.setText(_translate("NextTurnButton", "<html><head/><body><p><span style=\" font-size:14pt; color:#005500;\">Player 2</span></p></body></html>"))
+        self.Player4Label.setText(_translate("NextTurnButton",
+                                             "<html><head/><body><p><span style=\" font-size:14pt; color:#ff5500;\">Player 4</span></p></body></html>"))
+        self.Player2Label.setText(_translate("NextTurnButton",
+                                             "<html><head/><body><p><span style=\" font-size:14pt; color:#005500;\">Player 2</span></p></body></html>"))
         self.actionssn.setText(_translate("NextTurnButton", "ssn"))
         self.actionssn.setToolTip(_translate("NextTurnButton", "bg"))
 
+    def update_label1(self, turn, player):
+        text = find_correct_player_information(turn, player)
+        self.Plyr1_cards.setText(text)
 
-
-    def update_label1(self):
-      self.Plyr1_cards.setText(points)
-
-    def update_label2(self):
+    def update_label2(self, turn, player):
+        text = find_correct_player_information(turn, player)
         self.Plyr2_cards.setText(text)
 
-    def update_label3(self):
+    def update_label3(self, turn, player):
+        text = find_correct_player_information(turn, player)
         self.Plyr3_cards.setText(text)
 
-    def update_label4(self):
+    def update_label4(self, turn, player):
+        text = find_correct_player_information(turn, player)
         self.Plyr4_cards.setText(text)
 
     def reset_label1(self):
@@ -99,16 +142,33 @@ class Ui_NextTurnButton(object):
 
     def reset_label2(self):
         self.Plyr2_cards.setText('')
+
     def reset_label3(self):
         self.Plyr3_cards.setText('')
+
     def reset_label4(self):
         self.Plyr4_cards.setText('')
+
+
 if __name__ == "__main__":
     import sys
+
     app = QApplication(sys.argv)
     NextTurnButton = QWidget()
     ui = Ui_NextTurnButton()
     ui.setupUi(NextTurnButton)
     NextTurnButton.show()
-    sys.exit(app.exec_())
 
+ def incrementturn():
+        print('hi')
+
+
+
+    turn = 0
+while find_correct_player_information(turn, 1) != False:
+    ui.update_label1(turn, 1)
+    ui.update_label2(turn, 2)
+    ui.update_label3(turn, 3)
+    ui.update_label4(turn, 4)
+
+    sys.exit(app.exec_())
