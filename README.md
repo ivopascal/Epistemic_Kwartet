@@ -163,14 +163,31 @@ A player should also be aware of how many cards the other players have, so they 
 Using these encodings of the current knowledge further inferences can be made about which card is where.
 
 ## Implementing the inferences
-To implement the logical inference the program goes through the following steps for each player:
-Firstly, we go through all the card types the player owns. As these are the cards the player may ask about. 
-For each card type the player owns, we create a list of cards of that type the player does not have yet. Then we remove all the cards where the player does already know who has that card. Thus, we are left with a list of cards where the owner of said card is unknown.
-Then for each card, we check for each opponent if that card is in their list of cards they do not have and whether they have any unknown cards. Thus, we check if the number of cards they have is larger than the number of cards the player knows they have. Meaning it is possible that they have that card. 
-All the players who we know do not “not have” the card, and still have unknown cards are added to a list with possible owners. 
-If the length of this possible owner list is equal to 1, we can determine that that player, has indeed the card. 
+To implement the logical inference into the code, the program goes through the following steps for each player when it is the turn of the player. Firstly, the code goes through all the card types the player owns. As these are the only cards the player may ask about. The player will never be able to receive any cards of types they do not have yet, so it will not be needed to save information about cards of types the player does not own.<br>
+Then for each card type the player owns, we create a list of cards of that type that the player does not have yet. For example if the player has card $\langle 1, 2\rangle$ and $\langle 1, 3 \rangle$, then the list contains card $\langle 1, 1\rangle$ and $\langle 1, 4\rangle$. <br>
+After creating a list of all cards of a certain type the player does not own, we remove all the cards where the player already knows who has that card. Thus, we are left with a list of cards where the owner of said card is unknown to the player. <br>
+Given this list of unknown cards, we go in a loop through all the cards. Then for each card, we check for each opponent if that card is in their list of cards they do not have and whether they have any unknown cards. Thus, we check if the number of cards they have is larger than the number of cards the player knows they have. As when the number of specific cards we know they have is equal to the number of cards that player has, they do not have any cards they player does not know about. Meaning that when there are unknown cards, that that player can possibly own the card we are looking for. <br>
+After determining that it is indeed possible that the player has that card, we add that player to a list of possible card owners. This list can contain any number of possible owners between one and three possible owners. <br>
+If the length of this list is equal to one, there is only one owner possible. Then in that case we can conclude that that player indeed owns the card. Now the player can update his information with this newfound knowledge. <br>
+After correctly determining the location of a card, the inference function is called again recursively. This is repeated until no new cards can be found anymore. <br<
+The inference function is called upon on two different moments in the player's turn. Before the player makes its first move, as the player can have received new information from their opponents' turns and after making a successful move, as receiving a new card may bring new information that the player can use to infer the location of new cards. <br><br>
+To summarize this in pseudocode:
 
-The player will perform this inference, both at the start of their turn and after making a successful move. 
+```python
+def perform_inference(self, player)
+    foreach card_type player owns:
+        create list of unknown cards of type
+        foreach card in list:
+            create list of possible owners
+            foreach opponent:
+                if opponent does not "not own" the card and has more than 0 unknown cards:
+                    possible_owners.append(opponent)
+            if length of possible_owners == 1:
+                possible_owners[0] owns card
+                update information of player
+                run perform_inference()
+    return
+```
 
 
 # Strategies
