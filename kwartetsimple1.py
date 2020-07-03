@@ -14,13 +14,13 @@ from PyQt5.QtWidgets import QApplication, QWidget, QPlainTextEdit
 text = open('output.txt').read()
 # points =open('secondfile.txt').read()
 
-# global turn = 0
+
 player4 = 3
 player4turn = 0
 player3 = 2
 player3turn = 0
 player2 = 2
-player2turn= 0
+player2turn = 0
 player1 = 1
 player1turn = 1
 
@@ -38,13 +38,14 @@ def find_correct_player_information(turn, player):
 
             if i == (correct_line + player):
                # print(turn)
-             #   print(player)
+                turn += 1
+                #   print(player)
+                print(line)
                 return line
 
 
-#string = find_correct_player_information(124, 1)
-#print(string)
-
+# string = find_correct_player_information(124, 1)
+# print(string)
 
 
 
@@ -95,7 +96,6 @@ class Ui_NextTurnButton(object):
         self.StartBttn.clicked.connect(self.reset_label3)
         self.StartBttn.clicked.connect(self.reset_label4)
         self.NextPointbttn.clicked.connect(self.update_label2)
-       # self.NextPointbttn.clicked.connect(incrementturn())
         self.NextPointbttn.clicked.connect(self.update_label1)
         self.NextPointbttn.clicked.connect(self.update_label3)
         self.NextPointbttn.clicked.connect(self.update_label4)
@@ -124,19 +124,21 @@ class Ui_NextTurnButton(object):
     def update_label1(self, turn, player):
         text = find_correct_player_information(turn, player)
         self.Plyr1_cards.setText(text)
+      #  print(11)
 
     def update_label2(self, turn, player):
         text = find_correct_player_information(turn, player)
         self.Plyr2_cards.setText(text)
-
+       # print(12)
     def update_label3(self, turn, player):
         text = find_correct_player_information(turn, player)
         self.Plyr3_cards.setText(text)
-
+      #  print(13)
     def update_label4(self, turn, player):
+        turn = + 1
         text = find_correct_player_information(turn, player)
         self.Plyr4_cards.setText(text)
-
+       # print(14)
     def reset_label1(self):
         self.Plyr1_cards.setText('')
 
@@ -150,6 +152,7 @@ class Ui_NextTurnButton(object):
         self.Plyr4_cards.setText('')
 
 
+
 if __name__ == "__main__":
     import sys
 
@@ -159,16 +162,20 @@ if __name__ == "__main__":
     ui.setupUi(NextTurnButton)
     NextTurnButton.show()
 
- def incrementturn():
-        print('hi')
+    turn = 1
+    ia1=0
+    while find_correct_player_information(turn, 1):
+        #print(9)
+        turn += 1
+        ui.update_label1(turn, 1)
+        ui.update_label2(turn, 2)
+        ui.update_label3(turn, 3)
+        ui.update_label4(turn, 4)
 
+        print(ia1)
+        ia1 += 1
 
-
-    turn = 0
-while find_correct_player_information(turn, 1) != False:
-    ui.update_label1(turn, 1)
-    ui.update_label2(turn, 2)
-    ui.update_label3(turn, 3)
-    ui.update_label4(turn, 4)
+   # ui.update_label1(turn+1,1)
+    #print(15)
 
     sys.exit(app.exec_())
