@@ -1,5 +1,5 @@
 ### Authors: Ivo de Jong, Unmut Demirci and Marjolein Spijkerman 
-### Last update: 3 July 2020, 18:42
+### Last update: 3 July 2020, 19:10
 
 # Logical Aspects of Multi-agent Systems: Epistemic Kwartet
 Kwartet is a Dutch card game that centres around exchanging cards between players, provided that you know who that card has. This means that in order to win each player wants to maximize their knowledge of who has which cards, while minimizing the knowledge that their opponents have. This allows the player to collect more sets than their opponents and therefore win the game/
@@ -163,7 +163,6 @@ A player should also be aware of how many cards the other players have, so they 
 Using these encodings of the current knowledge further inferences can be made about which card is where.
 
 ## Implementing the inferences
-
 To implement the logical inference the program goes through the following steps for each player:
 Firstly, we go through all the card types the player owns. As these are the cards the player may ask about. 
 For each card type the player owns, we create a list of cards of that type the player does not have yet. Then we remove all the cards where the player does already know who has that card. Thus, we are left with a list of cards where the owner of said card is unknown.
@@ -193,6 +192,8 @@ The silent strategy is similar to the greedy strategy. The main difference is th
 ## Mixed request
 
 As a fourth possible request type, we use a mix of the greedy and the silent request. Half of the times the player will play as if they are using the greedy strategy and the other half of the times they play as if using the silent strategy. This mixed strategy is added as a valid strategy for the fourth player to use, furthermore it can be used to see if a mixed strategy would be more useful. 
+
+# The graphical User Interface
 
 # Results
 We ran the program for a total of 10.000 rounds. 
@@ -231,6 +232,7 @@ It would be interesting to look at the same program using some different setting
 Some things that would be good to change in the greedy function is the following. At the moment, when the greedy function does not have any cards they can ask for with certainty, they ask for a random card. This means they can ask for a card they already own, or they could ask for a card they already know a player does not have. This is not efficient gameplay behaviour for the greedy strategy. It would be better to pick a card they don't have yet, create a list with who can possibly own the card, thus someone who does have unknown cards and someone of whom we know they do not "not have" the card, and than randomly pick on of the owners. In this case there are always multiple owners to choose from, as when there was only one possible pick, it would have been found by the inference function before the player would decide on a card. Implementing this, would make the greedy strategy an even better player and this would make the greedy player act more like a regular person player kwartet. <br>
 
 # Run instructions
+## Main code
 The main code is ran using, main.py, player.py, brain.py, announcer.py and deck.py.<br>
 The code can be ran by typing "python3 main.py" in the terminal. <br>
 It will then ask the number of games you want to run it for. Fill in a number and press enter. <br>
@@ -238,7 +240,8 @@ When the code is finished, everything is saved in "output.txt". <br>
 Rerunning the code will overwrite the previous "output.txt"<br>
 The code is located here: "https://github.com/ivopascal/Epistemic_Kwartet.git" 
 
-
+## Graphical User Interface
+After running the main code and generating the output.txt file, this output.txt file is used to create the graphical user interface. The code can be run by using RUN INSTRUCTIONS. The graphical user interface will show for the first game, the cards each player has at the end of a turn. In the rounds where the request failed, the GUI will not show any changes. 
 
 
 
