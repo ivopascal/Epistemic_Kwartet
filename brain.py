@@ -33,11 +33,13 @@ class Known_player:
             if card in kindSet:
                 self.certainCards.remove(card)
                 self.number_of_cards -=1
-
+	
+	#removes a card from player
     def card_taken(self, card):
         self.exclude_card(card)
         self.number_of_cards -=1
 
+	#When a card has been given, it needs to be added in certaincards and removed from certainnotcards
     def card_given(self, card):
         if card not in self.certainCards:
             self.certainCards.append(card)
@@ -56,6 +58,7 @@ class Known_player:
         if card.kind in self.knownKinds:
             self.knownKinds.remove(card.kind)
 	
+	#keep track of which card types are owned
     def owns_card_of_type(self, card):
         self.knownKinds.append(card.kind)
 
@@ -72,6 +75,7 @@ class Brain:
     def __init__(self, id, cards, nkinds):
         self.known_players = list()
         self.known_cards_number = list()
+        #for counting the cards
         self.known_cards_number.append(13)
         self.known_cards_number.append(13)
         self.known_cards_number.append(13)
@@ -154,6 +158,7 @@ class Brain:
                 if known_player.id == opponent_id:
                     known_player.exclude_card(card)
 	
+	#add cards to the card types they own list
     def owns_card_of_type(self, card, receiver):
         if receiver == self.id:
             return
@@ -171,14 +176,16 @@ class Brain:
                 return [known_player.id]
         return [known_player for known_player in self.known_players
                 if card not in known_player.certainNotCards]
-
+	
+	#return a list with all card types the player owns
     def get_owned_kinds(self):
         owned_kinds = list()
         for card in self.cards:
             if card.kind not in owned_kinds:
                 owned_kinds.append(card.kind)
         return owned_kinds
-
+	
+	#returns a list with all cards a player can request + their owner
     def get_requestable_cards(self):
         owned_kinds = self.get_owned_kinds()
         requestable_cards = list()
@@ -188,6 +195,7 @@ class Brain:
                     requestable_cards.append((card, known_player.id))
         return requestable_cards
 
+	#returns the number of cards the player can request
     def get_number_of_requestable_cards(self, opponent):
         requestable_cards = list()
         for known_player in self.known_players:
@@ -196,7 +204,8 @@ class Brain:
                     if card.kind in owned_kinds:
                         requestable_cards.append((card, known_player.id))
         return len(requestable_cards)
-        
+    
+    #Checks for a specific card and opponent if they have this card in certainCards
     def certain_cards(self, opponent, card):
         for known_player in self.known_players:
             if known_player.id is opponent:
@@ -204,7 +213,7 @@ class Brain:
                     return 1
                 else:
                     return 0
-
+    #Checks for a specific card and opponent if they have this card in certainNotCards
     def certain_not_cards(self, opponent, card):
         for known_player in self.known_players:
             if known_player.id is opponent:
@@ -212,7 +221,7 @@ class Brain:
                     return 1
                 else:
                     return 0
-    
+    #Checks for a specific card type and opponent if they have this card in knownKinds
     def owns_kind(self, opponent, card):
         for known_player in self.known_players:
             if known_player.id is opponent:
@@ -220,12 +229,14 @@ class Brain:
                     return 1
                 else:
                     return 0
-                    
+    
+    #adds card to knowledge for single player after infering the position of the card                
     def add_card_to_knowledge(self, opponent, card):
         for known_player in self.known_players:
             if known_player.id == opponent:
                 known_player.card_given(card)
     
+    #Checks if a certain card is already in a certainCards list
     def check_if_in_list(self, card):
         owned_kinds = self.get_owned_kinds()
         requestable_cards = list()
@@ -233,6 +244,7 @@ class Brain:
             if card in known_player.certainCards:
                 return True
 
+	#returns the card combined with the owner, given only a card 
     def return_card_in_list(self, card):
         owned_kinds = self.get_owned_kinds()
         requestable_cards = list()
