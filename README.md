@@ -1,5 +1,5 @@
 ### Authors: Ivo de Jong, Unmut Demirci and Marjolein Spijkerman 
-### Last update: 3 July 2020, 16:11
+### Last update: 3 July 2020, 18:42
 
 # Logical Aspects of Multi-agent Systems: Epistemic Kwartet
 Kwartet is a Dutch card game that centres around exchanging cards between players, provided that you know who that card has. This means that in order to win each player wants to maximize their knowledge of who has which cards, while minimizing the knowledge that their opponents have. This allows the player to collect more sets than their opponents and therefore win the game/
@@ -229,6 +229,14 @@ The greedy strategy is the most aggressive strategy and takes any card where the
 ## Further Research
 It would be interesting to look at the same program using some different settings. For example, we can run the game with only three players. This could influence how many inferences can be made in the game and will most likely also decrease the number of turns needed to finish the game. This is because with only three players, there are less options left for whom can own what card, so guessing will also have better odds. Another thing that could be changed for comparison is the strategies each player uses, instead of using four different strategies, it can be interesting to let all players for example use the same strategy, and see how this influence the average number of turns. It can also be interesting to change the order of the players, the four strategies are now always ordered in the same order. So, the greedy strategy is always player 1 and they get the first turn. It can be interesting to see if the percentage of wins for each strategy may differ when the turn order is changed. <br> <br>
 Some things that would be good to change in the greedy function is the following. At the moment, when the greedy function does not have any cards they can ask for with certainty, they ask for a random card. This means they can ask for a card they already own, or they could ask for a card they already know a player does not have. This is not efficient gameplay behaviour for the greedy strategy. It would be better to pick a card they don't have yet, create a list with who can possibly own the card, thus someone who does have unknown cards and someone of whom we know they do not "not have" the card, and than randomly pick on of the owners. In this case there are always multiple owners to choose from, as when there was only one possible pick, it would have been found by the inference function before the player would decide on a card. Implementing this, would make the greedy strategy an even better player and this would make the greedy player act more like a regular person player kwartet. <br>
+
+# Run instructions
+The main code is ran using, main.py, player.py, brain.py, announcer.py and deck.py.<br>
+The code can be ran by typing "python3 main.py" in the terminal. <br>
+It will then ask the number of games you want to run it for. Fill in a number and press enter. <br>
+When the code is finished, everything is saved in "output.txt". <br>
+Rerunning the code will overwrite the previous "output.txt"<br>
+The code is located here: "https://github.com/ivopascal/Epistemic_Kwartet.git" 
 
 
 
