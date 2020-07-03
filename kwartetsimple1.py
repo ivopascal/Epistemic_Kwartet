@@ -37,15 +37,9 @@ def find_correct_player_information(turn, player):
                 correct_line = i
 
             if i == (correct_line + player):
-               # print(turn)
                 turn += 1
-                #   print(player)
-                print(line)
                 return line
 
-
-# string = find_correct_player_information(124, 1)
-# print(string)
 
 
 
@@ -124,21 +118,22 @@ class Ui_NextTurnButton(object):
     def update_label1(self, turn, player):
         text = find_correct_player_information(turn, player)
         self.Plyr1_cards.setText(text)
-      #  print(11)
+
 
     def update_label2(self, turn, player):
         text = find_correct_player_information(turn, player)
         self.Plyr2_cards.setText(text)
-       # print(12)
+
     def update_label3(self, turn, player):
         text = find_correct_player_information(turn, player)
         self.Plyr3_cards.setText(text)
-      #  print(13)
+        
+
     def update_label4(self, turn, player):
-        turn = + 1
         text = find_correct_player_information(turn, player)
         self.Plyr4_cards.setText(text)
-       # print(14)
+        
+
     def reset_label1(self):
         self.Plyr1_cards.setText('')
 
@@ -151,7 +146,12 @@ class Ui_NextTurnButton(object):
     def reset_label4(self):
         self.Plyr4_cards.setText('')
 
-
+def run_updates(turn):
+    ui.update_label1(turn, 1)
+    ui.update_label2(turn, 2)
+    ui.update_label3(turn, 3) 
+    ui.update_label4(turn, 4)
+    
 
 if __name__ == "__main__":
     import sys
@@ -160,22 +160,14 @@ if __name__ == "__main__":
     NextTurnButton = QWidget()
     ui = Ui_NextTurnButton()
     ui.setupUi(NextTurnButton)
+   
+
+    
     NextTurnButton.show()
-
-    turn = 1
-    ia1=0
+    turn = 0
     while find_correct_player_information(turn, 1):
-        #print(9)
+        ui.NextPointbttn.clicked.connect(run_updates)
+        NextTurnButton.show()
         turn += 1
-        ui.update_label1(turn, 1)
-        ui.update_label2(turn, 2)
-        ui.update_label3(turn, 3)
-        ui.update_label4(turn, 4)
-
-        print(ia1)
-        ia1 += 1
-
-   # ui.update_label1(turn+1,1)
-    #print(15)
 
     sys.exit(app.exec_())
