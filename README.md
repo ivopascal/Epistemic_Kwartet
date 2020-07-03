@@ -1,7 +1,7 @@
 ### Authors: Ivo de Jong, Unmut Demirci and Marjolein Spijkerman 
 ### Last update: 3 July 2020, 16:11
 
-# Logical Aspects of Multi-agent Systems: Kwartet game
+# Logical Aspects of Multi-agent Systems: Epistemic Kwartet
 Kwartet is a Dutch card game that centres around exchanging cards between players, provided that you know who that card has. This means that in order to win each player wants to maximize their knowledge of who has which cards, while minimizing the knowledge that their opponents have. This allows the player to collect more sets than their opponents and therefore win the game/
 
 With a game as kwartet Epistemic logic is a good tool for formalizing player strategies. Each player knows their own state and might know some things about an opponent's state. Every move is a public announcement which allows the other players to learn something about the state of the game. As the possible worlds collapse the players become increasingly aware of how the cards are distributed.
